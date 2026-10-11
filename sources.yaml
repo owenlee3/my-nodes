@@ -1,0 +1,23 @@
+# Public free node sources for the node-sub aggregation pipeline.
+# `format`: clash-yaml | links | links-base64
+# Fetching is polite: ~1s delay between sources, 10s timeout, browser User-Agent.
+# Verified alive 2026-10-11. Ruk1ng001/freeSub URLs taken from its README.
+sources:
+  - name: au1rxx-clash
+    url: https://github.com/Au1rxx/free-vpn-subscriptions/raw/main/output/clash.yaml
+    format: clash-yaml
+  - name: au1rxx-v2ray
+    url: https://github.com/Au1rxx/free-vpn-subscriptions/raw/main/output/v2ray-base64.txt
+    format: links-base64
+  - name: free18-links
+    url: https://ghfast.top/https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/v.txt
+    format: links-base64
+  - name: free18-clash
+    url: https://ghfast.top/https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/c.yaml
+    format: clash-yaml
+  - name: freesub-clash
+    url: https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml
+    format: clash-yaml
+  - name: freesub-v2ray
+    url: https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray
+    format: links
