@@ -1,4 +1,4 @@
-# node-sub generated 2026-10-11 11:55 UTC | 150 nodes (TCP-tested, sorted by latency)
+# node-sub generated 2026-10-11 17:10 UTC | 150 nodes (TCP-tested, sorted by latency)
 mixed-port: 7890
 allow-lan: false
 mode: rule
@@ -16,30 +16,22 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
       Host: mitivpn-ss-mitivpn---mitivpn--mitivpn.global.ssl.fastly.net
-- name: 🇺🇸_美国_177
-  type: trojan
-  server: 151.101.56.7
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_4dbb3d73
   port: 443
-  password: MiTiVPN
+  server: 129.153.93.183
+  skip-cert-verify: true
   tls: true
-  servername: ssl.fastly.com
+  type: http
+- name: vless-1733289072
   network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: mitivpn-mitivpn-mitivpn-bb-mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
-- name: 🇺🇸_美国_201
-  type: trojan
-  server: 151.101.56.6
-  port: 443
-  password: MiTiVPN
+  port: 8443
+  server: 170.114.46.6
+  servername: primelinelk.me
+  skip-cert-verify: false
   tls: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: mitivpn---ss--s---mitivpn-1.global.ssl.fastly.net
+  type: vless
+  udp: true
+  uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
 - name: 🇺🇸_美国_204
   type: trojan
   server: 167.82.76.27
@@ -52,71 +44,22 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
       Host: mitivpn---ss--s---mitivpn-3.global.ssl.fastly.net
-- name: vless-1532046170
-  network: ws
-  port: 443
-  server: 104.16.10.84
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_0eed9624
+  password: None
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-2320771
-  network: ws
-  port: 8880
-  server: 104.17.191.15
-  type: vless
-  udp: true
-  uuid: 812b1aeb-c6f7-43cb-8d8b-981711fea21a
-- name: vless-415260973
-  network: ws
-  port: 8880
-  server: 104.21.23.72
-  type: vless
-  udp: true
-  uuid: 30a88c40-581e-4952-aa4c-8af95686ede0
-- name: vless-14945
-  network: ws
-  port: 8880
-  server: 104.16.100.215
-  type: vless
-  udp: true
-  uuid: c6d29888-78d5-446a-b2f0-f3968e6d1634
-- name: vless-816706176
-  network: ws
-  port: 8880
-  server: 104.21.88.129
-  type: vless
-  udp: true
-  uuid: 86d998bc-a5a2-45d5-8169-b906259110a6
-- name: vless-1532046250
-  network: ws
-  port: 443
-  server: 104.16.10.234
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
+  type: http
+  username: null
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_c66af7d3
+  password: null
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1759797226
-  network: ws
-  port: 2082
-  server: 104.19.95.153
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-- name: vless-975999344
-  network: ws
-  port: 443
-  server: 172.67.156.147
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  type: http
+  username: null
 - name: 🇺🇸_美国_114
   type: vless
   server: 209.206.51.240
@@ -131,41 +74,120 @@ proxies:
     path: /
     headers:
       Host: and-75r.pages.dev
-- name: 🇺🇸_美国_145
-  type: vless
-  server: 216.24.57.1
+- name: 🇺🇸_美国_177
+  type: trojan
+  server: 151.101.56.7
   port: 443
-  uuid: 974c2588-c1cd-43ac-8823-ce3d879b09fd
+  password: MiTiVPN
+  tls: true
+  servername: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: mitivpn-mitivpn-mitivpn-bb-mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_da81ef84
+  password: None
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🏳️_未知_195
+  type: vless
+  server: 104.18.1.1
+  port: 2083
+  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
   encryption: none
   tls: true
-  servername: somersby.pt.ex33r.eu.cc
+  servername: calm-smoke-1a21.alvlirm6262.workers.dev
+  fingerprint: chrome
   network: ws
   ws-opts:
-    path: /id-amz
-- name: 🏳️_未知_163
+    path: /
+    headers:
+      Host: calm-smoke-1a21.alvlirm6262.workers.dev
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_06db8839
+  password: None
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🏳️_未知_197
   type: vless
-  server: 104.21.49.165
-  port: 443
-  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+  server: 104.16.150.108
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   encryption: none
   tls: true
-  servername: 2-m9.e29eacc3-4cf6-48c2-a90e-c53b3da8b1ef.kdns.fr
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  fingerprint: chrome
   network: ws
   ws-opts:
-    path: /BzuntJ8qZN0TRKbC8TveMxJ0
+    path: /
     headers:
-      Host: 2-m9.e29eacc3-4cf6-48c2-a90e-c53b3da8b1ef.kdns.fr
-- name: 🇺🇸_美国_181
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: vless-1568072342
+  network: ws
+  port: 443
+  server: 104.16.10.2
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
   type: vless
-  server: 66.81.247.240
-  port: 8880
-  uuid: 6fc81c37-e8e5-486d-8f07-3d6188ceb83b
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1750190187
+  network: ws
+  port: 443
+  server: 172.64.144.82
+  servername: lucasjow.us.ci
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+- alterId: 0
+  cipher: auto
+  name: vmess-248
+  network: ws
+  port: 39495
+  server: 129.146.77.248
+  type: vmess
+  udp: true
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+- name: 🇺🇸_美国_126
+  type: vless
+  server: 156.229.163.237
+  port: 10238
+  uuid: f97f81df-edac-47b6-badb-316125e61bfb
   encryption: none
+  tls: true
+  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+  fingerprint: chrome
   network: ws
   ws-opts:
-    path: /rutube
+    path: /@Marisa_kristi
     headers:
-      Host: rutube.hampals.net
+      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_9f49ef36
+  password: ''
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_06fcd7d4
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 🏳️_未知_185
   type: vless
   server: 172.67.212.14
@@ -180,6 +202,87 @@ proxies:
     path: /CjBjB9sn5pCvaSwScc
     headers:
       Host: 8-m19.SoUth-AFriCa-onlInE.cCwU.cC
+- name: 🏳️_未知_189
+  type: vless
+  server: 104.17.74.206
+  port: 8443
+  uuid: 542fd687-5160-4f80-9223-56678567dd29
+  encryption: none
+  tls: true
+  servername: 8.sahanwickramasinghe.me
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇸🇮_斯洛文尼亚_131
+  type: vless
+  server: 92.53.189.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime19.workers.dev
+- name: 🇺🇸_美国_201
+  type: trojan
+  server: 151.101.56.6
+  port: 443
+  password: MiTiVPN
+  tls: true
+  servername: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: mitivpn---ss--s---mitivpn-1.global.ssl.fastly.net
+- name: D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_aba567e8
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_d9c98f77
+  password: null
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: chrome
+  name: vless-1664557987
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: jO7THaLxz0Oz3kePAJcuwcKNTlsWoEWGh18zzRmiXgo
+    short-id: 77c4230d
+  server: 144.202.126.147
+  servername: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 45d51389-0c38-4843-8ae8-cffb94e97a72
+- name: vless-1532046184
+  network: ws
+  port: 443
+  server: 104.16.111.202
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1049490479
+  network: ws
+  port: 443
+  server: 104.21.70.21
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
 - name: 🏳️_未知_198
   type: vless
   server: 104.17.103.118
@@ -194,122 +297,109 @@ proxies:
     path: /proxyip=154.17.22.207,69.63.210.157,134.195.211.13,172.236.245.153,209.146.115.209,64.186.224.194,149.28.94.52,107.151.188.57
     headers:
       Host: fq.jp188.dpdns.org
-- name: vless-1554367015
-  network: ws
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_673ad936
+  password: 'null'
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- cipher: aes-128-gcm
+  name: shadowsocks-155
+  password: shadowsocks
   port: 443
-  server: 104.16.10.104
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  server: 173.244.56.6
+  type: ss
   udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1532046184
-  network: ws
+- name: 🏳️_未知_156
+  type: trojan
+  server: 104.21.13.204
   port: 443
-  server: 104.16.111.202
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
+  password: humanity
   tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1768194306
-  network: ws
-  port: 443
-  server: 188.114.97.6
-  servername: lucasjow.us.ci
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-- name: vless-1724759772
-  network: ws
-  port: 8443
-  server: 170.114.46.6
-  servername: primelinelk.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
-- name: vless-1587177718
-  network: ws
-  port: 443
-  server: 104.19.164.155
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1532046243
-  network: ws
-  port: 443
-  server: 104.21.70.228
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1532046247
-  network: ws
-  port: 443
-  server: 104.21.34.106
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1243279000
-  network: ws
-  port: 443
-  server: 104.16.10.185
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: 🇺🇸_美国_111
-  type: vless
-  server: 162.159.130.234
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  encryption: none
-  tls: true
-  servername: snip.edgeoneai.cc.cd
+  servername: www.calmlunch.com
   network: ws
   ws-opts:
-    path: /
+    path: /assignment
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: 🇱🇹_立陶宛_124
-  type: vless
-  server: 89.117.112.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  encryption: none
+      Host: www.calmlunch.com
+- name: vless-1003515430
   network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime11.workers.dev
-- name: 🏳️_未知_133
-  type: vless
-  server: 104.26.4.2
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  server: 162.159.254.3
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: 🏳️_未知_161
+  type: vless
+  server: 172.67.216.151
+  port: 443
+  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
   encryption: none
   tls: true
-  servername: ccc.010304.xyz
+  servername: 3-m9.5f67a3d6-2963-45ab-8313-7d02d224d2a0.kdns.fr
+  network: ws
+  ws-opts:
+    path: /BzuntJ8qZN0TRKbC8TveMxJ0
+    headers:
+      Host: 3-m9.5f67a3d6-2963-45ab-8313-7d02d224d2a0.kdns.fr
+- client-fingerprint: chrome
+  name: vless-1665784892
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: 6nTROV2ELz-3vNUl0A00hp378QngpYABrPgjCpUknD0
+    short-id: f436f707
+  server: 45.63.53.81
+  servername: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c512dcbd-1847-40a2-9c99-989c8bfe4717
+- name: vless-1172583775
+  network: ws
+  port: 443
+  server: 104.21.33.59
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: 🇳🇱_荷兰_136
+  type: vless
+  server: 45.131.208.4
+  port: 80
+  uuid: 424fa201-3f94-479e-b533-d5257cf9a207
+  encryption: none
+  servername: 45.131.208.4
   fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
+    path: /pyip=Telegram🇨🇳+@WangCai2
+    headers:
+      Host: floral-thunder-10d3.82-67d.workers.dev
+- name: 🇺🇸_美国_145
+  type: vless
+  server: 216.24.57.1
+  port: 443
+  uuid: 974c2588-c1cd-43ac-8823-ce3d879b09fd
+  encryption: none
+  tls: true
+  servername: somersby.pt.ex33r.eu.cc
+  network: ws
+  ws-opts:
+    path: /id-amz
+- name: U⚪🏳️ukn_dokng.com_a0daa460
+  port: 443
+  server: 148.135.10.80
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 🇰🇷_韩国_144
   type: vless
   server: 49.238.238.154
@@ -324,70 +414,39 @@ proxies:
     path: /
     headers:
       Host: and-75r.pages.dev
-- name: 🏳️_未知_146
+- name: 🏳️_未知_163
   type: vless
-  server: 172.67.171.191
-  port: 8080
-  uuid: 0b2ea024-3ffd-46a7-87ce-86cbb79d7a48
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiT3FNeW1sMVdGVHlvNTIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ==
-    headers:
-      Host: server18.peekconfig2.workers.dev
-- name: 🏳️_未知_156
-  type: trojan
-  server: 104.21.13.204
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: 🏳️_未知_157
-  type: trojan
-  server: 172.64.152.23
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: 🏳️_未知_160
-  type: vless
-  server: 104.21.16.18
+  server: 104.21.49.165
   port: 443
   uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
   encryption: none
   tls: true
-  servername: api-auth-service.f00f.ccwu.cc
+  servername: 2-m9.e29eacc3-4cf6-48c2-a90e-c53b3da8b1ef.kdns.fr
   network: ws
   ws-opts:
     path: /BzuntJ8qZN0TRKbC8TveMxJ0
     headers:
-      Host: api-auth-service.f00f.ccwu.cc
-- name: 🏳️_未知_164
-  type: vless
-  server: 104.21.39.176
-  port: 443
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
-  encryption: none
+      Host: 2-m9.e29eacc3-4cf6-48c2-a90e-c53b3da8b1ef.kdns.fr
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_b4f7c82f
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
   tls: true
-  servername: 4-M13.aYuttHAYa.KDns.fr
+  type: http
+- name: 🇺🇸_美国_180
+  type: vless
+  server: 208.103.161.249
+  port: 80
+  uuid: a3c51f71-ffb5-4c80-a136-cee4b36d6e85
+  encryption: none
   network: ws
   ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
+    path: /
     headers:
-      Host: 4-M13.AYUtTHAya.KdNS.fr
-- name: 🏳️_未知_168
+      Host: kAmRaN01-aFgmDQ-1.KaMRan-01.wOrkeRs.DEv
+- name: 🏳️_未知_220
   type: trojan
-  server: 104.18.8.83
+  server: 104.18.9.83
   port: 443
   password: humanity
   tls: true
@@ -397,6 +456,219 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_ccc98c47
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: vless-1003515436
+  network: ws
+  port: 443
+  server: 172.67.156.147
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: 🇺🇸_美国_181
+  type: vless
+  server: 66.81.247.240
+  port: 8880
+  uuid: 6fc81c37-e8e5-486d-8f07-3d6188ceb83b
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /rutube
+    headers:
+      Host: rutube.hampals.net
+- cipher: aes-128-gcm
+  name: shadowsocks-156
+  password: shadowsocks
+  port: 443
+  server: 173.244.56.9
+  type: ss
+  udp: true
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_0d3adab3
+  password: null
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: chrome
+  name: vless-1631955737
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: 6l-Yq_zkVrnExw8AVv85VwoYnfNc8-dRSpoj_AA-fxY
+    short-id: c5cde18f
+  server: 45.32.69.110
+  servername: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1572b9c5-d741-46eb-b4a2-a5d23958dfbe
+- name: 🇺🇸_美国_143
+  type: vless
+  server: 80.93.202.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime02.workers.dev
+- name: 🏳️_未知_193
+  type: vless
+  server: 104.18.47.164
+  port: 443
+  uuid: 49b5c5d1-8fb0-4fd2-8129-01bd2178e8d1
+  encryption: none
+  tls: true
+  servername: gy-cffc5-node-31z7yxejlog9qfu0.lancelot.dpdns.org
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /download/proxyip=ProxyIP.KR.CMLiussss.net?ed=2560
+    headers:
+      Host: gy-cffc5-node-31z7yxejlog9qfu0.lancelot.dpdns.org
+- name: 🏳️_未知_133
+  type: vless
+  server: 104.26.4.2
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  encryption: none
+  tls: true
+  servername: ccc.010304.xyz
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+- name: vless-1532046199
+  network: ws
+  port: 443
+  server: 104.24.31.89
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: 🏳️_未知_194
+  type: vless
+  server: 104.18.46.46
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  encryption: none
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: vless-1162311166
+  network: ws
+  port: 443
+  server: 172.67.217.240
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_11ff4f56
+  password: null
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_0cd2d06a
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: vless-1733288038
+  network: ws
+  port: 8443
+  server: 170.114.45.6
+  servername: primelinelk.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
+- client-fingerprint: random
+  name: vless-1776921634
+  network: tcp
+  port: 4433
+  reality-opts:
+    public-key: 3vBRCDJzbYdn7qOkxZzxWIXf966vhT0QIeybvbKrtxo
+    short-id: 99d4afd174ccbf04
+  server: 104.207.152.198
+  servername: google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 25eec897-580f-4e5c-9d8e-9abde6059a56
+- client-fingerprint: chrome
+  name: vless-1631955744
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: h6EW_Y5nW9PRypxaOrSOyiHZDR-kuNfdoy24inGOoB0
+    short-id: 33b15a3e
+  server: 154.29.145.196
+  servername: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 62fdae06-6692-4b79-8f34-470784e55fd6
+- client-fingerprint: chrome
+  name: vless-1636626758
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: iJDZHJQcTGl2VIwbsRmlOG9JGbbmxNY5wmv1hc6OwQM
+    short-id: c31176b6
+  server: 154.12.38.202
+  servername: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a9ab69b-26e7-44d0-a325-e5056d849900
+- name: 🇺🇸_美国_111
+  type: vless
+  server: 162.159.130.234
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  encryption: none
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 🇺🇸_美国_135
+  type: vless
+  server: 155.46.167.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime50.workers.dev
 - name: 🏳️_未知_202
   type: vless
   server: 104.17.71.206
@@ -409,99 +681,9 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🏳️_未知_217
-  type: trojan
-  server: 104.16.148.5
-  port: 443
-  password: 19877587-ed94-4033-88cd-4ac50a5e8718
-  tls: true
-  servername: dimskiee.biz.id
-  network: ws
-  ws-opts:
-    path: /WangCai-8
-- name: 🏳️_未知_222
+- name: 🇱🇹_立陶宛_124
   type: vless
-  server: 104.21.56.202
-  port: 443
-  uuid: 9b18ccef-b9e0-41d1-8990-9d970569e142
-  encryption: none
-  tls: true
-  servername: web-socket.tgdaosheng.ggff.net
-  network: ws
-  ws-opts:
-    path: MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN
-- alterId: 0
-  cipher: auto
-  name: vmess-5258767
-  network: raw
-  port: 18000
-  server: 169.197.142.22
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- name: vless-1724760785
-  network: ws
-  port: 8443
-  server: 170.114.45.6
-  servername: primelinelk.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
-- name: vless-858984996
-  network: ws
-  port: 8080
-  server: 188.114.97.6
-  type: vless
-  udp: true
-  uuid: 737678dc-cc15-4643-85a4-ca9359df1aa4
-- name: vless-651898065
-  network: ws
-  port: 8880
-  server: 104.16.101.215
-  type: vless
-  udp: true
-  uuid: 0bd6aa8d-3bdb-4fa3-893e-75a844e2e409
-- name: 🏳️_未知_93
-  type: vless
-  server: 8.47.69.0
-  port: 2053
-  uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
-  encryption: none
-  tls: true
-  servername: vless.api-music-fa.com
-  network: ws
-  ws-opts:
-    path: /api/voip/updates/static/fr2035
-    headers:
-      Host: fr.api-music-fa.com
-- name: 🇳🇱_荷兰_136
-  type: vless
-  server: 45.131.208.4
-  port: 80
-  uuid: 424fa201-3f94-479e-b533-d5257cf9a207
-  encryption: none
-  servername: 45.131.208.4
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /pyip=Telegram🇨🇳+@WangCai2
-    headers:
-      Host: floral-thunder-10d3.82-67d.workers.dev
-- name: 🏳️_未知_140
-  type: trojan
-  server: 104.18.32.47
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇺🇸_美国_143
-  type: vless
-  server: 80.93.202.40
+  server: 89.117.112.30
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   encryption: none
@@ -509,33 +691,50 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: vms.lifetime02.workers.dev
-- name: 🏳️_未知_161
-  type: vless
-  server: 172.67.216.151
-  port: 443
-  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
-  encryption: none
+      Host: vms.lifetime11.workers.dev
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_469aecea
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
   tls: true
-  servername: 3-m9.5f67a3d6-2963-45ab-8313-7d02d224d2a0.kdns.fr
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: vless-1636626766
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: iv4XmZKQUC4KEuMaWZxDmjJOlGEnS3rRw-Nk8h93zUU
+    short-id: f61a3a8f
+  server: 154.12.38.159
+  servername: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 12c465bd-11a3-4fd8-8aa9-19b20a883b9e
+- name: 🏳️_未知_192
+  type: vmess
+  server: 172.64.80.1
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  tls: true
   network: ws
   ws-opts:
-    path: /BzuntJ8qZN0TRKbC8TveMxJ0
+    path: /lMnsZUN4/
     headers:
-      Host: 3-m9.5f67a3d6-2963-45ab-8313-7d02d224d2a0.kdns.fr
-- name: 🏳️_未知_162
-  type: vless
-  server: 172.67.138.232
-  port: 443
-  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
-  encryption: none
-  tls: true
-  servername: 4-M17.KaZakHSTAn-LiNk.kDNs.FR
+      Host: v2ray1.dozapp.xyz
+- name: vless-1554367015
   network: ws
-  ws-opts:
-    path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
-    headers:
-      Host: 4-m17.KazAkhSTAN-LinK.KdnS.FR
+  port: 443
+  server: 104.16.10.104
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
 - name: 🏳️_未知_171
   type: vmess
   server: 172.67.167.78
@@ -561,44 +760,221 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🏳️_未知_189
+- name: 🏳️_未知_222
   type: vless
-  server: 104.17.74.206
-  port: 8443
-  uuid: 542fd687-5160-4f80-9223-56678567dd29
+  server: 104.21.56.202
+  port: 443
+  uuid: 9b18ccef-b9e0-41d1-8990-9d970569e142
   encryption: none
   tls: true
-  servername: 8.sahanwickramasinghe.me
+  servername: web-socket.tgdaosheng.ggff.net
   network: ws
   ws-opts:
-    path: /
-- name: 🏳️_未知_192
-  type: vmess
-  server: 172.64.80.1
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
+    path: MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_cd4cf22d
+  port: 8885
+  server: 38.79.114.43
+  type: socks5
+- cipher: aes-128-gcm
+  name: shadowsocks-1771134357
+  password: 5212bfef4cf2a6aaeda755d85c1aa744
+  port: 14989
+  server: 64.110.25.2
+  type: ss
+  udp: true
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_12476d7d
+  password: ''
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
   tls: true
+  type: http
+  username: ''
+- name: 🇹🇷_土耳其_129
+  type: vless
+  server: 91.206.71.8
+  port: 80
+  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
+  encryption: none
   network: ws
   ws-opts:
-    path: /lMnsZUN4/
+    path: /pyip=Telegram🇨🇳 @WangCai2
     headers:
-      Host: v2ray1.dozapp.xyz
-- name: 🏳️_未知_197
+      Host: round-haze-8783.294.workers.dev
+- client-fingerprint: chrome
+  name: vless-1221788920
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: D3ojIs3AUKP_tV0E4TEjh90HBVJp24Nq3qMfdxD30kc
+    short-id: df8611c07d
+  server: 107.173.237.146
+  servername: updates.cdn-apple.com
+  tls: true
   type: vless
-  server: 104.16.150.108
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  uuid: 1d39f715-2740-4d99-bc3b-197cc48dcee7
+- name: 🏳️_未知_160
+  type: vless
+  server: 104.21.16.18
+  port: 443
+  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
   encryption: none
   tls: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  fingerprint: chrome
+  servername: api-auth-service.f00f.ccwu.cc
   network: ws
   ws-opts:
-    path: /
+    path: /BzuntJ8qZN0TRKbC8TveMxJ0
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: api-auth-service.f00f.ccwu.cc
+- name: vless-1750190197
+  network: ws
+  port: 443
+  server: 104.18.43.174
+  servername: lucasjow.us.ci
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_02619dd0
+  password: None
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🏳️_未知_93
+  type: vless
+  server: 8.47.69.0
+  port: 2053
+  uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
+  encryption: none
+  tls: true
+  servername: vless.api-music-fa.com
+  network: ws
+  ws-opts:
+    path: /api/voip/updates/static/fr2035
+    headers:
+      Host: fr.api-music-fa.com
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_3ec254da
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: vless-1663154502
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: _E8d7s7B7xYfZImOkKmESW6MJDxwKxnsscu56jhE2EM
+    short-id: 3fb4e08c
+  server: 154.9.241.170
+  servername: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30b98a28-ed4e-46eb-8548-54c25f4db53c
+- name: 🏳️_未知_217
+  type: trojan
+  server: 104.16.148.5
+  port: 443
+  password: 19877587-ed94-4033-88cd-4ac50a5e8718
+  tls: true
+  servername: dimskiee.biz.id
+  network: ws
+  ws-opts:
+    path: /WangCai-8
+- client-fingerprint: chrome
+  idle-session-check-interval: 30
+  idle-session-timeout: 30
+  name: U⚪🏳️ukn[✈️]_dokng.com_9f01a8ac
+  password: 776b4834-caaf-4006-ab21-409e958867af
+  port: 33091
+  server: 45.202.240.4
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: anytls
+  udp: true
+- name: 🏳️_未知_157
+  type: trojan
+  server: 172.64.152.23
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: 🏳️_未知_162
+  type: vless
+  server: 172.67.138.232
+  port: 443
+  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
+  encryption: none
+  tls: true
+  servername: 4-M17.KaZakHSTAn-LiNk.kDNs.FR
+  network: ws
+  ws-opts:
+    path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
+    headers:
+      Host: 4-m17.KazAkhSTAN-LinK.KdnS.FR
+- name: D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_6c43e42a
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- cipher: rc4-md5
+  name: shadowsocks-468218514
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 107.151.182.197
+  type: ss
+  udp: true
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_209eaff6
+  password: null
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_6db0fc2c
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: vless-1712734906
+  network: ws
+  port: 8443
+  server: support.zoom.us
+  servername: primelinelk.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
+- name: 🏳️_未知_164
+  type: vless
+  server: 104.21.39.176
+  port: 443
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  encryption: none
+  tls: true
+  servername: 4-M13.aYuttHAYa.KDns.fr
+  network: ws
+  ws-opts:
+    path: /ED3ZQPu7lqyeDGD58KabZ
+    headers:
+      Host: 4-M13.AYUtTHAya.KdNS.fr
 - name: 🏳️_未知_216
   type: vless
   server: 104.18.33.112
@@ -613,9 +989,114 @@ proxies:
     path: /proxyip=154.17.22.207,69.63.210.157,134.195.211.13,172.236.245.153,209.146.115.209,64.186.224.194,149.28.94.52,107.151.188.57
     headers:
       Host: fq.jp188.dpdns.org
-- name: 🏳️_未知_220
+- name: vless-1766475589
+  network: ws
+  port: 443
+  server: 188.114.97.6
+  servername: free.nadun.store
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 20ff936a-8eb5-4d27-9cce-93f2016d467b
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1364541330
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: StPbcmBuzpuYUfa4oZ5SI3Bq1OSF_-oU1vp2AcyvQVE
+    short-id: 19296c9f1bf9c7b1
+  server: 195.123.240.65
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ce18d0eb-5c71-41f9-96e5-1632e22456e4
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_8e3e1d23
+  password: ''
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: vless-1738846948
+  network: ws
+  port: 443
+  server: 104.21.70.228
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: 🏳️_未知_146
+  type: vless
+  server: 172.67.171.191
+  port: 8080
+  uuid: 0b2ea024-3ffd-46a7-87ce-86cbb79d7a48
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiT3FNeW1sMVdGVHlvNTIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ==
+    headers:
+      Host: server18.peekconfig2.workers.dev
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_e3414a29
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- cipher: rc4-md5
+  name: shadowsocks-27275
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 107.155.57.11
+  type: ss
+  udp: true
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_c09c3f93
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 162.243.146.243
+  sni: a2f392f3.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: vless-1497617517
+  network: tcp
+  port: 30556
+  reality-opts:
+    public-key: EcmNQqZxyW4GCEQF-7nH54w3qgBkLzsfqFSgafGjB0E
+    short-id: d082f567
+  server: 137.175.82.40
+  servername: www.lovelive-anime.jp
+  tls: true
+  type: vless
+  udp: true
+  uuid: 949d278e-6d98-4014-84e9-59f1c6c93e0e
+- name: 🏳️_未知_140
   type: trojan
-  server: 104.18.9.83
+  server: 104.18.32.47
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: B🟡🇺🇸biz[🎬🤖📺🎭]_dokng.com_5024ffeb
+  port: 8080
+  server: 104.51.39.146
+  type: http
+- name: 🏳️_未知_168
+  type: trojan
+  server: 104.18.8.83
   port: 443
   password: humanity
   tls: true
@@ -625,33 +1106,66 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
-- name: D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_6c43e42a
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_32b9a62b
   port: 443
-  server: 172.64.68.89
+  server: 137.175.22.56
   skip-cert-verify: true
   tls: true
   type: http
 - cipher: rc4-md5
-  name: shadowsocks-27276
+  name: shadowsocks-27271
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
-  server: 23.251.121.242
+  server: 107.155.57.51
   type: ss
   udp: true
-- client-fingerprint: chrome
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_fde353f5
+  port: 443
+  server: 107.149.232.90
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_1e63795f
+  password: 'null'
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a88e970f
+  password: gs4BXwT6SW
+  port: 10988
+  server: 154.26.192.123
+  tls: false
+  type: http
+  username: fQ67Dpe5dU
+- client-fingerprint: random
   flow: xtls-rprx-vision
-  name: vless-1531285795
-  network: raw
-  port: 8443
+  name: vless-1182528378
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: ribQDOlZ69PzvZ1EDF0EcmMvbq_T5RQrVRBSGUU2riU
-    short-id: 35cd899f8de04801
-  server: 23.95.222.127
-  servername: www.apple.com
+    public-key: SmgYcFIvvFXW3xh4gvGhIJuQsaZvWkAylcjB6TEddEs
+    short-id: 896f52ba2cfca903
+  server: 47.251.108.158
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: 352ff568-f971-4613-bf48-92997a5d44ed
+  uuid: 975fc322-6e38-434b-a53c-d39fed49b9a9
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_75365148
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: D🔴🇳🇴hos[📺]_dokng.com_8300cd41
+  password: 'null'
+  port: 9050
+  server: 45.61.129.165
+  type: socks5
+  username: 'null'
 - name: 🇺🇸_美国_113
   type: vless
   server: 162.159.135.234
@@ -668,151 +1182,28 @@ proxies:
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
     headers:
       Host: snip.edgeoneai.cc.cd
-- name: 🇹🇷_土耳其_129
-  type: vless
-  server: 91.206.71.8
-  port: 80
-  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /pyip=Telegram🇨🇳 @WangCai2
-    headers:
-      Host: round-haze-8783.294.workers.dev
-- name: 🇺🇸_美国_135
-  type: vless
-  server: 155.46.167.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime50.workers.dev
-- name: 🇺🇸_美国_180
-  type: vless
-  server: 208.103.161.249
-  port: 80
-  uuid: a3c51f71-ffb5-4c80-a136-cee4b36d6e85
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: kAmRaN01-aFgmDQ-1.KaMRan-01.wOrkeRs.DEv
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_c09c3f93
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 162.243.146.243
-  sni: a2f392f3.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- name: vless-1759641664
-  network: ws
-  port: 443
-  server: 104.18.43.174
-  servername: lucasjow.us.ci
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_75365148
-  port: 443
-  server: 167.88.60.242
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_fc21503e
+  password: null
+  port: 9002
+  server: 138.199.35.215
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🏳️_未知_193
-  type: vless
-  server: 104.18.47.164
-  port: 443
-  uuid: 49b5c5d1-8fb0-4fd2-8129-01bd2178e8d1
-  encryption: none
-  tls: true
-  servername: gy-cffc5-node-31z7yxejlog9qfu0.lancelot.dpdns.org
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /download/proxyip=ProxyIP.KR.CMLiussss.net?ed=2560
-    headers:
-      Host: gy-cffc5-node-31z7yxejlog9qfu0.lancelot.dpdns.org
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_2320978c
-  port: 443
-  server: 137.175.22.84
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
+  username: null
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: vless-1497617517
+  name: vless-1762343149
   network: tcp
-  port: 30556
+  port: 16586
   reality-opts:
-    public-key: EcmNQqZxyW4GCEQF-7nH54w3qgBkLzsfqFSgafGjB0E
-    short-id: d082f567
-  server: 137.175.82.40
-  servername: www.lovelive-anime.jp
+    public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
+    short-id: 70ab6d813e
+  server: 154.29.149.140
+  servername: us1p1.xn--ghq880n3na965a.com
   tls: true
   type: vless
   udp: true
-  uuid: 949d278e-6d98-4014-84e9-59f1c6c93e0e
-- name: vless-1768019651
-  network: ws
-  port: 443
-  server: 172.64.144.82
-  servername: lucasjow.us.ci
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-- name: vless-1084850686
-  network: ws
-  port: 443
-  server: 172.67.217.240
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1172583775
-  network: ws
-  port: 443
-  server: 104.21.33.59
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: 🇸🇮_斯洛文尼亚_131
-  type: vless
-  server: 92.53.189.40
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime19.workers.dev
-- cipher: rc4-md5
-  name: shadowsocks-27271
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 107.155.57.51
-  type: ss
-  udp: true
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_42ad117c
-  port: 443
-  server: 38.28.185.205
-  skip-cert-verify: true
-  tls: true
-  type: http
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: vless-1771506803
@@ -827,526 +1218,73 @@ proxies:
   type: vless
   udp: true
   uuid: 924fe46b-b6e0-479e-ae7f-a3661680e706
-- name: 🏳️_未知_195
-  type: vless
-  server: 104.18.1.1
-  port: 2083
-  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
-  encryption: none
-  tls: true
-  servername: calm-smoke-1a21.alvlirm6262.workers.dev
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: calm-smoke-1a21.alvlirm6262.workers.dev
-- name: vless-1712818763
-  network: ws
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_33df4e4f
+  password: ''
+  port: 22222
+  server: 193.25.215.182
+  type: socks5
+  udp: true
+  username: ''
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1442572449
+  network: tcp
   port: 8443
-  server: support.zoom.us
-  servername: primelinelk.me
-  skip-cert-verify: false
+  reality-opts:
+    public-key: ribQDOlZ69PzvZ1EDF0EcmMvbq_T5RQrVRBSGUU2riU
+    short-id: 35cd899f8de04801
+  server: 23.95.222.127
+  servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
-- name: 🇺🇸_美国_155
-  type: vless
-  server: my1.australiacaregroup.site
-  port: 10002
-  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  encryption: none
-  tls: true
-  servername: my1.australiacaregroup.site
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: my1.australiacaregroup.site
-- name: 🏳️_未知_194
-  type: vless
-  server: 104.18.46.46
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  encryption: none
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇺🇸_美国_154
-  type: vmess
-  server: my1.australiacaregroup.site
-  port: 10001
-  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  alterId: 0
+  uuid: 352ff568-f971-4613-bf48-92997a5d44ed
+- alterId: 0
   cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: my1.australiacaregroup.site
-- name: 🇺🇸_美国_153
-  type: trojan
-  server: my1.australiacaregroup.site
-  port: 10003
-  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  tls: true
-  servername: my1.australiacaregroup.site
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: my1.australiacaregroup.site
-- name: 🇺🇸_美国_30
-  type: vless
-  server: sg2.australiacaregroup.site
-  port: 10002
-  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  encryption: none
-  tls: true
-  servername: sg2.australiacaregroup.site
-  fingerprint: chrome
-- client-fingerprint: chrome
-  name: vless-1631955737
-  network: ws
-  port: 443
-  reality-opts:
-    public-key: 6l-Yq_zkVrnExw8AVv85VwoYnfNc8-dRSpoj_AA-fxY
-    short-id: c5cde18f
-  server: 45.32.69.110
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1572b9c5-d741-46eb-b4a2-a5d23958dfbe
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_3ec254da
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_2fb17d17
-  password: None
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_ff929cd7
-  password: null
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_02619dd0
-  password: None
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_5bb99b6a
-  password: None
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_5b5b1d54
-  password: None
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_2fc4a550
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_5e148d55
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: vless-1663152503
-  network: ws
-  port: 443
-  reality-opts:
-    public-key: jO7THaLxz0Oz3kePAJcuwcKNTlsWoEWGh18zzRmiXgo
-    short-id: 77c4230d
-  server: 144.202.126.147
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 45d51389-0c38-4843-8ae8-cffb94e97a72
-- client-fingerprint: chrome
-  name: vless-1636626766
-  network: ws
-  port: 443
-  reality-opts:
-    public-key: iv4XmZKQUC4KEuMaWZxDmjJOlGEnS3rRw-Nk8h93zUU
-    short-id: f61a3a8f
-  server: 154.12.38.159
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 12c465bd-11a3-4fd8-8aa9-19b20a883b9e
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_ccc98c47
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_2695bab2
-  password: 'null'
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  sni: 138.199.35.202
-  tls: true
-  type: http
-  username: 'null'
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_39eed596
-  password: 'null'
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: vless-1771047803
-  network: ws
-  port: 443
-  server: 789156.xyz
-  servername: 789156.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5f11c240-89df-494c-9c81-8b619023bb58
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_3c28dcc9
-  password: null
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_3e969f49
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_caa0432d
-  password: 'null'
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- client-fingerprint: chrome
-  name: vless-1631955744
-  network: ws
-  port: 443
-  reality-opts:
-    public-key: h6EW_Y5nW9PRypxaOrSOyiHZDR-kuNfdoy24inGOoB0
-    short-id: 33b15a3e
-  server: 154.29.145.196
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 62fdae06-6692-4b79-8f34-470784e55fd6
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_4fdb3840
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_e1d0dc28
-  password: None
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_fde353f5
-  port: 443
-  server: 107.149.232.90
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: D🔴🇺🇸hos_dokng.com_a0daa460
-  port: 443
-  server: 148.135.10.80
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: vless-319344586
+  name: vmess-650629577
   network: raw
-  port: 8443
-  reality-opts:
-    public-key: D3ojIs3AUKP_tV0E4TEjh90HBVJp24Nq3qMfdxD30kc
-    short-id: df8611c07d
-  server: 107.173.237.146
-  servername: updates.cdn-apple.com
-  tls: true
-  type: vless
+  port: 18000
+  server: 169.197.142.22
+  type: vmess
   udp: true
-  uuid: 1d39f715-2740-4d99-bc3b-197cc48dcee7
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_681dd14a
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_e3414a29
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_253eed88
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_e9f49831
-  password: None
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- cipher: rc4-md5
-  name: shadowsocks-468218514
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 107.151.182.197
-  type: ss
-  udp: true
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_12476d7d
-  password: ''
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_101583a6
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_51544cc2
-  password: 'null'
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_399742db
-  password: null
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_6895f732
-  password: 'null'
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- client-fingerprint: chrome
-  name: vless-1665784892
-  network: ws
-  port: 443
-  reality-opts:
-    public-key: 6nTROV2ELz-3vNUl0A00hp378QngpYABrPgjCpUknD0
-    short-id: f436f707
-  server: 45.63.53.81
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c512dcbd-1847-40a2-9c99-989c8bfe4717
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_f41808b3
-  password: ''
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_ce3956c2
-  password: null
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: chrome
-  name: vless-1636626758
-  network: ws
-  port: 443
-  reality-opts:
-    public-key: iJDZHJQcTGl2VIwbsRmlOG9JGbbmxNY5wmv1hc6OwQM
-    short-id: c31176b6
-  server: 154.12.38.202
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a9ab69b-26e7-44d0-a325-e5056d849900
-- name: vless-935711992
-  network: ws
-  port: 8880
-  server: dry-violet-d6e0.38-431.workers.dev
-  type: vless
-  udp: true
-  uuid: 248b7825-58e7-41cc-899f-95e573e0127b
-- name: 🇺🇸_美国_126
-  type: vless
-  server: 156.229.163.237
-  port: 10238
-  uuid: f97f81df-edac-47b6-badb-316125e61bfb
-  encryption: none
-  tls: true
-  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_e6a7852c
-  password: 'null'
-  port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - cipher: aes-128-gcm
-  name: shadowsocks-1771134357
-  password: 5212bfef4cf2a6aaeda755d85c1aa744
-  port: 14989
-  server: 64.110.25.2
+  name: shadowsocks-194
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.169
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: vless-1670786121
-  network: ws
+- cipher: aes-128-gcm
+  name: shadowsocks-158
+  password: shadowsocks
   port: 443
-  reality-opts:
-    public-key: _E8d7s7B7xYfZImOkKmESW6MJDxwKxnsscu56jhE2EM
-    short-id: 3fb4e08c
-  server: 154.9.241.170
-  servername: itunes.apple.com
-  tls: true
-  type: vless
+  server: 156.146.38.167
+  type: ss
   udp: true
-  uuid: 30b98a28-ed4e-46eb-8548-54c25f4db53c
-- name: vless-173219246
-  network: ws
-  port: 8880
-  server: shrill-cell-cca7.158-6fa.workers.dev
-  type: vless
-  udp: true
-  uuid: 3e7bb66e-d7c6-4711-aa05-e4ab0ec58c6d
-- name: vless-1771839854
-  network: ws
+- cipher: aes-128-gcm
+  name: shadowsocks-163
+  password: shadowsocks
   port: 443
-  server: 026.electrocellco-cf-026.workers.dev
-  servername: 026.electrocellco-cf-026.workers.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  server: 156.146.38.168
+  type: ss
   udp: true
-  uuid: 064059ce-23b9-45d3-953d-57d4c5092874
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: vless-1402809620
-  network: raw
+- cipher: aes-128-gcm
+  name: shadowsocks-159
+  password: shadowsocks
   port: 443
-  reality-opts:
-    public-key: StPbcmBuzpuYUfa4oZ5SI3Bq1OSF_-oU1vp2AcyvQVE
-    short-id: 19296c9f1bf9c7b1
-  server: 195.123.240.65
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
+  server: 156.146.38.170
+  type: ss
   udp: true
-  uuid: ce18d0eb-5c71-41f9-96e5-1632e22456e4
-- name: vless-1774638885
-  network: ws
-  port: 8880
-  server: jolly-violet-a006.10-ae8.workers.dev
-  type: vless
-  udp: true
-  uuid: 3fe8191f-52ae-4e38-8385-5869ab47fb70
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_876a90c7
-  password: ''
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_78231d9b
   port: 443
-  server: carolinafreigh.fun
+  server: 23.133.176.14
   skip-cert-verify: true
-  sni: carolinafreigh.fun
-  sub_tag: K001-260618
   tls: true
   type: http
-  udp: true
-  username: ''
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_578adde4
-  password: null
-  port: 443
-  server: zebpay.site
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: vless-1072955848
+  name: vless-945745881
   network: raw
   port: 443
   reality-opts:
@@ -1358,15 +1296,29 @@ proxies:
   type: vless
   udp: true
   uuid: cb2dbb6a-a1ea-4023-9ace-6466cee57241
-- client-fingerprint: random
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: vless-700289121
+  name: vless-656232178
   network: tcp
   port: 23576
   reality-opts:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: ''
-  server: 15.204.97.214
+    short-id: '01'
+  server: 15.204.97.198
+  servername: fuck.rkn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-655776492
+  network: tcp
+  port: 23576
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  server: 15.204.97.209
   servername: fuck.rkn
   tls: true
   type: vless
@@ -1386,34 +1338,95 @@ proxies:
   type: vless
   udp: true
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_b5553483
+  port: 443
+  server: 38.247.141.135
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: vless-656232095
+  name: vless-700894055
   network: tcp
   port: 23576
   reality-opts:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
+    short-id: ''
+  server: 15.204.97.206
+  servername: fuck.rkn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: vless-700289118
+  network: tcp
+  port: 23576
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: ''
   server: 15.204.97.197
   servername: fuck.rkn
   tls: true
   type: vless
   udp: true
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-- client-fingerprint: chrome
+- client-fingerprint: random
   flow: xtls-rprx-vision
-  name: vless-656232082
+  name: vless-700289121
   network: tcp
   port: 23576
   reality-opts:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
+    short-id: ''
+  server: 15.204.97.214
+  servername: fuck.rkn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- cipher: chacha20-ietf-poly1305
+  name: shadowsocks-12788521
+  password: 8tmnvX5zYuWGVIDP2jglZw
+  port: 1080
+  server: 5.78.51.123
+  type: ss
+  udp: true
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: vless-700289124
+  network: tcp
+  port: 23576
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: ''
   server: 15.204.97.216
   servername: fuck.rkn
   tls: true
   type: vless
   udp: true
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: 🇺🇸_美国_155
+  type: vless
+  server: my1.australiacaregroup.site
+  port: 10002
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  encryption: none
+  tls: true
+  servername: my1.australiacaregroup.site
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: my1.australiacaregroup.site
+- name: B🟡🇺🇸biz[🎬🤖📺🎭]_dokng.com_52a6e750
+  port: 443
+  server: 12.221.146.147
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: vless-700289117
@@ -1428,121 +1441,94 @@ proxies:
   type: vless
   udp: true
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-- alterId: 0
-  cipher: auto
-  name: vmess-1568529115
-  network: ws
-  port: 443
-  server: www.shopify.com
-  servername: guanwang.awsno.com
-  skip-cert-verify: false
+- name: 🏳️_未知_173
+  type: vless
+  server: 172.64.53.87
+  port: 8443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  encryption: none
   tls: true
-  type: vmess
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+- name: 🏳️_未知_200
+  type: vless
+  server: 172.64.52.173
+  port: 443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  encryption: none
+  tls: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_fd2e5267
+  port: 8443
+  server: 44.248.167.117
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: trojan-1772544968
+  password: UX82473651
+  port: 443
+  server: 16.144.66.136
+  skip-cert-verify: false
+  sni: alert-titmouse.rooster465.autos
+  type: trojan
   udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- cipher: chacha20-ietf-poly1305
-  name: shadowsocks-12788521
-  password: 8tmnvX5zYuWGVIDP2jglZw
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_24a6e4b9
+  password: test123
   port: 1080
-  server: 5.78.51.123
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: vless-656232178
-  network: tcp
-  port: 23576
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  server: 15.204.97.198
-  servername: fuck.rkn
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: vless-700289120
-  network: tcp
-  port: 23576
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: ''
-  server: 15.204.97.206
-  servername: fuck.rkn
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-- name: D🔴🇺🇸hos[🎬📺🎪✨]_dokng.com_cfff4f59
-  password: ''
-  port: 8885
-  server: 38.79.114.43
-  skip-cert-verify: true
-  sub_tag: S001-260618
+  server: 104.168.249.36
   type: socks5
-  udp: true
-  username: ''
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: vless-757488778
-  network: tcp
-  port: 23576
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: ''
-  server: 15.204.97.209
-  servername: fuck.rkn
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-- name: 🇺🇸_美国_32
-  type: vmess
-  server: sg2.australiacaregroup.site
-  port: 10001
-  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
-  alterId: 0
-  cipher: auto
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_bb2c857f
-  password: ''
-  port: 443
-  server: webdrone.club
+  username: test123
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a8e49557
+  port: 8443
+  server: 35.84.133.236
   skip-cert-verify: true
   tls: true
   type: http
-  username: Ok5vbmU=
-- alterId: 0
-  cipher: auto
-  name: vmess-16091
-  network: ws
-  port: 39495
-  server: 129.146.77.248
-  type: vmess
-  udp: true
-  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_568e6b70
-  password: None
-  port: 443
-  server: efr-marktplatz.club
-  skip-cert-verify: false
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_93bf6415
+  port: 8443
+  server: 129.212.181.253
+  skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- cipher: aes-128-gcm
-  name: shadowsocks-155
-  password: shadowsocks
+- client-fingerprint: chrome
+  name: vless-1759812608
+  network: raw
   port: 443
-  server: 173.244.56.6
-  type: ss
+  reality-opts:
+    public-key: aGm3egxU7SVqVw-oxqXbJ0u4ctldnmTjwaDh4Mao2EE
+    short-id: bd4aa541e5306ba2
+  server: 136.67.16.72
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
   udp: true
-- cipher: aes-128-gcm
-  name: shadowsocks-156
-  password: shadowsocks
+  uuid: 9d0395c0-016f-453e-b0be-fc66f1ee1d80
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_55eb9c13
   port: 443
-  server: 173.244.56.9
-  type: ss
+  server: 45.63.38.134
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_bad22d32
+  port: 8443
+  server: 44.229.69.166
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: C🟠🇻🇳hos[🎬🤖📺🎪]_dokng.com_e23f0183
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 1007
+  server: 4zfp01mn.zf-mix.9999231.xyz
+  skip-cert-verify: true
+  sni: vn-my.9999231.xyz
+  type: anytls
   udp: true
 proxy-groups:
 - name: AUTO
@@ -1552,308 +1538,308 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 🇺🇸_美国_176
-  - 🇺🇸_美国_177
-  - 🇺🇸_美国_201
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_4dbb3d73
+  - vless-1733289072
   - 🇺🇸_美国_204
-  - vless-1532046170
-  - vless-2320771
-  - vless-415260973
-  - vless-14945
-  - vless-816706176
-  - vless-1532046250
-  - vless-1759797226
-  - vless-975999344
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_0eed9624
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_c66af7d3
   - 🇺🇸_美国_114
-  - 🇺🇸_美国_145
-  - 🏳️_未知_163
-  - 🇺🇸_美国_181
+  - 🇺🇸_美国_177
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_da81ef84
+  - 🏳️_未知_195
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_06db8839
+  - 🏳️_未知_197
+  - vless-1568072342
+  - vless-1750190187
+  - vmess-248
+  - 🇺🇸_美国_126
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_9f49ef36
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_06fcd7d4
   - 🏳️_未知_185
-  - 🏳️_未知_198
-  - vless-1554367015
+  - 🏳️_未知_189
+  - 🇸🇮_斯洛文尼亚_131
+  - 🇺🇸_美国_201
+  - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_aba567e8
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_d9c98f77
+  - vless-1664557987
   - vless-1532046184
-  - vless-1768194306
-  - vless-1724759772
-  - vless-1587177718
-  - vless-1532046243
-  - vless-1532046247
-  - vless-1243279000
-  - 🇺🇸_美国_111
-  - 🇱🇹_立陶宛_124
-  - 🏳️_未知_133
-  - 🇰🇷_韩国_144
-  - 🏳️_未知_146
+  - vless-1049490479
+  - 🏳️_未知_198
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_673ad936
+  - shadowsocks-155
   - 🏳️_未知_156
-  - 🏳️_未知_157
-  - 🏳️_未知_160
-  - 🏳️_未知_164
-  - 🏳️_未知_168
-  - 🏳️_未知_202
-  - 🏳️_未知_217
-  - 🏳️_未知_222
-  - vmess-5258767
-  - vless-1724760785
-  - vless-858984996
-  - vless-651898065
-  - 🏳️_未知_93
-  - 🇳🇱_荷兰_136
-  - 🏳️_未知_140
-  - 🇺🇸_美国_143
+  - vless-1003515430
   - 🏳️_未知_161
-  - 🏳️_未知_162
+  - vless-1665784892
+  - vless-1172583775
+  - 🇳🇱_荷兰_136
+  - 🇺🇸_美国_145
+  - U⚪🏳️ukn_dokng.com_a0daa460
+  - 🇰🇷_韩国_144
+  - 🏳️_未知_163
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_b4f7c82f
+  - 🇺🇸_美国_180
+  - 🏳️_未知_220
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_ccc98c47
+  - vless-1003515436
+  - 🇺🇸_美国_181
+  - shadowsocks-156
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_0d3adab3
+  - vless-1631955737
+  - 🇺🇸_美国_143
+  - 🏳️_未知_193
+  - 🏳️_未知_133
+  - vless-1532046199
+  - 🏳️_未知_194
+  - vless-1162311166
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_11ff4f56
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_0cd2d06a
+  - vless-1733288038
+  - vless-1776921634
+  - vless-1631955744
+  - vless-1636626758
+  - 🇺🇸_美国_111
+  - 🇺🇸_美国_135
+  - 🏳️_未知_202
+  - 🇱🇹_立陶宛_124
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_469aecea
+  - vless-1636626766
+  - 🏳️_未知_192
+  - vless-1554367015
   - 🏳️_未知_171
   - 🏳️_未知_175
-  - 🏳️_未知_189
-  - 🏳️_未知_192
-  - 🏳️_未知_197
-  - 🏳️_未知_216
-  - 🏳️_未知_220
-  - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_6c43e42a
-  - shadowsocks-27276
-  - vless-1531285795
-  - 🇺🇸_美国_113
-  - 🇹🇷_土耳其_129
-  - 🇺🇸_美国_135
-  - 🇺🇸_美国_180
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_c09c3f93
-  - vless-1759641664
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_75365148
-  - 🏳️_未知_193
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_2320978c
-  - vless-1497617517
-  - vless-1768019651
-  - vless-1084850686
-  - vless-1172583775
-  - 🇸🇮_斯洛文尼亚_131
-  - shadowsocks-27271
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_42ad117c
-  - vless-1771506803
-  - 🏳️_未知_195
-  - vless-1712818763
-  - 🇺🇸_美国_155
-  - 🏳️_未知_194
-  - 🇺🇸_美国_154
-  - 🇺🇸_美国_153
-  - 🇺🇸_美国_30
-  - vless-1631955737
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_3ec254da
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_2fb17d17
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_ff929cd7
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_02619dd0
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_5bb99b6a
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_5b5b1d54
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_2fc4a550
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_5e148d55
-  - vless-1663152503
-  - vless-1636626766
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_ccc98c47
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_2695bab2
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_39eed596
-  - vless-1771047803
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_3c28dcc9
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_3e969f49
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_caa0432d
-  - vless-1631955744
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_4fdb3840
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_e1d0dc28
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_fde353f5
-  - D🔴🇺🇸hos_dokng.com_a0daa460
-  - vless-319344586
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_681dd14a
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_e3414a29
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_253eed88
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_e9f49831
-  - shadowsocks-468218514
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_12476d7d
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_101583a6
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_51544cc2
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_399742db
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_6895f732
-  - vless-1665784892
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_f41808b3
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_ce3956c2
-  - vless-1636626758
-  - vless-935711992
-  - 🇺🇸_美国_126
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_e6a7852c
+  - 🏳️_未知_222
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_cd4cf22d
   - shadowsocks-1771134357
-  - vless-1670786121
-  - vless-173219246
-  - vless-1771839854
-  - vless-1402809620
-  - vless-1774638885
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_876a90c7
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_578adde4
-  - vless-1072955848
-  - vless-700289121
-  - vless-700289123
-  - vless-656232095
-  - vless-656232082
-  - vless-700289117
-  - vmess-1568529115
-  - shadowsocks-12788521
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_12476d7d
+  - 🇹🇷_土耳其_129
+  - vless-1221788920
+  - 🏳️_未知_160
+  - vless-1750190197
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_02619dd0
+  - 🏳️_未知_93
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_3ec254da
+  - vless-1663154502
+  - 🏳️_未知_217
+  - U⚪🏳️ukn[✈️]_dokng.com_9f01a8ac
+  - 🏳️_未知_157
+  - 🏳️_未知_162
+  - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_6c43e42a
+  - shadowsocks-468218514
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_209eaff6
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_6db0fc2c
+  - vless-1712734906
+  - 🏳️_未知_164
+  - 🏳️_未知_216
+  - vless-1766475589
+  - vless-1364541330
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_8e3e1d23
+  - vless-1738846948
+  - 🏳️_未知_146
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_e3414a29
+  - shadowsocks-27275
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_c09c3f93
+  - vless-1497617517
+  - 🏳️_未知_140
+  - B🟡🇺🇸biz[🎬🤖📺🎭]_dokng.com_5024ffeb
+  - 🏳️_未知_168
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_32b9a62b
+  - shadowsocks-27271
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_fde353f5
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_1e63795f
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a88e970f
+  - vless-1182528378
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_75365148
+  - D🔴🇳🇴hos[📺]_dokng.com_8300cd41
+  - 🇺🇸_美国_113
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_fc21503e
+  - vless-1762343149
+  - vless-1771506803
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_33df4e4f
+  - vless-1442572449
+  - vmess-650629577
+  - shadowsocks-194
+  - shadowsocks-158
+  - shadowsocks-163
+  - shadowsocks-159
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_78231d9b
+  - vless-945745881
   - vless-656232178
-  - vless-700289120
-  - D🔴🇺🇸hos[🎬📺🎪✨]_dokng.com_cfff4f59
-  - vless-757488778
-  - 🇺🇸_美国_32
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_bb2c857f
-  - vmess-16091
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_568e6b70
-  - shadowsocks-155
-  - shadowsocks-156
+  - vless-655776492
+  - vless-700289123
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_b5553483
+  - vless-700894055
+  - vless-700289118
+  - vless-700289121
+  - shadowsocks-12788521
+  - vless-700289124
+  - 🇺🇸_美国_155
+  - B🟡🇺🇸biz[🎬🤖📺🎭]_dokng.com_52a6e750
+  - vless-700289117
+  - 🏳️_未知_173
+  - 🏳️_未知_200
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_fd2e5267
+  - trojan-1772544968
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_24a6e4b9
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a8e49557
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_93bf6415
+  - vless-1759812608
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_55eb9c13
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_bad22d32
+  - C🟠🇻🇳hos[🎬🤖📺🎪]_dokng.com_e23f0183
 - name: PROXY
   type: select
   proxies:
   - AUTO
   - 🇺🇸_美国_176
-  - 🇺🇸_美国_177
-  - 🇺🇸_美国_201
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_4dbb3d73
+  - vless-1733289072
   - 🇺🇸_美国_204
-  - vless-1532046170
-  - vless-2320771
-  - vless-415260973
-  - vless-14945
-  - vless-816706176
-  - vless-1532046250
-  - vless-1759797226
-  - vless-975999344
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_0eed9624
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_c66af7d3
   - 🇺🇸_美国_114
-  - 🇺🇸_美国_145
-  - 🏳️_未知_163
-  - 🇺🇸_美国_181
+  - 🇺🇸_美国_177
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_da81ef84
+  - 🏳️_未知_195
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_06db8839
+  - 🏳️_未知_197
+  - vless-1568072342
+  - vless-1750190187
+  - vmess-248
+  - 🇺🇸_美国_126
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_9f49ef36
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_06fcd7d4
   - 🏳️_未知_185
-  - 🏳️_未知_198
-  - vless-1554367015
+  - 🏳️_未知_189
+  - 🇸🇮_斯洛文尼亚_131
+  - 🇺🇸_美国_201
+  - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_aba567e8
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_d9c98f77
+  - vless-1664557987
   - vless-1532046184
-  - vless-1768194306
-  - vless-1724759772
-  - vless-1587177718
-  - vless-1532046243
-  - vless-1532046247
-  - vless-1243279000
-  - 🇺🇸_美国_111
-  - 🇱🇹_立陶宛_124
-  - 🏳️_未知_133
-  - 🇰🇷_韩国_144
-  - 🏳️_未知_146
+  - vless-1049490479
+  - 🏳️_未知_198
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_673ad936
+  - shadowsocks-155
   - 🏳️_未知_156
-  - 🏳️_未知_157
-  - 🏳️_未知_160
-  - 🏳️_未知_164
-  - 🏳️_未知_168
-  - 🏳️_未知_202
-  - 🏳️_未知_217
-  - 🏳️_未知_222
-  - vmess-5258767
-  - vless-1724760785
-  - vless-858984996
-  - vless-651898065
-  - 🏳️_未知_93
-  - 🇳🇱_荷兰_136
-  - 🏳️_未知_140
-  - 🇺🇸_美国_143
+  - vless-1003515430
   - 🏳️_未知_161
-  - 🏳️_未知_162
+  - vless-1665784892
+  - vless-1172583775
+  - 🇳🇱_荷兰_136
+  - 🇺🇸_美国_145
+  - U⚪🏳️ukn_dokng.com_a0daa460
+  - 🇰🇷_韩国_144
+  - 🏳️_未知_163
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_b4f7c82f
+  - 🇺🇸_美国_180
+  - 🏳️_未知_220
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_ccc98c47
+  - vless-1003515436
+  - 🇺🇸_美国_181
+  - shadowsocks-156
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_0d3adab3
+  - vless-1631955737
+  - 🇺🇸_美国_143
+  - 🏳️_未知_193
+  - 🏳️_未知_133
+  - vless-1532046199
+  - 🏳️_未知_194
+  - vless-1162311166
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_11ff4f56
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_0cd2d06a
+  - vless-1733288038
+  - vless-1776921634
+  - vless-1631955744
+  - vless-1636626758
+  - 🇺🇸_美国_111
+  - 🇺🇸_美国_135
+  - 🏳️_未知_202
+  - 🇱🇹_立陶宛_124
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_469aecea
+  - vless-1636626766
+  - 🏳️_未知_192
+  - vless-1554367015
   - 🏳️_未知_171
   - 🏳️_未知_175
-  - 🏳️_未知_189
-  - 🏳️_未知_192
-  - 🏳️_未知_197
-  - 🏳️_未知_216
-  - 🏳️_未知_220
-  - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_6c43e42a
-  - shadowsocks-27276
-  - vless-1531285795
-  - 🇺🇸_美国_113
-  - 🇹🇷_土耳其_129
-  - 🇺🇸_美国_135
-  - 🇺🇸_美国_180
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_c09c3f93
-  - vless-1759641664
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_75365148
-  - 🏳️_未知_193
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_2320978c
-  - vless-1497617517
-  - vless-1768019651
-  - vless-1084850686
-  - vless-1172583775
-  - 🇸🇮_斯洛文尼亚_131
-  - shadowsocks-27271
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_42ad117c
-  - vless-1771506803
-  - 🏳️_未知_195
-  - vless-1712818763
-  - 🇺🇸_美国_155
-  - 🏳️_未知_194
-  - 🇺🇸_美国_154
-  - 🇺🇸_美国_153
-  - 🇺🇸_美国_30
-  - vless-1631955737
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_3ec254da
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_2fb17d17
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_ff929cd7
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_02619dd0
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_5bb99b6a
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_5b5b1d54
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_2fc4a550
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_5e148d55
-  - vless-1663152503
-  - vless-1636626766
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_ccc98c47
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_2695bab2
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_39eed596
-  - vless-1771047803
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_3c28dcc9
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_3e969f49
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_caa0432d
-  - vless-1631955744
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_4fdb3840
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_e1d0dc28
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_fde353f5
-  - D🔴🇺🇸hos_dokng.com_a0daa460
-  - vless-319344586
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_681dd14a
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_e3414a29
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_253eed88
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_e9f49831
-  - shadowsocks-468218514
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_12476d7d
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_101583a6
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_51544cc2
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_399742db
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_6895f732
-  - vless-1665784892
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_f41808b3
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_ce3956c2
-  - vless-1636626758
-  - vless-935711992
-  - 🇺🇸_美国_126
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_e6a7852c
+  - 🏳️_未知_222
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_cd4cf22d
   - shadowsocks-1771134357
-  - vless-1670786121
-  - vless-173219246
-  - vless-1771839854
-  - vless-1402809620
-  - vless-1774638885
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_876a90c7
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_578adde4
-  - vless-1072955848
-  - vless-700289121
-  - vless-700289123
-  - vless-656232095
-  - vless-656232082
-  - vless-700289117
-  - vmess-1568529115
-  - shadowsocks-12788521
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_12476d7d
+  - 🇹🇷_土耳其_129
+  - vless-1221788920
+  - 🏳️_未知_160
+  - vless-1750190197
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_02619dd0
+  - 🏳️_未知_93
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_3ec254da
+  - vless-1663154502
+  - 🏳️_未知_217
+  - U⚪🏳️ukn[✈️]_dokng.com_9f01a8ac
+  - 🏳️_未知_157
+  - 🏳️_未知_162
+  - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_6c43e42a
+  - shadowsocks-468218514
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_209eaff6
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_6db0fc2c
+  - vless-1712734906
+  - 🏳️_未知_164
+  - 🏳️_未知_216
+  - vless-1766475589
+  - vless-1364541330
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_8e3e1d23
+  - vless-1738846948
+  - 🏳️_未知_146
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_e3414a29
+  - shadowsocks-27275
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_c09c3f93
+  - vless-1497617517
+  - 🏳️_未知_140
+  - B🟡🇺🇸biz[🎬🤖📺🎭]_dokng.com_5024ffeb
+  - 🏳️_未知_168
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_32b9a62b
+  - shadowsocks-27271
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_fde353f5
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_1e63795f
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a88e970f
+  - vless-1182528378
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_75365148
+  - D🔴🇳🇴hos[📺]_dokng.com_8300cd41
+  - 🇺🇸_美国_113
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_fc21503e
+  - vless-1762343149
+  - vless-1771506803
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_33df4e4f
+  - vless-1442572449
+  - vmess-650629577
+  - shadowsocks-194
+  - shadowsocks-158
+  - shadowsocks-163
+  - shadowsocks-159
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_78231d9b
+  - vless-945745881
   - vless-656232178
-  - vless-700289120
-  - D🔴🇺🇸hos[🎬📺🎪✨]_dokng.com_cfff4f59
-  - vless-757488778
-  - 🇺🇸_美国_32
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_bb2c857f
-  - vmess-16091
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_568e6b70
-  - shadowsocks-155
-  - shadowsocks-156
+  - vless-655776492
+  - vless-700289123
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_b5553483
+  - vless-700894055
+  - vless-700289118
+  - vless-700289121
+  - shadowsocks-12788521
+  - vless-700289124
+  - 🇺🇸_美国_155
+  - B🟡🇺🇸biz[🎬🤖📺🎭]_dokng.com_52a6e750
+  - vless-700289117
+  - 🏳️_未知_173
+  - 🏳️_未知_200
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_fd2e5267
+  - trojan-1772544968
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_24a6e4b9
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a8e49557
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_93bf6415
+  - vless-1759812608
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_55eb9c13
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_bad22d32
+  - C🟠🇻🇳hos[🎬🤖📺🎪]_dokng.com_e23f0183
 rules:
 - MATCH,PROXY
