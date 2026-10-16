@@ -1,107 +1,53 @@
-# node-sub generated 2026-10-15 20:50 UTC | 150 nodes (TCP-tested, sorted by latency)
+# node-sub generated 2026-10-16 02:37 UTC | 150 nodes (TCP-tested, sorted by latency)
 mixed-port: 7890
 allow-lan: false
 mode: rule
 log-level: info
 proxies:
-- name: trojan-1827149553
-  password: humanity
-  port: 443
-  server: 104.18.35.86
-  skip-cert-verify: true
-  sni: www.volumeroot.com
-  type: trojan
-  udp: true
-- name: 🇺🇸_美国_202
-  type: trojan
-  server: 151.101.56.6
-  port: 443
-  password: MiTiVPN
-  tls: true
-  servername: ssl.fastly.com
+- name: vless-1831110714
   network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: mitivpn---ss--s---mitivpn-1.global.ssl.fastly.net
-- cipher: rc4-md5
-  name: shadowsocks-1827963904
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 138.199.43.159
-  type: ss
-  udp: true
-- name: trojan-1828532515
-  password: humanity
   port: 443
-  server: 188.114.97.4
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: vmess-1827158977
-  network: ws
-  port: 2083
-  server: 162.159.130.234
-  servername: or3.sfacg.uk
+  server: 188.164.248.61
+  servername: whitecreeper.pages.dev
   skip-cert-verify: false
   tls: true
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-- alterId: 0
-  cipher: auto
-  name: vmess-1827161107
-  network: ws
-  port: 8443
-  server: 104.17.77.77
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-- name: 🇺🇸_美国_205
-  type: trojan
-  server: 167.82.76.27
-  port: 443
-  password: MiTiVPN
-  tls: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: mitivpn---ss--s---mitivpn-3.global.ssl.fastly.net
-- name: 🏳️_未知_223
   type: vless
-  server: 104.21.56.202
-  port: 443
-  uuid: 9b18ccef-b9e0-41d1-8990-9d970569e142
-  encryption: none
-  tls: true
-  servername: web-socket.tgdaosheng.ggff.net
-  network: ws
-  ws-opts:
-    path: MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN
-- alterId: 0
-  cipher: auto
-  name: vmess-1829730528
+  udp: true
+  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
+- name: vless-1831106139
   network: ws
   port: 443
-  server: 172.67.137.209
-  servername: ukl.lovehk.xyz
+  server: 172.67.70.3
+  servername: vp58.cc.cd
   skip-cert-verify: false
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
-- name: vless-1827152013
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+- name: vless-1831132621
+  network: ws
+  port: 2087
+  server: 8.39.125.193
+  servername: d39333476.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+- name: vless-1828656729
+  network: ws
+  port: 2096
+  server: 104.17.104.80
+  servername: d39333476.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+- name: vless-1827151478
   network: ws
   port: 443
-  server: 104.16.10.84
+  server: 104.16.111.102
   servername: jp3.yohototo.top
   skip-cert-verify: false
   tls: true
@@ -116,109 +62,46 @@ proxies:
   sni: www.firefox.com
   type: trojan
   udp: true
-- name: trojan-1827658988
-  password: mitivpn
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_b5553483
   port: 443
-  server: 199.232.78.160
+  server: 38.247.141.135
   skip-cert-verify: true
-  sni: google.com
-  type: trojan
-  udp: true
-- name: trojan-1827534197
+  tls: true
+  type: http
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_78231d9b
+  port: 443
+  server: 23.133.176.14
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: trojan-1828531063
   password: humanity
   port: 443
-  server: 104.19.229.21
+  server: 185.18.250.245
   skip-cert-verify: false
   sni: www.calmlunch.com
   type: trojan
   udp: true
-- name: vless-1828654076
+- name: vless-1831133014
   network: ws
-  port: 443
-  server: 104.21.70.228
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1827148866
-  password: humanity
-  port: 443
-  server: 104.18.37.127
-  skip-cert-verify: false
-  sni: www.volumeroot.com
-  type: trojan
-  udp: true
-- name: vless-1827155477
-  network: ws
-  port: 2052
-  server: 104.21.5.128
-  type: vless
-  udp: true
-  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
-- name: 🏳️_未知_149
-  type: vless
-  server: 8.47.69.0
   port: 2053
-  uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
-  encryption: none
+  server: 8.35.211.43
+  servername: go.iranfree.de5.net
+  skip-cert-verify: false
   tls: true
-  servername: vless.api-music-fa.com
-  network: ws
-  ws-opts:
-    path: /api/voip/updates/static/fr2035
-    headers:
-      Host: fr.api-music-fa.com
-- name: 🏳️_未知_163
   type: vless
-  server: 104.21.49.165
-  port: 443
-  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
-  encryption: none
-  tls: true
-  servername: 2-m9.e29eacc3-4cf6-48c2-a90e-c53b3da8b1ef.kdns.fr
+  udp: true
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+- name: vless-1831076076
   network: ws
-  ws-opts:
-    path: /BzuntJ8qZN0TRKbC8TveMxJ0
-    headers:
-      Host: 2-m9.e29eacc3-4cf6-48c2-a90e-c53b3da8b1ef.kdns.fr
-- name: 🇺🇸_美国_177
-  type: trojan
-  server: 151.101.56.7
   port: 443
-  password: MiTiVPN
+  server: 104.19.4.149
+  servername: a.cwvps.eu.org
+  skip-cert-verify: false
   tls: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: mitivpn-mitivpn-mitivpn-bb-mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
-- name: 🏳️_未知_198
   type: vless
-  server: 104.16.150.108
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  encryption: none
-  tls: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🏳️_未知_218
-  type: trojan
-  server: 104.16.148.5
-  port: 443
-  password: 19877587-ed94-4033-88cd-4ac50a5e8718
-  tls: true
-  servername: dimskiee.biz.id
-  network: ws
-  ws-opts:
-    path: /WangCai-8
+  udp: true
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
 - name: vless-1828527749
   network: ws
   port: 8080
@@ -226,484 +109,82 @@ proxies:
   type: vless
   udp: true
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-- name: vless-1828142572
+- name: vless-1831105902
   network: ws
-  port: 443
-  server: 104.18.35.15
-  servername: lucasjow.us.ci
+  port: 2083
+  server: 172.67.72.50
+  servername: kv.074167.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-- name: vless-1827961987
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+- name: vless-1831101171
   network: ws
-  port: 443
-  server: 104.19.33.237
-  servername: jp3.yohototo.top
+  port: 8443
+  server: 172.64.229.66
+  servername: kv.074167.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1828814661
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+- name: vless-1831066655
   network: ws
   port: 443
-  server: 104.26.14.229
-  servername: us-cdn.mobileemdad.top
+  server: 104.16.10.21
+  servername: a.cwvps.eu.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3020090a-b19f-4109-9938-2b36f9bd428b
-- name: trojan-1827149293
-  password: humanity
-  port: 443
-  server: 104.16.72.50
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: vless-1827151787
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+- name: vless-1831066825
   network: ws
-  port: 443
-  server: 104.17.50.53
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
+  port: 8080
+  server: 104.16.162.89
   type: vless
   udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1827154530
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+- name: vless-1827154440
   network: ws
-  port: 2052
-  server: 104.21.65.43
+  port: 2053
+  server: hikvision-plus.com
+  servername: uwu.blueknightnet.qzz.io
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
   uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
-- name: trojan-1827731539
-  password: humanity
-  port: 443
-  server: 188.114.97.8
-  skip-cert-verify: true
-  sni: www.volumeroot.com
+- name: 🇺🇸_美国_203
   type: trojan
-  udp: true
-- name: 🏳️_未知_199
-  type: vless
-  server: 104.17.103.118
-  port: 2087
-  uuid: 42c62a5a-cd31-4551-80ef-908732370287
-  encryption: none
+  server: 167.82.76.27
+  port: 443
+  password: MiTiVPN
   tls: true
-  servername: fq.jp188.dpdns.org
-  fingerprint: chrome
+  servername: ssl.fastly.com
   network: ws
   ws-opts:
-    path: /proxyip=154.17.22.207,69.63.210.157,134.195.211.13,172.236.245.153,209.146.115.209,64.186.224.194,149.28.94.52,107.151.188.57
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
-      Host: fq.jp188.dpdns.org
-- name: 🏳️_未知_203
-  type: vless
-  server: 104.17.71.206
-  port: 8443
-  uuid: 542fd687-5160-4f80-9223-56678567dd29
-  encryption: none
-  tls: true
-  servername: 8.sahanwickramasinghe.me
-  fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇺🇸_美国_232
-  type: vless
-  server: 162.159.130.234
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  encryption: none
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_cb7feb0f
-  port: 443
-  server: 149.22.88.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_24a6e4b9
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
-- alterId: 0
-  cipher: auto
-  name: vmess-1828639106
-  network: ws
-  port: 2083
-  server: 162.159.135.234
-  servername: cdn.sfacg.uk
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-- name: vless-1828374596
-  network: ws
-  port: 443
-  server: 104.21.33.59
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1828032680
-  network: ws
-  port: 443
-  server: 104.16.10.234
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- alterId: 0
-  cipher: auto
-  name: vmess-1828661271
-  network: tcp
-  port: 18000
-  server: 84.17.41.2
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: vmess-1828835759
-  network: ws
-  port: 2086
-  server: 104.26.0.206
-  type: vmess
-  udp: true
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-- name: trojan-1828366141
-  password: humanity
-  port: 443
-  server: 8.47.69.0
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
-  type: trojan
-  udp: true
-- name: vless-1827155381
-  network: ws
-  port: 8080
-  server: 172.67.71.187
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-- name: trojan-1828531065
-  password: humanity
-  port: 443
-  server: 172.67.139.14
-  skip-cert-verify: false
-  sni: www.volumeroot.com
-  type: trojan
-  udp: true
-- name: trojan-1827529873
-  password: humanity
-  port: 443
-  server: 104.21.37.56
-  skip-cert-verify: false
-  sni: www.volumeroot.com
-  type: trojan
-  udp: true
-- name: vless-1828658433
-  network: ws
-  port: 443
-  server: 45.130.125.151
-  servername: fancy-mouse-6aff.wixit71180.workers.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eaf76557-2219-4799-8171-d7020adfefd0
-- name: trojan-1827529903
-  password: humanity
-  port: 443
-  server: 104.17.44.17
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
-  type: trojan
-  udp: true
-- name: vless-1827811431
-  network: ws
-  port: 8080
-  server: 104.18.0.181
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-- name: trojan-1827149348
-  password: humanity
-  port: 443
-  server: 212.183.88.136
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-1827149094
-  password: humanity
-  port: 443
-  server: 104.27.21.22
-  skip-cert-verify: true
-  sni: www.volumeroot.com
-  type: trojan
-  udp: true
-- name: vless-1827151478
-  network: ws
-  port: 443
-  server: 104.16.111.102
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1827938592
-  password: humanity
-  port: 443
-  server: 162.159.91.211
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-1827938301
-  password: humanity
-  port: 443
-  server: 162.159.228.224
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
-  type: trojan
-  udp: true
-- name: vless-1827152152
-  network: ws
-  port: 443
-  server: 104.21.0.87
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1827910362
-  password: humanity
-  port: 443
-  server: 104.16.72.2
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 🏳️_未知_168
-  type: trojan
-  server: 104.18.8.83
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: 🏳️_未知_175
-  type: vless
-  server: 172.64.144.66
-  port: 8443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  encryption: none
-  tls: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-- name: 🏳️_未知_194
-  type: vless
-  server: 104.18.47.164
-  port: 443
-  uuid: 49b5c5d1-8fb0-4fd2-8129-01bd2178e8d1
-  encryption: none
-  tls: true
-  servername: gy-cffc5-node-31z7yxejlog9qfu0.lancelot.dpdns.org
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /download/proxyip=ProxyIP.KR.CMLiussss.net?ed=2560
-    headers:
-      Host: gy-cffc5-node-31z7yxejlog9qfu0.lancelot.dpdns.org
-- name: 🏳️_未知_196
-  type: vless
-  server: 104.18.1.1
-  port: 2083
-  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
-  encryption: none
-  tls: true
-  servername: calm-smoke-1a21.alvlirm6262.workers.dev
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: calm-smoke-1a21.alvlirm6262.workers.dev
+      Host: mitivpn---ss--s---mitivpn-3.global.ssl.fastly.net
 - name: D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_6c43e42a
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
   tls: true
   type: http
-- name: vless-1827152273
+- name: vless-1831101169
   network: ws
-  port: 443
-  server: 162.159.254.3
-  servername: jp3.yohototo.top
+  port: 2053
+  server: 172.64.229.239
+  servername: kv.074167.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1828373383
-  network: ws
-  port: 8080
-  server: 104.21.70.21
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-- name: vless-1827162845
-  network: ws
-  port: 443
-  server: 188.114.97.6
-  servername: lucasjow.us.ci
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-- name: vless-1827151410
-  network: ws
-  port: 443
-  server: 104.19.164.155
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1827148841
-  password: humanity
-  port: 443
-  server: 104.18.9.83
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: vmess-1827158635
-  network: ws
-  port: 8443
-  server: 172.64.80.1
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-- name: vless-1827150837
-  network: ws
-  port: 443
-  server: 104.16.111.193
-  servername: v2ray.simspeedup.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3c52e091-6714-4915-949f-2149fe69951b
-- name: vless-1829720999
-  network: ws
-  port: 443
-  server: 104.16.10.56
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1827283559
-  network: ws
-  port: 2052
-  server: 104.18.0.181
-  type: vless
-  udp: true
-  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
-- alterId: 0
-  cipher: auto
-  name: vmess-1827159496
-  network: ws
-  port: 8443
-  server: 104.21.57.84
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-- name: trojan-1827939961
-  password: humanity
-  port: 443
-  server: 172.67.118.45
-  skip-cert-verify: false
-  sni: www.volumeroot.com
-  type: trojan
-  udp: true
-- name: vless-1828350776
-  network: ws
-  port: 2082
-  server: 172.64.150.28
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-- name: trojan-1827731541
-  password: av7fquzvuc99xcs9
-  port: 2087
-  server: 172.67.140.126
-  skip-cert-verify: false
-  sni: uwu.dianaw.cc.cd
-  type: trojan
-  udp: true
-- name: trojan-1827149430
-  password: humanity
-  port: 443
-  server: 104.17.121.43
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 🏳️_未知_190
-  type: vless
-  server: 104.17.74.206
-  port: 8443
-  uuid: 542fd687-5160-4f80-9223-56678567dd29
-  encryption: none
-  tls: true
-  servername: 8.sahanwickramasinghe.me
-  network: ws
-  ws-opts:
-    path: /
-- name: 🏳️_未知_195
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+- name: 🏳️_未知_193
   type: vless
   server: 104.18.46.46
   port: 80
@@ -715,123 +196,48 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_55eb9c13
-  port: 443
-  server: 45.63.38.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alterId: 0
-  cipher: auto
-  name: vmess-1828806120
-  network: ws
-  port: 443
-  server: 172.66.203.67
-  servername: vmess.lbw666.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-- name: vless-1827147394
-  network: ws
-  port: 443
-  server: 162.159.192.125
-  servername: a.cwvps.eu.org
-  skip-cert-verify: false
-  tls: true
+- name: 🇺🇸_美国_249
   type: vless
-  udp: true
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-- name: trojan-1827149491
+  server: 162.159.135.234
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  encryption: none
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  alpn:
+  - h3
+  - h2
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 🏳️_未知_215
+  type: trojan
+  server: 104.16.148.5
+  port: 443
+  password: 19877587-ed94-4033-88cd-4ac50a5e8718
+  tls: true
+  servername: dimskiee.biz.id
+  network: ws
+  ws-opts:
+    path: /WangCai-8
+- name: trojan-1831770458
   password: humanity
   port: 443
-  server: 104.16.85.85
-  skip-cert-verify: true
+  server: 104.27.21.22
+  skip-cert-verify: false
   sni: www.volumeroot.com
   type: trojan
   udp: true
-- name: trojan-1827658992
-  password: mitivpn
-  port: 443
-  server: 167.82.64.46
-  skip-cert-verify: true
-  sni: firefox.com
-  type: trojan
-  udp: true
-- name: vless-1827975768
-  network: ws
-  port: 80
-  server: 104.27.88.172
-  type: vless
-  udp: true
-  uuid: 50414e45-4c5f-5a45-5553-52108a2d5224
-- name: trojan-1827148822
-  password: e309e031-991e-4656-9934-44d10deb8fd8
-  port: 2053
-  server: 172.67.176.3
-  skip-cert-verify: false
-  sni: nimm.mpd.cc.cd
-  type: trojan
-  udp: true
-- name: vless-1827147650
-  network: ws
-  port: 2082
-  server: 104.18.0.181
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-- name: trojan-1827529862
+- name: trojan-1827148841
   password: humanity
   port: 443
-  server: 104.16.72.41
+  server: 104.18.9.83
   skip-cert-verify: false
   sni: www.calmlunch.com
   type: trojan
   udp: true
-- name: trojan-1827731542
-  password: humanity
-  port: 443
-  server: 188.114.97.5
-  skip-cert-verify: true
-  sni: www.pleadcourt.org
-  type: trojan
-  udp: true
-- name: 🇺🇸_美国_180
-  type: vless
-  server: 208.103.161.249
-  port: 80
-  uuid: a3c51f71-ffb5-4c80-a136-cee4b36d6e85
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: kAmRaN01-aFgmDQ-1.KaMRan-01.wOrkeRs.DEv
-- name: 🏳️_未知_201
-  type: vless
-  server: 172.64.52.173
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  encryption: none
-  tls: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-- name: 🏳️_未知_207
-  type: trojan
-  server: 104.18.32.47
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
 - alpn:
   - h2
   client-fingerprint: firefox
@@ -853,108 +259,7 @@ proxies:
         Gecko) Chrome/35.0.1916.153 Safari/537.36
     path: /?ed=2056?/TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
   xudp: true
-- name: D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_aba567e8
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: vless-1827188133
-  network: ws
-  port: 443
-  server: 188.114.98.0
-  servername: lucasjow.us.ci
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-- name: vless-1827662288
-  network: ws
-  port: 443
-  server: 104.18.43.174
-  servername: lucasjow.us.ci
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-- name: trojan-1827149628
-  password: humanity
-  port: 443
-  server: 190.93.245.148
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
-  type: trojan
-  udp: true
-- name: trojan-1827910972
-  password: humanity
-  port: 443
-  server: 104.19.64.105
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: vless-1828814667
-  network: ws
-  port: 443
-  server: 162.159.152.4
-  servername: app.mobileemdad.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3020090a-b19f-4109-9938-2b36f9bd428b
-- name: trojan-1827529850
-  password: humanity
-  port: 443
-  server: 104.18.4.5
-  skip-cert-verify: false
-  sni: www.volumeroot.com
-  type: trojan
-  udp: true
-- name: vless-1827152216
-  network: ws
-  port: 443
-  server: 104.16.10.48
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1827731534
-  password: humanity
-  port: 443
-  server: 104.21.57.25
-  skip-cert-verify: false
-  sni: www.volumeroot.com
-  type: trojan
-  udp: true
-- name: vless-1827154350
-  network: ws
-  port: 443
-  server: 104.24.54.160
-  servername: a.cwvps.eu.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-- name: 🏳️_未知_162
-  type: vless
-  server: 172.67.138.232
-  port: 443
-  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
-  encryption: none
-  tls: true
-  servername: 4-M17.KaZakHSTAn-LiNk.kDNs.FR
-  network: ws
-  ws-opts:
-    path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
-    headers:
-      Host: 4-m17.KazAkhSTAN-LinK.KdnS.FR
-- name: 🇺🇸_美国_182
+- name: 🇺🇸_美国_267
   type: vless
   server: 80.93.202.40
   port: 8880
@@ -965,242 +270,13 @@ proxies:
     path: /
     headers:
       Host: vms.lifetime02.workers.dev
-- name: 🏳️_未知_197
-  type: vless
-  server: 172.64.52.175
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  encryption: none
-  tls: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  fingerprint: chrome
+- name: vless-1828373383
   network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: trojan-1827148972
-  password: humanity
-  port: 443
-  server: 162.159.253.41
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-1828531063
-  password: humanity
-  port: 443
-  server: 185.18.250.245
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-1828366129
-  password: humanity
-  port: 443
-  server: 141.193.213.172
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: vmess-1827741481
-  network: ws
-  port: 443
-  server: cf.0sm.com
-  servername: vmess.lbw666.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-- name: trojan-1827529821
-  password: humanity
-  port: 443
-  server: 188.42.145.180
-  skip-cert-verify: false
-  sni: www.volumeroot.com
-  type: trojan
-  udp: true
-- name: trojan-1827148859
-  password: humanity
-  port: 443
-  server: 104.21.103.254
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 🏳️_未知_217
-  type: vless
-  server: 104.18.33.112
-  port: 2096
-  uuid: 42c62a5a-cd31-4551-80ef-908732370287
-  encryption: none
-  tls: true
-  servername: fq.jp188.dpdns.org
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=154.17.22.207,69.63.210.157,134.195.211.13,172.236.245.153,209.146.115.209,64.186.224.194,149.28.94.52,107.151.188.57
-    headers:
-      Host: fq.jp188.dpdns.org
-- name: trojan-1827731538
-  password: humanity
-  port: 443
-  server: 188.114.97.7
-  skip-cert-verify: false
-  sni: www.volumeroot.com
-  type: trojan
-  udp: true
-- name: 🇺🇸_美国_181
-  type: vless
-  server: 66.81.247.240
-  port: 8880
-  uuid: 6fc81c37-e8e5-486d-8f07-3d6188ceb83b
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /rutube
-    headers:
-      Host: rutube.hampals.net
-- name: vless-1827155284
-  network: ws
-  port: 443
-  server: 172.64.144.82
-  servername: lucasjow.us.ci
-  skip-cert-verify: false
-  tls: true
+  port: 8080
+  server: 104.21.70.21
   type: vless
   udp: true
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-- name: vless-1827151082
-  network: ws
-  port: 443
-  server: 104.18.26.90
-  servername: v2ray.simspeedup.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3c52e091-6714-4915-949f-2149fe69951b
-- name: vless-1828973943
-  network: ws
-  port: 443
-  server: 162.159.250.29
-  servername: lucasjow.us.ci
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-- name: 🏳️_未知_173
-  type: vless
-  server: 172.64.53.87
-  port: 8443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  encryption: none
-  tls: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇺🇸_美国_233
-  type: vless
-  server: 162.159.135.234
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  encryption: none
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  alpn:
-  - h3
-  - h2
-  network: ws
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: 🏳️_未知_308
-  type: trojan
-  server: bestcdn1.868863.xyz
-  port: 2096
-  password: 341f32ad-b335-4abe-a703-41989a805e65
-  tls: true
-  servername: 17919816452569.206353.xyz
-  network: ws
-  ws-opts:
-    path: /agrbniuh
-    headers:
-      Host: 17919816452019.206353.xyz
-- name: 🏳️_未知_309
-  type: trojan
-  server: bestcdn1.868863.xyz
-  port: 2087
-  password: 341f32ad-b335-4abe-a703-41989a805e65
-  tls: true
-  servername: 17919816451026.206355.xyz
-  network: ws
-  ws-opts:
-    path: /videomuaawe
-    headers:
-      Host: 17919816456281.206355.xyz
-- name: vless-1827151283
-  network: ws
-  port: 443
-  server: 104.16.10.2
-  servername: v2ray.simspeedup.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3c52e091-6714-4915-949f-2149fe69951b
-- name: 🏳️_未知_164
-  type: vless
-  server: 104.21.39.176
-  port: 443
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
-  encryption: none
-  tls: true
-  servername: 4-M13.aYuttHAYa.KDns.fr
-  network: ws
-  ws-opts:
-    path: /ED3ZQPu7lqyeDGD58KabZ
-    headers:
-      Host: 4-M13.AYUtTHAya.KdNS.fr
-- alterId: 0
-  cipher: auto
-  name: vmess-1827159639
-  network: ws
-  port: 8443
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-- name: vless-1827151484
-  network: ws
-  port: 2052
-  server: 172.64.150.43
-  type: vless
-  udp: true
-  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
-- name: 🏳️_未知_161
-  type: vless
-  server: 172.67.216.151
-  port: 443
-  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
-  encryption: none
-  tls: true
-  servername: 3-m9.5f67a3d6-2963-45ab-8313-7d02d224d2a0.kdns.fr
-  network: ws
-  ws-opts:
-    path: /BzuntJ8qZN0TRKbC8TveMxJ0
-    headers:
-      Host: 3-m9.5f67a3d6-2963-45ab-8313-7d02d224d2a0.kdns.fr
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
 - name: vless-1827155553
   network: ws
   port: 2053
@@ -1211,6 +287,210 @@ proxies:
   type: vless
   udp: true
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
+- name: vless-1831071997
+  network: ws
+  port: 443
+  server: 104.17.50.227
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1831111075
+  network: ws
+  port: 2053
+  server: 188.164.248.250
+  servername: d39333476.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+- name: 🇺🇸_美国_277
+  type: vless
+  server: 155.46.167.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime50.workers.dev
+- name: vless-1831110718
+  network: ws
+  port: 2053
+  server: 188.164.248.117
+  servername: d39333476.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+- name: vless-1828032680
+  network: ws
+  port: 443
+  server: 104.16.10.234
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1827154961
+  network: ws
+  port: 2052
+  server: 104.21.93.52
+  type: vless
+  udp: true
+  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
+- name: trojan-1830454617
+  password: mitivpn
+  port: 443
+  server: 146.75.57.238
+  skip-cert-verify: true
+  sni: www.google.com
+  type: trojan
+  udp: true
+- name: trojan-1827148822
+  password: e309e031-991e-4656-9934-44d10deb8fd8
+  port: 2053
+  server: 172.67.176.3
+  skip-cert-verify: false
+  sni: nimm.mpd.cc.cd
+  type: trojan
+  udp: true
+- name: vless-1827662288
+  network: ws
+  port: 443
+  server: 104.18.43.174
+  servername: lucasjow.us.ci
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+- name: vless-1831067347
+  network: ws
+  port: 443
+  server: 104.16.111.195
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1831105832
+  network: ws
+  port: 2096
+  server: 172.67.75.4
+  servername: d39333476.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+- name: vless-1828654076
+  network: ws
+  port: 443
+  server: 104.21.70.228
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: 🇺🇸_美国_177
+  type: trojan
+  server: 151.101.56.7
+  port: 443
+  password: MiTiVPN
+  tls: true
+  servername: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: mitivpn-mitivpn-mitivpn-bb-mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
+- name: trojan-1831424804
+  password: humanity
+  port: 443
+  server: 188.114.98.0
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
+  udp: true
+- name: vless-1831106422
+  network: ws
+  port: 2053
+  server: 172.67.78.117
+  servername: helloapps.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+- name: trojan-1827938301
+  password: humanity
+  port: 443
+  server: 162.159.228.224
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
+  udp: true
+- name: vless-1827283559
+  network: ws
+  port: 2052
+  server: 104.18.0.181
+  type: vless
+  udp: true
+  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
+- name: vless-1827152152
+  network: ws
+  port: 443
+  server: 104.21.0.87
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1831100702
+  network: ws
+  port: 443
+  server: 172.66.44.133
+  servername: web-tomcat.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
+- name: trojan-1827149491
+  password: humanity
+  port: 443
+  server: 104.16.85.85
+  skip-cert-verify: true
+  sni: www.volumeroot.com
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: shadowsocks-1827146131
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.169
+  type: ss
+  udp: true
+- name: vless-1828374596
+  network: ws
+  port: 443
+  server: 104.21.33.59
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
 - alterId: 0
   cipher: auto
   name: vmess-1827159661
@@ -1223,20 +503,166 @@ proxies:
   type: vmess
   udp: true
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-- name: 🏳️_未知_160
-  type: vless
-  server: 104.21.16.18
+- name: trojan-1827529850
+  password: humanity
   port: 443
-  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+  server: 104.18.4.5
+  skip-cert-verify: false
+  sni: www.volumeroot.com
+  type: trojan
+  udp: true
+- name: vless-1831100772
+  network: ws
+  port: 8443
+  server: 172.66.148.229
+  servername: c7dabe95.proxy-978.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+- name: 🏳️_未知_175
+  type: vless
+  server: 172.64.144.66
+  port: 8443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   encryption: none
   tls: true
-  servername: api-auth-service.f00f.ccwu.cc
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  fingerprint: chrome
   network: ws
   ws-opts:
-    path: /BzuntJ8qZN0TRKbC8TveMxJ0
+    path: /
+- name: 🏳️_未知_194
+  type: vless
+  server: 104.18.1.1
+  port: 2083
+  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
+  encryption: none
+  tls: true
+  servername: calm-smoke-1a21.alvlirm6262.workers.dev
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
     headers:
-      Host: api-auth-service.f00f.ccwu.cc
-- name: 🏳️_未知_189
+      Host: calm-smoke-1a21.alvlirm6262.workers.dev
+- name: vless-1831100871
+  network: ws
+  port: 2053
+  server: 172.66.1.20
+  servername: d39333476.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+- name: vless-1831110744
+  network: ws
+  port: 2083
+  server: 188.164.248.48
+  servername: helloapps.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+- name: vless-1831133205
+  network: ws
+  port: 8443
+  server: 8.35.211.28
+  servername: d39333476.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+- name: trojan-1828366141
+  password: humanity
+  port: 443
+  server: 8.47.69.0
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
+  udp: true
+- name: vless-1829720999
+  network: ws
+  port: 443
+  server: 104.16.10.56
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: trojan-1828531065
+  password: humanity
+  port: 443
+  server: 172.67.139.14
+  skip-cert-verify: false
+  sni: www.volumeroot.com
+  type: trojan
+  udp: true
+- name: vless-1831110884
+  network: ws
+  port: 443
+  server: 188.164.248.169
+  servername: d39333476.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+- alterId: 0
+  cipher: auto
+  name: vmess-1827159496
+  network: ws
+  port: 8443
+  server: 104.21.57.84
+  servername: v2ray1.dozapp.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+- name: vless-1831071276
+  network: ws
+  port: 443
+  server: 104.17.189.78
+  servername: a.cwvps.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+- name: vless-1831132671
+  network: ws
+  port: 8443
+  server: 8.39.125.224
+  servername: d39333476.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+- name: vless-1831071624
+  network: ws
+  port: 8080
+  server: 104.17.44.17
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+- name: vless-1827961987
+  network: ws
+  port: 443
+  server: 104.19.33.237
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: 🏳️_未知_159
   type: vless
   server: 172.67.156.147
   port: 443
@@ -1250,102 +676,627 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: vless-1828527754
+- name: 🏳️_未知_214
+  type: vless
+  server: 104.18.33.112
+  port: 2096
+  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  encryption: none
+  tls: true
+  servername: fq.jp188.dpdns.org
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=154.17.22.207,69.63.210.157,134.195.211.13,172.236.245.153,209.146.115.209,64.186.224.194,149.28.94.52,107.151.188.57
+    headers:
+      Host: fq.jp188.dpdns.org
+- name: 🇺🇸_美国_256
+  type: vless
+  server: 63.141.128.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime42.workers.dev
+- name: vless-1831132726
   network: ws
   port: 8443
-  server: 172.67.155.65
+  server: 8.39.125.48
+  servername: d39333476.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+- name: vless-1827151410
+  network: ws
+  port: 443
+  server: 104.19.164.155
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: trojan-1827529873
+  password: humanity
+  port: 443
+  server: 104.21.37.56
+  skip-cert-verify: false
+  sni: www.volumeroot.com
+  type: trojan
+  udp: true
+- name: trojan-1827658992
+  password: mitivpn
+  port: 443
+  server: 167.82.64.46
+  skip-cert-verify: true
+  sni: firefox.com
+  type: trojan
+  udp: true
+- name: vless-1831096817
+  network: ws
+  port: 443
+  server: 162.159.140.85
+  servername: edg-2oo.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+- name: vless-1828142572
+  network: ws
+  port: 443
+  server: 104.18.35.15
   servername: lucasjow.us.ci
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
-- alterId: 0
-  cipher: auto
-  name: vmess-1827157636
+- name: vless-1831096712
   network: ws
-  port: 8443
-  server: 172.67.167.78
-  servername: v2ray1.dozapp.xyz
+  port: 443
+  server: 162.159.198.1
+  servername: edg-2oo.pages.dev
   skip-cert-verify: false
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-- name: vless-1827154961
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+- name: trojan-1828532515
+  password: humanity
+  port: 443
+  server: 188.114.97.4
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
+  udp: true
+- name: vless-1831074722
   network: ws
-  port: 2052
-  server: 104.21.93.52
+  port: 443
+  server: 104.19.12.94
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
-- name: 🇺🇸_美国_239
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: 🇺🇸_美国_180
   type: vless
-  server: saas.sin.fan
+  server: 208.103.161.249
+  port: 80
+  uuid: a3c51f71-ffb5-4c80-a136-cee4b36d6e85
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: kAmRaN01-aFgmDQ-1.KaMRan-01.wOrkeRs.DEv
+- name: vless-1831101562
+  network: ws
+  port: 443
+  server: 172.66.47.123
+  servername: web-tomcat.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
+- name: vless-1831133195
+  network: ws
+  port: 8443
+  server: 8.39.125.120
+  servername: d39333476.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+- name: vless-1831110724
+  network: ws
+  port: 2096
+  server: 188.164.248.151
+  servername: d39333476.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+- name: vless-1827151082
+  network: ws
+  port: 443
+  server: 104.18.26.90
+  servername: v2ray.simspeedup.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+- name: vless-1831110544
+  network: ws
+  port: 2083
+  server: 188.114.97.3
+  servername: newwk1.f1w.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+- name: vless-1831105723
+  network: ws
+  port: 2083
+  server: 172.67.67.182
+  servername: kv.074167.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+- name: vless-1831066599
+  network: ws
+  port: 443
+  server: 104.16.10.197
+  servername: a.cwvps.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+- name: vless-1831099495
+  network: ws
+  port: 443
+  server: 172.64.144.148
+  servername: cf.zhahui.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2d4b819d-6fa6-4db2-8434-61e7db0fe93c
+- name: trojan-1831044987
+  password: humanity
+  port: 443
+  server: 104.18.32.47
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1827529903
+  password: humanity
+  port: 443
+  server: 104.17.44.17
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
+  udp: true
+- name: vless-1827151283
+  network: ws
+  port: 443
+  server: 104.16.10.2
+  servername: v2ray.simspeedup.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+- name: 🏳️_未知_160
+  type: vless
+  server: 104.21.16.18
+  port: 443
+  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+  encryption: none
+  tls: true
+  servername: api-auth-service.f00f.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /BzuntJ8qZN0TRKbC8TveMxJ0
+    headers:
+      Host: api-auth-service.f00f.ccwu.cc
+- name: 🏳️_未知_196
+  type: vless
+  server: 104.16.150.108
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  encryption: none
+  tls: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇺🇸_美国_261
+  type: vless
+  server: 162.159.130.234
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   encryption: none
   tls: true
   servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chromefp=chrome
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vless-1827533126
-  network: ws
-  port: 443
-  server: 104.21.91.244
-  servername: lucasjow.us.ci
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-- alterId: 0
-  cipher: auto
-  name: vmess-1827159417
-  network: ws
-  port: 8443
-  server: 172.67.161.144
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-- name: 🏳️_未知_186
-  type: vless
-  server: 172.67.212.14
-  port: 443
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  encryption: none
-  tls: true
-  servername: 8-m19.souTh-afRiCA-ONLinE.CcwU.CC
   fingerprint: chrome
   network: ws
   ws-opts:
-    path: /CjBjB9sn5pCvaSwScc
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
-      Host: 8-m19.SoUth-AFriCa-onlInE.cCwU.cC
-- cipher: aes-128-gcm
-  name: shadowsocks-1827146224
-  password: shadowsocks
-  port: 443
-  server: 149.22.95.183
-  type: ss
-  udp: true
-- name: trojan-1827149065
-  password: humanity
+      Host: snip.edgeoneai.cc.cd
+- name: vless-1831132670
+  network: ws
   port: 8443
-  server: 5.78.92.27
+  server: 8.39.125.133
+  servername: d39333476.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+- name: vless-1831133021
+  network: ws
+  port: 443
+  server: 8.39.125.213
+  servername: whitecreeper.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
+- name: vless-1831106009
+  network: ws
+  port: 2083
+  server: 172.67.76.205
+  servername: kv.074167.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+- name: vless-1831102437
+  network: ws
+  port: 2083
+  server: 172.66.44.211
+  servername: wk1.f1w.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+- name: vless-1831074067
+  network: ws
+  port: 2052
+  server: 104.18.57.149
+  type: vless
+  udp: true
+  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
+- name: trojan-1827534197
+  password: humanity
+  port: 443
+  server: 104.19.229.21
   skip-cert-verify: false
   sni: www.calmlunch.com
   type: trojan
   udp: true
-- name: 🏳️_未知_174
+- name: trojan-1831769446
+  password: 5ffee9b2-4514-4719-97b3-67810ece038d
+  port: 443
+  server: 104.21.78.9
+  skip-cert-verify: false
+  sni: ali-panel-1.terhav.workers.dev
+  type: trojan
+  udp: true
+- name: trojan-1827938592
+  password: humanity
+  port: 443
+  server: 162.159.91.211
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: B🟡🇺🇸biz[🎬🤖📺🎭]_dokng.com_52a6e750
+  port: 443
+  server: 12.221.146.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+- alterId: 0
+  cipher: auto
+  name: vmess-1831166293
+  network: ws
+  port: 443
+  server: 172.67.137.209
+  servername: ukl.lovehk.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
+- name: vless-1831133324
+  network: ws
+  port: 2053
+  server: 8.35.211.98
+  servername: d39333476.pages.dev
+  skip-cert-verify: false
+  tls: true
   type: vless
-  server: 172.67.217.240
+  udp: true
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+- name: vless-1831099670
+  network: ws
+  port: 2083
+  server: 172.64.145.202
+  servername: newwk1.f1w.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+- name: vless-1831099563
+  network: ws
+  port: 443
+  server: 172.64.145.82
+  servername: cf.zhahui.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2d4b819d-6fa6-4db2-8434-61e7db0fe93c
+- name: vless-1827147394
+  network: ws
+  port: 443
+  server: 162.159.192.125
+  servername: a.cwvps.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+- name: vless-1831101276
+  network: ws
+  port: 2083
+  server: 172.66.0.230
+  servername: helloapps.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+- name: vless-1831070835
+  network: ws
+  port: 443
+  server: 104.17.210.74
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1828658433
+  network: ws
+  port: 443
+  server: 45.130.125.151
+  servername: fancy-mouse-6aff.wixit71180.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eaf76557-2219-4799-8171-d7020adfefd0
+- name: vless-1827154350
+  network: ws
+  port: 443
+  server: 104.24.54.160
+  servername: a.cwvps.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+- name: vless-1831105684
+  network: ws
+  port: 443
+  server: 172.67.78.191
+  servername: vp58.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+- name: 🇷🇺_俄罗斯_279
+  type: vless
+  server: 185.148.104.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  encryption: none
+  servername: 185.148.104.30
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime51.workers.dev
+- name: vless-1831105607
+  network: ws
+  port: 8443
+  server: 172.67.73.75
+  servername: d39333476.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+- name: vless-1831081766
+  network: ws
+  port: 443
+  server: 104.27.46.35
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1831101320
+  network: ws
+  port: 2087
+  server: 172.66.1.12
+  servername: d39333476.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+- name: 🏳️_未知_163
+  type: vless
+  server: 104.21.49.165
+  port: 443
+  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+  encryption: none
+  tls: true
+  servername: 2-m9.e29eacc3-4cf6-48c2-a90e-c53b3da8b1ef.kdns.fr
+  network: ws
+  ws-opts:
+    path: /BzuntJ8qZN0TRKbC8TveMxJ0
+    headers:
+      Host: 2-m9.e29eacc3-4cf6-48c2-a90e-c53b3da8b1ef.kdns.fr
+- name: 🏳️_未知_168
+  type: trojan
+  server: 104.18.8.83
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: vless-1831132809
+  network: ws
+  port: 443
+  server: 8.35.211.234
+  servername: d39333476.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+- name: trojan-1827529855
+  password: humanity
+  port: 443
+  server: 188.42.145.180
+  skip-cert-verify: false
+  sni: www.volumeroot.com
+  type: trojan
+  udp: true
+- name: vless-1827155501
+  network: ws
+  port: 2053
+  server: freesocks.work
+  servername: uwu.blueknightnet.qzz.io
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
+- name: vless-1831076395
+  network: ws
+  port: 443
+  server: 104.19.48.107
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1831066830
+  network: ws
+  port: 443
+  server: 104.16.10.72
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: trojan-1827149553
+  password: humanity
+  port: 443
+  server: 104.18.35.86
+  skip-cert-verify: true
+  sni: www.volumeroot.com
+  type: trojan
+  udp: true
+- name: vless-1831100047
+  network: ws
+  port: 443
+  server: 172.64.156.111
+  servername: cf.zhahui.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2d4b819d-6fa6-4db2-8434-61e7db0fe93c
+- name: vless-1831081147
+  network: ws
+  port: 443
+  server: 104.24.2.147
+  servername: a.cwvps.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+- name: vless-1828814661
+  network: ws
+  port: 443
+  server: 104.26.14.229
+  servername: us-cdn.mobileemdad.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3020090a-b19f-4109-9938-2b36f9bd428b
+- name: vless-1831106215
+  network: ws
+  port: 2096
+  server: 172.67.78.29
+  servername: d39333476.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+- name: trojan-1827149293
+  password: humanity
+  port: 443
+  server: 104.16.72.50
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: 🏳️_未知_220
+  type: vless
+  server: 104.21.56.202
   port: 443
   uuid: 9b18ccef-b9e0-41d1-8990-9d970569e142
   encryption: none
@@ -1354,129 +1305,188 @@ proxies:
   network: ws
   ws-opts:
     path: MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN-MTMVPN
-- client-fingerprint: chrome
-  name: vless-1828293965
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: aGm3egxU7SVqVw-oxqXbJ0u4ctldnmTjwaDh4Mao2EE
-    short-id: bd4aa541e5306ba2
-  server: 136.67.16.72
-  servername: www.cloudflare.com
-  tls: true
+- name: 🏳️_未知_161
   type: vless
-  udp: true
-  uuid: 9d0395c0-016f-453e-b0be-fc66f1ee1d80
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a8e49557
-  port: 8443
-  server: 35.84.133.236
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_bad22d32
-  port: 8443
-  server: 44.229.69.166
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: vless-1828531912
-  network: tcp
+  server: 172.67.216.151
   port: 443
-  reality-opts:
-    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
-    short-id: 21270a66
-  server: 44.248.233.99
-  servername: aws.amazon.com
+  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+  encryption: none
   tls: true
-  type: vless
-  udp: true
-  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_fd2e5267
-  port: 8443
-  server: 44.248.167.117
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_415e35b6
-  port: 8443
-  server: 54.190.176.228
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: trojan-1828651441
-  password: mitivpn
-  port: 443
-  server: 146.75.57.238
-  skip-cert-verify: true
-  sni: www.google.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: vless-1827533219
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: nqwCf6oW49tEtmQ0EzxigZ0uu1pg0E30CS54G40Iti0
-    short-id: 4477382ff6d3d41c
-  server: 51.81.203.63
-  servername: www.icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cb2dbb6a-a1ea-4023-9ace-6466cee57241
-- name: vless-1827155751
+  servername: 3-m9.5f67a3d6-2963-45ab-8313-7d02d224d2a0.kdns.fr
   network: ws
-  port: 2052
-  server: freesocks.work
+  ws-opts:
+    path: /BzuntJ8qZN0TRKbC8TveMxJ0
+    headers:
+      Host: 3-m9.5f67a3d6-2963-45ab-8313-7d02d224d2a0.kdns.fr
+- name: vless-1831133338
+  network: ws
+  port: 2083
+  server: 8.47.69.6
+  servername: newwk1.f1w.de5.net
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: e3fb01b6-69b4-41d7-babf-696d992de194
-- name: trojan-1827148818
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+- alterId: 0
+  cipher: auto
+  name: vmess-1827158977
+  network: ws
+  port: 2083
+  server: 162.159.130.234
+  servername: or3.sfacg.uk
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+- name: trojan-1827149430
   password: humanity
   port: 443
-  server: chat.openai.com
+  server: 104.17.121.43
   skip-cert-verify: false
   sni: www.calmlunch.com
   type: trojan
   udp: true
-- name: A🟢🇺🇸res[🎬🤖📺🎭]_dokng.com_40d7a1a3
-  port: 443
-  server: 96.5.129.85
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸_美国_340
+- name: 🇸🇮_斯洛文尼亚_278
   type: vless
-  server: 108.186.158.241
+  server: 92.53.189.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime19.workers.dev
+- name: vless-1831132793
+  network: ws
+  port: 8443
+  server: 8.35.211.188
+  servername: vpn-1fj.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2b181a3a-c001-4145-845a-5d43a43837d5
+- name: vless-1831132569
+  network: ws
+  port: 2087
+  server: 8.39.125.188
+  servername: d39333476.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+- name: trojan-1827658988
+  password: mitivpn
+  port: 443
+  server: 199.232.78.160
+  skip-cert-verify: true
+  sni: google.com
+  type: trojan
+  udp: true
+- name: vless-1831132972
+  network: ws
+  port: 2096
+  server: 8.39.125.139
+  servername: d39333476.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+- name: trojan-1827148859
+  password: humanity
+  port: 443
+  server: 104.21.103.254
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: vless-1831105822
+  network: ws
+  port: 2083
+  server: 172.67.69.144
+  servername: kv.074167.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+- name: 🇺🇸_美国_250
+  type: vless
+  server: 216.24.57.1
+  port: 443
+  uuid: 974c2588-c1cd-43ac-8823-ce3d879b09fd
+  encryption: none
+  tls: true
+  servername: somersby.pt.ex33r.eu.cc
+  network: ws
+  ws-opts:
+    path: /id-amz
+- name: 🏳️_未知_268
+  type: vless
+  server: 172.64.150.43
   port: 443
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   encryption: none
   tls: true
   servername: snip.edgeoneai.cc.cd
-  fingerprint: chrome
   network: ws
   ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    path: fp=unsafe
     headers:
       Host: snip.edgeoneai.cc.cd
-- name: D🔴🇺🇸hos[🤖🎭✨📦]_dokng.com_c09c3f93
-  password: e4b72b531a2d10900519
+- name: trojan-1827149628
+  password: humanity
   port: 443
-  server: 162.243.146.243
-  sni: a2f392f3.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- name: vless-1827151453
+  server: 190.93.245.148
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
+  udp: true
+- name: vless-1831101506
   network: ws
-  port: 2052
-  server: 172.64.229.129
+  port: 2083
+  server: 172.66.47.45
+  servername: wk1.f1w.de5.net
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+- name: vless-1831066541
+  network: ws
+  port: 443
+  server: 104.16.10.9
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1831106295
+  network: ws
+  port: 2083
+  server: 172.67.67.118
+  servername: kv.074167.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+- name: vless-1831105971
+  network: ws
+  port: 2087
+  server: 172.67.79.160
+  servername: cvhpyn.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
 proxy-groups:
 - name: AUTO
   type: url-test
@@ -1484,309 +1494,309 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - trojan-1827149553
-  - 🇺🇸_美国_202
-  - shadowsocks-1827963904
-  - trojan-1828532515
-  - vmess-1827158977
-  - vmess-1827161107
-  - 🇺🇸_美国_205
-  - 🏳️_未知_223
-  - vmess-1829730528
-  - vless-1827152013
-  - trojan-1827149191
-  - trojan-1827658988
-  - trojan-1827534197
-  - vless-1828654076
-  - trojan-1827148866
-  - vless-1827155477
-  - 🏳️_未知_149
-  - 🏳️_未知_163
-  - 🇺🇸_美国_177
-  - 🏳️_未知_198
-  - 🏳️_未知_218
-  - vless-1828527749
-  - vless-1828142572
-  - vless-1827961987
-  - vless-1828814661
-  - trojan-1827149293
-  - vless-1827151787
-  - vless-1827154530
-  - trojan-1827731539
-  - 🏳️_未知_199
-  - 🏳️_未知_203
-  - 🇺🇸_美国_232
-  - C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_cb7feb0f
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_24a6e4b9
-  - vmess-1828639106
-  - vless-1828374596
-  - vless-1828032680
-  - vmess-1828661271
-  - vmess-1828835759
-  - trojan-1828366141
-  - vless-1827155381
-  - trojan-1828531065
-  - trojan-1827529873
-  - vless-1828658433
-  - trojan-1827529903
-  - vless-1827811431
-  - trojan-1827149348
-  - trojan-1827149094
+  - vless-1831110714
+  - vless-1831106139
+  - vless-1831132621
+  - vless-1828656729
   - vless-1827151478
-  - trojan-1827938592
+  - trojan-1827149191
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_b5553483
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_78231d9b
+  - trojan-1828531063
+  - vless-1831133014
+  - vless-1831076076
+  - vless-1828527749
+  - vless-1831105902
+  - vless-1831101171
+  - vless-1831066655
+  - vless-1831066825
+  - vless-1827154440
+  - 🇺🇸_美国_203
+  - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_6c43e42a
+  - vless-1831101169
+  - 🏳️_未知_193
+  - 🇺🇸_美国_249
+  - 🏳️_未知_215
+  - trojan-1831770458
+  - trojan-1827148841
+  - C🟠🇫🇮hos[🎬🤖📺🎭]_dokng.com_36a54494
+  - 🇺🇸_美国_267
+  - vless-1828373383
+  - vless-1827155553
+  - vless-1831071997
+  - vless-1831111075
+  - 🇺🇸_美国_277
+  - vless-1831110718
+  - vless-1828032680
+  - vless-1827154961
+  - trojan-1830454617
+  - trojan-1827148822
+  - vless-1827662288
+  - vless-1831067347
+  - vless-1831105832
+  - vless-1828654076
+  - 🇺🇸_美国_177
+  - trojan-1831424804
+  - vless-1831106422
   - trojan-1827938301
+  - vless-1827283559
   - vless-1827152152
-  - trojan-1827910362
-  - 🏳️_未知_168
+  - vless-1831100702
+  - trojan-1827149491
+  - shadowsocks-1827146131
+  - vless-1828374596
+  - vmess-1827159661
+  - trojan-1827529850
+  - vless-1831100772
   - 🏳️_未知_175
   - 🏳️_未知_194
-  - 🏳️_未知_196
-  - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_6c43e42a
-  - vless-1827152273
-  - vless-1828373383
-  - vless-1827162845
-  - vless-1827151410
-  - trojan-1827148841
-  - vmess-1827158635
-  - vless-1827150837
+  - vless-1831100871
+  - vless-1831110744
+  - vless-1831133205
+  - trojan-1828366141
   - vless-1829720999
-  - vless-1827283559
+  - trojan-1828531065
+  - vless-1831110884
   - vmess-1827159496
-  - trojan-1827939961
-  - vless-1828350776
-  - trojan-1827731541
-  - trojan-1827149430
-  - 🏳️_未知_190
-  - 🏳️_未知_195
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_55eb9c13
-  - vmess-1828806120
-  - vless-1827147394
-  - trojan-1827149491
+  - vless-1831071276
+  - vless-1831132671
+  - vless-1831071624
+  - vless-1827961987
+  - 🏳️_未知_159
+  - 🏳️_未知_214
+  - 🇺🇸_美国_256
+  - vless-1831132726
+  - vless-1827151410
+  - trojan-1827529873
   - trojan-1827658992
-  - vless-1827975768
-  - trojan-1827148822
-  - vless-1827147650
-  - trojan-1827529862
-  - trojan-1827731542
+  - vless-1831096817
+  - vless-1828142572
+  - vless-1831096712
+  - trojan-1828532515
+  - vless-1831074722
   - 🇺🇸_美国_180
-  - 🏳️_未知_201
-  - 🏳️_未知_207
-  - C🟠🇫🇮hos[🎬🤖📺🎭]_dokng.com_36a54494
-  - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_aba567e8
-  - vless-1827188133
-  - vless-1827662288
-  - trojan-1827149628
-  - trojan-1827910972
-  - vless-1828814667
-  - trojan-1827529850
-  - vless-1827152216
-  - trojan-1827731534
-  - vless-1827154350
-  - 🏳️_未知_162
-  - 🇺🇸_美国_182
-  - 🏳️_未知_197
-  - trojan-1827148972
-  - trojan-1828531063
-  - trojan-1828366129
-  - vmess-1827741481
-  - trojan-1827529821
-  - trojan-1827148859
-  - 🏳️_未知_217
-  - trojan-1827731538
-  - 🇺🇸_美国_181
-  - vless-1827155284
+  - vless-1831101562
+  - vless-1831133195
+  - vless-1831110724
   - vless-1827151082
-  - vless-1828973943
-  - 🏳️_未知_173
-  - 🇺🇸_美国_233
-  - 🏳️_未知_308
-  - 🏳️_未知_309
+  - vless-1831110544
+  - vless-1831105723
+  - vless-1831066599
+  - vless-1831099495
+  - trojan-1831044987
+  - trojan-1827529903
   - vless-1827151283
-  - 🏳️_未知_164
-  - vmess-1827159639
-  - vless-1827151484
-  - 🏳️_未知_161
-  - vless-1827155553
-  - vmess-1827159661
   - 🏳️_未知_160
-  - 🏳️_未知_189
-  - vless-1828527754
-  - vmess-1827157636
-  - vless-1827154961
-  - 🇺🇸_美国_239
-  - vless-1827533126
-  - vmess-1827159417
-  - 🏳️_未知_186
-  - shadowsocks-1827146224
-  - trojan-1827149065
-  - 🏳️_未知_174
-  - vless-1828293965
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a8e49557
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_bad22d32
-  - vless-1828531912
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_fd2e5267
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_415e35b6
-  - trojan-1828651441
-  - vless-1827533219
-  - vless-1827155751
-  - trojan-1827148818
-  - A🟢🇺🇸res[🎬🤖📺🎭]_dokng.com_40d7a1a3
-  - 🇺🇸_美国_340
-  - D🔴🇺🇸hos[🤖🎭✨📦]_dokng.com_c09c3f93
-  - vless-1827151453
+  - 🏳️_未知_196
+  - 🇺🇸_美国_261
+  - vless-1831132670
+  - vless-1831133021
+  - vless-1831106009
+  - vless-1831102437
+  - vless-1831074067
+  - trojan-1827534197
+  - trojan-1831769446
+  - trojan-1827938592
+  - B🟡🇺🇸biz[🎬🤖📺🎭]_dokng.com_52a6e750
+  - vmess-1831166293
+  - vless-1831133324
+  - vless-1831099670
+  - vless-1831099563
+  - vless-1827147394
+  - vless-1831101276
+  - vless-1831070835
+  - vless-1828658433
+  - vless-1827154350
+  - vless-1831105684
+  - 🇷🇺_俄罗斯_279
+  - vless-1831105607
+  - vless-1831081766
+  - vless-1831101320
+  - 🏳️_未知_163
+  - 🏳️_未知_168
+  - vless-1831132809
+  - trojan-1827529855
+  - vless-1827155501
+  - vless-1831076395
+  - vless-1831066830
+  - trojan-1827149553
+  - vless-1831100047
+  - vless-1831081147
+  - vless-1828814661
+  - vless-1831106215
+  - trojan-1827149293
+  - 🏳️_未知_220
+  - 🏳️_未知_161
+  - vless-1831133338
+  - vmess-1827158977
+  - trojan-1827149430
+  - 🇸🇮_斯洛文尼亚_278
+  - vless-1831132793
+  - vless-1831132569
+  - trojan-1827658988
+  - vless-1831132972
+  - trojan-1827148859
+  - vless-1831105822
+  - 🇺🇸_美国_250
+  - 🏳️_未知_268
+  - trojan-1827149628
+  - vless-1831101506
+  - vless-1831066541
+  - vless-1831106295
+  - vless-1831105971
 - name: PROXY
   type: select
   proxies:
   - AUTO
-  - trojan-1827149553
-  - 🇺🇸_美国_202
-  - shadowsocks-1827963904
-  - trojan-1828532515
-  - vmess-1827158977
-  - vmess-1827161107
-  - 🇺🇸_美国_205
-  - 🏳️_未知_223
-  - vmess-1829730528
-  - vless-1827152013
-  - trojan-1827149191
-  - trojan-1827658988
-  - trojan-1827534197
-  - vless-1828654076
-  - trojan-1827148866
-  - vless-1827155477
-  - 🏳️_未知_149
-  - 🏳️_未知_163
-  - 🇺🇸_美国_177
-  - 🏳️_未知_198
-  - 🏳️_未知_218
-  - vless-1828527749
-  - vless-1828142572
-  - vless-1827961987
-  - vless-1828814661
-  - trojan-1827149293
-  - vless-1827151787
-  - vless-1827154530
-  - trojan-1827731539
-  - 🏳️_未知_199
-  - 🏳️_未知_203
-  - 🇺🇸_美国_232
-  - C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_cb7feb0f
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_24a6e4b9
-  - vmess-1828639106
-  - vless-1828374596
-  - vless-1828032680
-  - vmess-1828661271
-  - vmess-1828835759
-  - trojan-1828366141
-  - vless-1827155381
-  - trojan-1828531065
-  - trojan-1827529873
-  - vless-1828658433
-  - trojan-1827529903
-  - vless-1827811431
-  - trojan-1827149348
-  - trojan-1827149094
+  - vless-1831110714
+  - vless-1831106139
+  - vless-1831132621
+  - vless-1828656729
   - vless-1827151478
-  - trojan-1827938592
+  - trojan-1827149191
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_b5553483
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_78231d9b
+  - trojan-1828531063
+  - vless-1831133014
+  - vless-1831076076
+  - vless-1828527749
+  - vless-1831105902
+  - vless-1831101171
+  - vless-1831066655
+  - vless-1831066825
+  - vless-1827154440
+  - 🇺🇸_美国_203
+  - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_6c43e42a
+  - vless-1831101169
+  - 🏳️_未知_193
+  - 🇺🇸_美国_249
+  - 🏳️_未知_215
+  - trojan-1831770458
+  - trojan-1827148841
+  - C🟠🇫🇮hos[🎬🤖📺🎭]_dokng.com_36a54494
+  - 🇺🇸_美国_267
+  - vless-1828373383
+  - vless-1827155553
+  - vless-1831071997
+  - vless-1831111075
+  - 🇺🇸_美国_277
+  - vless-1831110718
+  - vless-1828032680
+  - vless-1827154961
+  - trojan-1830454617
+  - trojan-1827148822
+  - vless-1827662288
+  - vless-1831067347
+  - vless-1831105832
+  - vless-1828654076
+  - 🇺🇸_美国_177
+  - trojan-1831424804
+  - vless-1831106422
   - trojan-1827938301
+  - vless-1827283559
   - vless-1827152152
-  - trojan-1827910362
-  - 🏳️_未知_168
+  - vless-1831100702
+  - trojan-1827149491
+  - shadowsocks-1827146131
+  - vless-1828374596
+  - vmess-1827159661
+  - trojan-1827529850
+  - vless-1831100772
   - 🏳️_未知_175
   - 🏳️_未知_194
-  - 🏳️_未知_196
-  - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_6c43e42a
-  - vless-1827152273
-  - vless-1828373383
-  - vless-1827162845
-  - vless-1827151410
-  - trojan-1827148841
-  - vmess-1827158635
-  - vless-1827150837
+  - vless-1831100871
+  - vless-1831110744
+  - vless-1831133205
+  - trojan-1828366141
   - vless-1829720999
-  - vless-1827283559
+  - trojan-1828531065
+  - vless-1831110884
   - vmess-1827159496
-  - trojan-1827939961
-  - vless-1828350776
-  - trojan-1827731541
-  - trojan-1827149430
-  - 🏳️_未知_190
-  - 🏳️_未知_195
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_55eb9c13
-  - vmess-1828806120
-  - vless-1827147394
-  - trojan-1827149491
+  - vless-1831071276
+  - vless-1831132671
+  - vless-1831071624
+  - vless-1827961987
+  - 🏳️_未知_159
+  - 🏳️_未知_214
+  - 🇺🇸_美国_256
+  - vless-1831132726
+  - vless-1827151410
+  - trojan-1827529873
   - trojan-1827658992
-  - vless-1827975768
-  - trojan-1827148822
-  - vless-1827147650
-  - trojan-1827529862
-  - trojan-1827731542
+  - vless-1831096817
+  - vless-1828142572
+  - vless-1831096712
+  - trojan-1828532515
+  - vless-1831074722
   - 🇺🇸_美国_180
-  - 🏳️_未知_201
-  - 🏳️_未知_207
-  - C🟠🇫🇮hos[🎬🤖📺🎭]_dokng.com_36a54494
-  - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_aba567e8
-  - vless-1827188133
-  - vless-1827662288
-  - trojan-1827149628
-  - trojan-1827910972
-  - vless-1828814667
-  - trojan-1827529850
-  - vless-1827152216
-  - trojan-1827731534
-  - vless-1827154350
-  - 🏳️_未知_162
-  - 🇺🇸_美国_182
-  - 🏳️_未知_197
-  - trojan-1827148972
-  - trojan-1828531063
-  - trojan-1828366129
-  - vmess-1827741481
-  - trojan-1827529821
-  - trojan-1827148859
-  - 🏳️_未知_217
-  - trojan-1827731538
-  - 🇺🇸_美国_181
-  - vless-1827155284
+  - vless-1831101562
+  - vless-1831133195
+  - vless-1831110724
   - vless-1827151082
-  - vless-1828973943
-  - 🏳️_未知_173
-  - 🇺🇸_美国_233
-  - 🏳️_未知_308
-  - 🏳️_未知_309
+  - vless-1831110544
+  - vless-1831105723
+  - vless-1831066599
+  - vless-1831099495
+  - trojan-1831044987
+  - trojan-1827529903
   - vless-1827151283
-  - 🏳️_未知_164
-  - vmess-1827159639
-  - vless-1827151484
-  - 🏳️_未知_161
-  - vless-1827155553
-  - vmess-1827159661
   - 🏳️_未知_160
-  - 🏳️_未知_189
-  - vless-1828527754
-  - vmess-1827157636
-  - vless-1827154961
-  - 🇺🇸_美国_239
-  - vless-1827533126
-  - vmess-1827159417
-  - 🏳️_未知_186
-  - shadowsocks-1827146224
-  - trojan-1827149065
-  - 🏳️_未知_174
-  - vless-1828293965
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a8e49557
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_bad22d32
-  - vless-1828531912
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_fd2e5267
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_415e35b6
-  - trojan-1828651441
-  - vless-1827533219
-  - vless-1827155751
-  - trojan-1827148818
-  - A🟢🇺🇸res[🎬🤖📺🎭]_dokng.com_40d7a1a3
-  - 🇺🇸_美国_340
-  - D🔴🇺🇸hos[🤖🎭✨📦]_dokng.com_c09c3f93
-  - vless-1827151453
+  - 🏳️_未知_196
+  - 🇺🇸_美国_261
+  - vless-1831132670
+  - vless-1831133021
+  - vless-1831106009
+  - vless-1831102437
+  - vless-1831074067
+  - trojan-1827534197
+  - trojan-1831769446
+  - trojan-1827938592
+  - B🟡🇺🇸biz[🎬🤖📺🎭]_dokng.com_52a6e750
+  - vmess-1831166293
+  - vless-1831133324
+  - vless-1831099670
+  - vless-1831099563
+  - vless-1827147394
+  - vless-1831101276
+  - vless-1831070835
+  - vless-1828658433
+  - vless-1827154350
+  - vless-1831105684
+  - 🇷🇺_俄罗斯_279
+  - vless-1831105607
+  - vless-1831081766
+  - vless-1831101320
+  - 🏳️_未知_163
+  - 🏳️_未知_168
+  - vless-1831132809
+  - trojan-1827529855
+  - vless-1827155501
+  - vless-1831076395
+  - vless-1831066830
+  - trojan-1827149553
+  - vless-1831100047
+  - vless-1831081147
+  - vless-1828814661
+  - vless-1831106215
+  - trojan-1827149293
+  - 🏳️_未知_220
+  - 🏳️_未知_161
+  - vless-1831133338
+  - vmess-1827158977
+  - trojan-1827149430
+  - 🇸🇮_斯洛文尼亚_278
+  - vless-1831132793
+  - vless-1831132569
+  - trojan-1827658988
+  - vless-1831132972
+  - trojan-1827148859
+  - vless-1831105822
+  - 🇺🇸_美国_250
+  - 🏳️_未知_268
+  - trojan-1827149628
+  - vless-1831101506
+  - vless-1831066541
+  - vless-1831106295
+  - vless-1831105971
 rules:
 - MATCH,PROXY
