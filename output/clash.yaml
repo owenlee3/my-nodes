@@ -1,20 +1,103 @@
-# node-sub generated 2026-10-20 21:06 UTC | 150 nodes (TCP-tested, sorted by latency)
+# node-sub generated 2026-10-21 02:49 UTC | 150 nodes (TCP-tested, sorted by latency)
 mixed-port: 7890
 allow-lan: false
 mode: rule
 log-level: info
 proxies:
-- name: vless-1876062726
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_4dbb3d73
+  port: 443
+  server: 129.153.93.183
+  skip-cert-verify: true
+  tls: true
+  type: http
+- alterId: 0
+  cipher: auto
+  name: vmess-1853356949
+  network: ws
+  port: 39495
+  server: 129.146.77.248
+  type: vmess
+  udp: true
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+- name: 🇺🇸_美国_79
+  type: vless
+  server: 129.153.71.28
+  port: 28863
+  uuid: 572b2f63-62b5-4e79-a6c8-d2211bf33576
+  encryption: none
+  tls: true
+  servername: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_8e3e1d23
+  password: ''
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- cipher: aes-256-gcm
+  name: shadowsocks-1875129452
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 95.215.201.18
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: vless-1850140815
   network: ws
   port: 443
-  server: 172.64.146.66
-  servername: lucasjow.us.ci
-  skip-cert-verify: false
+  reality-opts:
+    public-key: jO7THaLxz0Oz3kePAJcuwcKNTlsWoEWGh18zzRmiXgo
+    short-id: 77c4230d
+  server: 144.202.126.147
+  servername: itunes.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-- name: vless-1855726619
+  uuid: 45d51389-0c38-4843-8ae8-cffb94e97a72
+- name: 🇺🇸_美国_212
+  type: vless
+  server: 66.42.97.131
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  encryption: none
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 🇺🇸_美国_248
+  type: vless
+  server: 179.255.107.28
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  encryption: none
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- cipher: rc4-md5
+  name: shadowsocks-1828227588
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 79.110.53.169
+  type: ss
+  udp: true
+- name: vless-1832464863
   network: ws
   port: 443
   server: 104.18.43.174
@@ -24,16 +107,235 @@ proxies:
   type: vless
   udp: true
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
-- name: vless-1875770685
+- name: vless-1876912384
   network: ws
-  port: 2087
-  server: 172.66.1.6
-  servername: imanvipreserved.pages.dev
+  port: 443
+  server: 104.21.89.41
+  servername: u.srilankangrill.online
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+- name: 🇺🇸_美国_312
+  type: vless
+  server: 179.253.247.47
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  encryption: none
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- client-fingerprint: chrome
+  name: vless-1850176813
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: 6l-Yq_zkVrnExw8AVv85VwoYnfNc8-dRSpoj_AA-fxY
+    short-id: c5cde18f
+  server: 45.32.69.110
+  servername: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1572b9c5-d741-46eb-b4a2-a5d23958dfbe
+- name: vless-1878525489
+  network: ws
+  port: 443
+  server: 172.64.152.241
+  servername: lucasjow.us.ci
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+- cipher: rc4-md5
+  name: shadowsocks-1827963043
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 107.151.182.253
+  type: ss
+  udp: true
+- name: 🏳️_未知_50
+  type: vless
+  server: 172.67.142.169
+  port: 443
+  uuid: 4c0b7280-76bb-495c-9c8b-f05712ebf805
+  encryption: none
+  tls: true
+  servername: youxuanku.kdns.fr
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇺🇸_美国_199
+  type: vless
+  server: 179.255.106.248
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  encryption: none
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 🇺🇸_美国_308
+  type: vless
+  server: 131.143.180.190
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  encryption: none
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 🏳️_未知_454
+  type: vless
+  server: 104.17.91.92
+  port: 443
+  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
+  encryption: none
+  tls: true
+  servername: i5be.fbk.hhll.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?auto=1&ed=2560
+    headers:
+      Host: i5be.fbk.hhll.vavava.kdns.fr
+- name: 🏳️_未知_459
+  type: vless
+  server: 104.17.162.3
+  port: 443
+  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
+  encryption: none
+  tls: true
+  servername: i5be.fbk.hhll.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?auto=1&ed=2560
+    headers:
+      Host: i5be.fbk.hhll.vavava.kdns.fr
+- name: 🏳️_未知_460
+  type: vless
+  server: 104.17.146.69
+  port: 443
+  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
+  encryption: none
+  tls: true
+  servername: i5be.fbk.hhll.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?auto=1&ed=2560
+    headers:
+      Host: i5be.fbk.hhll.vavava.kdns.fr
+- name: 🏳️_未知_461
+  type: vless
+  server: 104.17.145.145
+  port: 443
+  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
+  encryption: none
+  tls: true
+  servername: i5be.fbk.hhll.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?auto=1&ed=2560
+    headers:
+      Host: i5be.fbk.hhll.vavava.kdns.fr
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_3c28dcc9
+  password: null
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_e1d0dc28
+  password: None
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_2fb17d17
+  password: None
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: vless-1856200505
+  network: ws
+  port: 443
+  server: 172.67.217.240
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1852794069
+  network: ws
+  port: 2053
+  server: 188.114.97.6
+  servername: lucasjow.us.ci
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+- name: trojan-1854107475
+  password: humanity
+  port: 443
+  server: 188.42.145.180
+  skip-cert-verify: true
+  sni: www.volumeroot.com
+  type: trojan
+  udp: true
+- name: vless-1853491095
+  network: ws
+  port: 443
+  server: 104.18.153.10
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1854032397
+  network: ws
+  port: 443
+  server: 104.18.35.15
+  servername: lucasjow.us.ci
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+- name: 🏳️_未知_179
+  type: trojan
+  server: 172.64.229.88
+  port: 2053
+  password: 9ae6fc67-9a29-4f90-abed-cee229178771
+  tls: true
+  servername: 17924137754253.206352.xyz
+  network: ws
+  ws-opts:
+    path: /agraeabtegrrh
+    headers:
+      Host: 17924137758553.206352.xyz
 - name: 🏳️_未知_180
   type: trojan
   server: 104.18.166.129
@@ -46,283 +348,48 @@ proxies:
     path: /agraeabtegrrh
     headers:
       Host: 17924137755193.206352.xyz
-- name: 🇳🇱_荷兰_35
+- name: 🇺🇸_美国_394
   type: vless
-  server: 45.131.210.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 207.246.105.197
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   encryption: none
-  servername: vms.lifetime05.workers.dev
+  tls: true
+  servername: snip.edgeoneai.cc.cd
   network: ws
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
-      Host: vms.lifetime05.workers.dev
-- name: 🇺🇸_美国_181
-  type: trojan
-  server: 162.159.140.116
-  port: 2087
-  password: 9ae6fc67-9a29-4f90-abed-cee229178771
-  tls: true
-  servername: 17924137756891.206352.xyz
-  network: ws
-  ws-opts:
-    path: /agraeabtegrrh
-    headers:
-      Host: 17924137752225.206352.xyz
-- name: vless-1833713778
-  network: ws
-  port: 2053
-  server: 172.67.155.65
-  servername: lucasjow.us.ci
-  skip-cert-verify: false
-  tls: true
+      Host: snip.edgeoneai.cc.cd
+- name: 🏳️_未知_455
   type: vless
-  udp: true
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  server: 104.17.69.244
+  port: 443
+  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
+  encryption: none
+  tls: true
+  servername: i5be.fbk.hhll.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?auto=1&ed=2560
+    headers:
+      Host: i5be.fbk.hhll.vavava.kdns.fr
+- name: 🏳️_未知_457
+  type: vless
+  server: 104.17.125.98
+  port: 443
+  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
+  encryption: none
+  tls: true
+  servername: i5be.fbk.hhll.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?auto=1&ed=2560
+    headers:
+      Host: i5be.fbk.hhll.vavava.kdns.fr
 - name: 🏳️_未知_467
   type: vless
   server: 104.18.33.225
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: 🇨🇦_加拿大_414
-  type: vless
-  server: 23.227.39.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime17.workers.dev
-- name: 🇺🇸_美国_47
-  type: vless
-  server: 80.93.202.40
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime02.workers.dev
-- name: vless-1875770695
-  network: ws
-  port: 2087
-  server: 8.35.211.62
-  servername: imanvipreserved.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
-- name: 🏳️_未知_32
-  type: vless
-  server: 172.67.79.160
-  port: 2087
-  uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
-  encryption: none
-  tls: true
-  servername: cvhpyn.pages.dev
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cvhpyn.pages.dev
-- name: vless-1875770689
-  network: ws
-  port: 2096
-  server: 104.17.100.23
-  servername: imanvipreserved.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
-- name: 🏳️_未知_78
-  type: trojan
-  server: 104.18.32.47
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: 🏳️_未知_33
-  type: trojan
-  server: www.wto.org
-  port: 8443
-  password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
-  tls: true
-  servername: jiangjc.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-- name: 🏳️_未知_445
-  type: vless
-  server: 162.159.24.131
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: 🏳️_未知_466
-  type: vless
-  server: 104.18.33.121
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: 🇺🇸_美国_51
-  type: vless
-  server: 155.46.213.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime51.workers.dev
-- name: vless-1874607823
-  network: ws
-  port: 443
-  server: 104.18.41.190
-  servername: lucasjow.us.ci
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-- name: vless-1875770690
-  network: ws
-  port: 2083
-  server: 104.17.160.63
-  servername: imanvipreserved.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
-- name: 🇺🇸_美国_448
-  type: vless
-  server: 162.159.140.85
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: 🇷🇺_俄罗斯_39
-  type: vless
-  server: 185.148.104.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime51.workers.dev
-- name: vless-1869125295
-  network: ws
-  port: 8443
-  server: 172.67.155.65
-  servername: lucasjow.us.ci
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-- name: 🇳🇱_荷兰_46
-  type: vless
-  server: 188.164.248.48
-  port: 2083
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-  encryption: none
-  tls: true
-  servername: helloapps.cc.cd
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: helloapps.cc.cd
-- name: vless-1828142572
-  network: ws
-  port: 443
-  server: 104.18.35.15
-  servername: lucasjow.us.ci
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-- name: 🇺🇸_美国_388
-  type: vless
-  server: 216.24.57.1
-  port: 443
-  uuid: 974c2588-c1cd-43ac-8823-ce3d879b09fd
-  encryption: none
-  tls: true
-  servername: somersby.pt.ex33r.eu.cc
-  network: ws
-  ws-opts:
-    path: /id-amz
-- name: 🏳️_未知_465
-  type: vless
-  server: 104.18.35.200
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: vless-1828036217
-  network: ws
-  port: 443
-  server: 172.64.144.82
-  servername: lucasjow.us.ci
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-- name: 🏳️_未知_463
-  type: vless
-  server: 104.17.167.134
   port: 443
   uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
   encryption: none
@@ -346,6 +413,80 @@ proxies:
     path: /?auto=1&ed=2560
     headers:
       Host: i5be.fbk.hhll.vavava.kdns.fr
+- name: 🏳️_未知_471
+  type: vless
+  server: 104.17.215.2
+  port: 443
+  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
+  encryption: none
+  tls: true
+  servername: i5be.fbk.hhll.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?auto=1&ed=2560
+    headers:
+      Host: i5be.fbk.hhll.vavava.kdns.fr
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_256dedbc
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_324c9086
+  password: None
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_02619dd0
+  password: None
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_9b5deaae
+  password: ''
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: vless-1873265854
+  network: ws
+  port: 8443
+  server: 172.67.155.65
+  servername: lucasjow.us.ci
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+- name: vless-1833713778
+  network: ws
+  port: 2053
+  server: 172.67.155.65
+  servername: lucasjow.us.ci
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+- name: vless-1843512959
+  network: ws
+  port: 443
+  server: 104.16.10.72
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
 - name: 🇱🇹_立陶宛_34
   type: vless
   server: 89.117.112.30
@@ -357,6 +498,888 @@ proxies:
     path: /
     headers:
       Host: vms.lifetime11.workers.dev
+- name: 🇳🇱_荷兰_35
+  type: vless
+  server: 45.131.210.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  encryption: none
+  servername: vms.lifetime05.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime05.workers.dev
+- name: 🇺🇸_美国_41
+  type: vless
+  server: 155.46.167.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime50.workers.dev
+- name: 🇳🇱_荷兰_43
+  type: vless
+  server: 188.164.248.123
+  port: 8443
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  encryption: none
+  tls: true
+  servername: vp21.cc.cd
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vp21.cc.cd
+- name: 🇺🇸_美国_314
+  type: vless
+  server: 179.255.99.95
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  encryption: none
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 🇨🇦_加拿大_414
+  type: vless
+  server: 23.227.39.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime17.workers.dev
+- name: 🇺🇸_美国_448
+  type: vless
+  server: 162.159.140.85
+  port: 443
+  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
+  encryption: none
+  tls: true
+  servername: i5be.fbk.hhll.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?auto=1&ed=2560
+    headers:
+      Host: i5be.fbk.hhll.vavava.kdns.fr
+- name: 🏳️_未知_463
+  type: vless
+  server: 104.17.167.134
+  port: 443
+  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
+  encryption: none
+  tls: true
+  servername: i5be.fbk.hhll.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?auto=1&ed=2560
+    headers:
+      Host: i5be.fbk.hhll.vavava.kdns.fr
+- name: 🏳️_未知_466
+  type: vless
+  server: 104.18.33.121
+  port: 443
+  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
+  encryption: none
+  tls: true
+  servername: i5be.fbk.hhll.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?auto=1&ed=2560
+    headers:
+      Host: i5be.fbk.hhll.vavava.kdns.fr
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_0caa2130
+  password: None
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_0cd2d06a
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_c63863fd
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_209eaff6
+  password: null
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: vless-1878304314
+  network: ws
+  port: 443
+  server: 188.114.98.0
+  servername: lucasjow.us.ci
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+- name: vless-1863474247
+  network: ws
+  port: 443
+  server: 104.21.34.106
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1832764140
+  network: ws
+  port: 443
+  server: 172.67.156.147
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1827152240
+  network: ws
+  port: 443
+  server: 104.19.33.237
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1876912372
+  network: ws
+  port: 443
+  server: 104.16.10.100
+  servername: u.srilankangrill.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+- name: 🇺🇸_美国_53
+  type: vless
+  server: 103.116.7.100
+  port: 2087
+  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
+  encryption: none
+  tls: true
+  servername: proxy-1cu.pages.dev
+  fingerprint: android
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: proxy-1cu.pages.dev
+- name: 🏳️_未知_121
+  type: vless
+  server: 104.17.148.22
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  encryption: none
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 🇺🇸_美国_206
+  type: vless
+  server: 154.17.6.42
+  port: 2053
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  encryption: none
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 🏳️_未知_381
+  type: vless
+  server: 188.114.99.0
+  port: 8880
+  uuid: 3ee10440-225e-4cbc-83ed-3c80b90bcb07
+  encryption: mlkem768x25519plus.native.0rtt.BheP3zTPlA3cijplJnfrJSIp9rYlrGqnqEOnYD-wA20
+  network: ws
+  ws-opts:
+    path: /notls
+    headers:
+      Host: ovh-gr1.mahkhorshidi.ir
+- name: 🏳️_未知_447
+  type: vless
+  server: 172.64.159.65
+  port: 443
+  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
+  encryption: none
+  tls: true
+  servername: i5be.fbk.hhll.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?auto=1&ed=2560
+    headers:
+      Host: i5be.fbk.hhll.vavava.kdns.fr
+- name: 🏳️_未知_450
+  type: vless
+  server: 104.16.92.120
+  port: 443
+  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
+  encryption: none
+  tls: true
+  servername: i5be.fbk.hhll.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?auto=1&ed=2560
+    headers:
+      Host: i5be.fbk.hhll.vavava.kdns.fr
+- name: 🏳️_未知_452
+  type: vless
+  server: 104.16.105.166
+  port: 443
+  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
+  encryption: none
+  tls: true
+  servername: i5be.fbk.hhll.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?auto=1&ed=2560
+    headers:
+      Host: i5be.fbk.hhll.vavava.kdns.fr
+- name: 🏳️_未知_456
+  type: vless
+  server: 104.17.139.37
+  port: 443
+  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
+  encryption: none
+  tls: true
+  servername: i5be.fbk.hhll.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?auto=1&ed=2560
+    headers:
+      Host: i5be.fbk.hhll.vavava.kdns.fr
+- name: 🏳️_未知_465
+  type: vless
+  server: 104.18.35.200
+  port: 443
+  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
+  encryption: none
+  tls: true
+  servername: i5be.fbk.hhll.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?auto=1&ed=2560
+    headers:
+      Host: i5be.fbk.hhll.vavava.kdns.fr
+- name: 🏳️_未知_469
+  type: vless
+  server: 104.18.39.78
+  port: 443
+  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
+  encryption: none
+  tls: true
+  servername: i5be.fbk.hhll.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?auto=1&ed=2560
+    headers:
+      Host: i5be.fbk.hhll.vavava.kdns.fr
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_11ff4f56
+  password: null
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_db08df79
+  password: 'null'
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: vless-1831067347
+  network: ws
+  port: 443
+  server: 104.16.111.195
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1863440011
+  network: ws
+  port: 443
+  server: 104.16.10.104
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1875764253
+  network: ws
+  port: 443
+  server: 104.21.91.244
+  servername: lucasjow.us.ci
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+- client-fingerprint: chrome
+  name: vless-1835128666
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: 6nTROV2ELz-3vNUl0A00hp378QngpYABrPgjCpUknD0
+    short-id: f436f707
+  server: 45.63.53.81
+  servername: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c512dcbd-1847-40a2-9c99-989c8bfe4717
+- name: vless-1853331503
+  network: ws
+  port: 443
+  server: 172.64.144.82
+  servername: lucasjow.us.ci
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+- name: vless-1828032680
+  network: ws
+  port: 443
+  server: 104.16.10.234
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: 🏳️_未知_44
+  type: vless
+  server: 188.114.96.9
+  port: 443
+  uuid: 2e305ebe-f6e6-4689-b32f-cd04ab5ff541
+  encryption: none
+  tls: true
+  servername: idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl/9yvcoLdzdOXLUYfH7r5gwJhu1CHrj
+- name: 🇳🇱_荷兰_46
+  type: vless
+  server: 188.164.248.48
+  port: 2083
+  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+  encryption: none
+  tls: true
+  servername: helloapps.cc.cd
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: helloapps.cc.cd
+- name: 🏳️_未知_57
+  type: vless
+  server: 172.67.69.86
+  port: 2083
+  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+  encryption: none
+  tls: true
+  servername: helloapps.cc.cd
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: helloapps.cc.cd
+- name: 🏳️_未知_95
+  type: vless
+  server: 104.21.70.21
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  encryption: none
+  tls: true
+  servername: a.cwvps.eu.org
+  fingerprint: unsafe
+  network: ws
+  ws-opts:
+    path: /ws
+- name: 🇺🇸_美国_181
+  type: trojan
+  server: 162.159.140.116
+  port: 2087
+  password: 9ae6fc67-9a29-4f90-abed-cee229178771
+  tls: true
+  servername: 17924137756891.206352.xyz
+  network: ws
+  ws-opts:
+    path: /agraeabtegrrh
+    headers:
+      Host: 17924137752225.206352.xyz
+- name: 🇺🇸_美国_393
+  type: vless
+  server: 208.68.180.204
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  encryption: none
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 🏳️_未知_446
+  type: vless
+  server: 104.16.65.1
+  port: 443
+  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
+  encryption: none
+  tls: true
+  servername: i5be.fbk.hhll.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?auto=1&ed=2560
+    headers:
+      Host: i5be.fbk.hhll.vavava.kdns.fr
+- name: 🏳️_未知_453
+  type: vless
+  server: 104.17.22.231
+  port: 443
+  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
+  encryption: none
+  tls: true
+  servername: i5be.fbk.hhll.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?auto=1&ed=2560
+    headers:
+      Host: i5be.fbk.hhll.vavava.kdns.fr
+- name: 🏳️_未知_470
+  type: vless
+  server: 104.18.40.77
+  port: 443
+  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
+  encryption: none
+  tls: true
+  servername: i5be.fbk.hhll.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?auto=1&ed=2560
+    headers:
+      Host: i5be.fbk.hhll.vavava.kdns.fr
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_067d2b9f
+  password: ''
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_e487e5ba
+  password: None
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_249361ae
+  password: ''
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_ccc98c47
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_2695bab2
+  password: 'null'
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  sni: 138.199.35.202
+  tls: true
+  type: http
+  username: 'null'
+- name: 🏳️_未知_94
+  type: vless
+  server: 104.16.10.22
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  encryption: none
+  tls: true
+  servername: a.cwvps.eu.org
+  fingerprint: unsafe
+  network: ws
+  ws-opts:
+    path: /ws#/?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🏳️_未知_449
+  type: vless
+  server: 104.16.240.177
+  port: 443
+  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
+  encryption: none
+  tls: true
+  servername: i5be.fbk.hhll.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?auto=1&ed=2560
+    headers:
+      Host: i5be.fbk.hhll.vavava.kdns.fr
+- name: 🏳️_未知_451
+  type: vless
+  server: 104.17.17.145
+  port: 443
+  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
+  encryption: none
+  tls: true
+  servername: i5be.fbk.hhll.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?auto=1&ed=2560
+    headers:
+      Host: i5be.fbk.hhll.vavava.kdns.fr
+- name: 🏳️_未知_458
+  type: vless
+  server: 104.17.142.212
+  port: 443
+  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
+  encryption: none
+  tls: true
+  servername: i5be.fbk.hhll.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?auto=1&ed=2560
+    headers:
+      Host: i5be.fbk.hhll.vavava.kdns.fr
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_b4f7c82f
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_35750c6c
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_12476d7d
+  password: ''
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_e49c5e31
+  password: ''
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: vless-1863476159
+  network: ws
+  port: 443
+  server: 104.21.6.186
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1831072390
+  network: ws
+  port: 443
+  server: 104.17.50.53
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: 🏳️_未知_31
+  type: vless
+  server: 188.114.98.112
+  port: 80
+  uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY?ed=2560
+    headers:
+      Host: elenaaaaaaaaaa.cloudns.pro.
+- name: 🇺🇸_美国_47
+  type: vless
+  server: 80.93.202.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime02.workers.dev
+- name: 🏳️_未知_139
+  type: vless
+  server: 104.17.147.22
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  encryption: none
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_bb08a0aa
+  password: 'null'
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_aba567e8
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: vless-1828374596
+  network: ws
+  port: 443
+  server: 104.21.33.59
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1877410833
+  network: ws
+  port: 8443
+  server: 141.193.213.20
+  servername: u.srilankangrill.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+- name: 🏳️_未知_462
+  type: vless
+  server: 104.17.145.43
+  port: 443
+  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
+  encryption: none
+  tls: true
+  servername: i5be.fbk.hhll.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?auto=1&ed=2560
+    headers:
+      Host: i5be.fbk.hhll.vavava.kdns.fr
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_ce3956c2
+  password: null
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: vless-1827152273
+  network: ws
+  port: 443
+  server: 162.159.254.3
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: 🇺🇸_美国_51
+  type: vless
+  server: 155.46.213.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime51.workers.dev
+- name: 🇺🇸_美国_49
+  type: vless
+  server: 162.159.135.234
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  encryption: none
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 🇺🇸_美国_56
+  type: vless
+  server: 63.141.128.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime42.workers.dev
+- name: 🇺🇸_美国_74
+  type: vless
+  server: 156.229.163.237
+  port: 10238
+  uuid: f97f81df-edac-47b6-badb-316125e61bfb
+  encryption: none
+  tls: true
+  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+- name: 🏳️_未知_127
+  type: vless
+  server: 172.64.150.43
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  encryption: none
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fp=unsafe
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: 🏳️_未知_464
+  type: vless
+  server: 104.17.187.57
+  port: 443
+  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
+  encryption: none
+  tls: true
+  servername: i5be.fbk.hhll.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?auto=1&ed=2560
+    headers:
+      Host: i5be.fbk.hhll.vavava.kdns.fr
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_101583a6
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: vless-1831074722
+  network: ws
+  port: 443
+  server: 104.19.12.94
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1853476047
+  network: ws
+  port: 443
+  server: 162.159.250.29
+  servername: lucasjow.us.ci
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+- name: 🇺🇸_美国_144
+  type: vless
+  server: 162.159.130.234
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  encryption: none
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- name: vless-1831066616
+  network: ws
+  port: 443
+  server: 104.16.111.202
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
 - name: 🇺🇸_美国_38
   type: vless
   server: 172.66.0.230
@@ -381,227 +1404,41 @@ proxies:
   type: vless
   udp: true
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: 🏳️_未知_447
-  type: vless
-  server: 172.64.159.65
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: 🇺🇸_美国_56
-  type: vless
-  server: 63.141.128.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime42.workers.dev
-- name: C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_6e48a485
-  port: 9443
-  server: 154.47.25.78
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🏳️_未知_469
-  type: vless
-  server: 104.18.39.78
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: 🇺🇸_美国_144
-  type: vless
-  server: 162.159.130.234
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  encryption: none
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_aba567e8
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: trojan-1827149073
+- name: trojan-1853955455
   password: humanity
   port: 443
-  server: 141.193.213.172
-  skip-cert-verify: false
-  sni: www.calmlunch.com
+  server: 104.19.157.30
+  skip-cert-verify: true
+  sni: www.volumeroot.com
   type: trojan
   udp: true
-- name: 🇳🇱_荷兰_43
-  type: vless
-  server: 188.164.248.123
+- name: 🏳️_未知_33
+  type: trojan
+  server: www.wto.org
   port: 8443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  encryption: none
+  password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
   tls: true
-  servername: vp21.cc.cd
-  fingerprint: chrome
+  servername: jiangjc.pages.dev
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: vp21.cc.cd
-- name: vless-1831072390
+- cipher: aes-128-gcm
+  name: shadowsocks-1827146667
+  password: shadowsocks
+  port: 443
+  server: 173.244.56.9
+  type: ss
+  udp: true
+- name: vless-1867008479
   network: ws
   port: 443
-  server: 104.17.50.53
+  server: 104.16.10.63
   servername: jp3.yohototo.top
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: 🏳️_未知_470
-  type: vless
-  server: 104.18.40.77
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: vless-1831074722
-  network: ws
-  port: 443
-  server: 104.19.12.94
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1853969345
-  network: ws
-  port: 443
-  server: 104.16.10.2
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: 🏳️_未知_461
-  type: vless
-  server: 104.17.145.145
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: vless-1867009433
-  network: ws
-  port: 443
-  server: 104.16.111.202
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1875770682
-  network: ws
-  port: 2087
-  server: 104.17.186.242
-  servername: imanvipreserved.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
-- name: 🏳️_未知_127
-  type: vless
-  server: 172.64.150.43
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  encryption: none
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=unsafe
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: 🏳️_未知_450
-  type: vless
-  server: 104.16.92.120
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: 🏳️_未知_456
-  type: vless
-  server: 104.17.139.37
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_f7924ec8
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸_美国_53
-  type: vless
-  server: 103.116.7.100
-  port: 2087
-  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
-  encryption: none
-  tls: true
-  servername: proxy-1cu.pages.dev
-  fingerprint: android
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: proxy-1cu.pages.dev
 - name: vless-1842648155
   network: ws
   port: 443
@@ -612,364 +1449,23 @@ proxies:
   type: vless
   udp: true
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1876912372
+- name: vless-1877410829
   network: ws
-  port: 443
-  server: 104.16.10.100
+  port: 8443
+  server: 141.193.213.21
   servername: u.srilankangrill.online
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-- name: 🏳️_未知_458
-  type: vless
-  server: 104.17.142.212
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: 🏳️_未知_454
-  type: vless
-  server: 104.17.91.92
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: vless-1863440009
-  network: ws
-  port: 443
-  server: 104.16.10.48
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
 - cipher: aes-128-gcm
-  name: shadowsocks-1827146556
+  name: shadowsocks-1827146375
   password: shadowsocks
   port: 443
-  server: 156.146.38.167
+  server: 173.244.56.6
   type: ss
   udp: true
-- name: 🏳️_未知_57
-  type: vless
-  server: 172.67.69.86
-  port: 2083
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-  encryption: none
-  tls: true
-  servername: helloapps.cc.cd
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: helloapps.cc.cd
-- name: vless-1827152240
-  network: ws
-  port: 443
-  server: 104.19.33.237
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: 🇺🇸_美国_41
-  type: vless
-  server: 155.46.167.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime50.workers.dev
-- name: 🇺🇸_美国_89
-  type: vless
-  server: 23.158.233.2
-  port: 2096
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  encryption: none
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: 🏳️_未知_455
-  type: vless
-  server: 104.17.69.244
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_cfdbfd42
-  port: 443
-  server: 193.239.236.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🏳️_未知_449
-  type: vless
-  server: 104.16.240.177
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: 🏳️_未知_94
-  type: vless
-  server: 104.16.10.22
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  encryption: none
-  tls: true
-  servername: a.cwvps.eu.org
-  fingerprint: unsafe
-  network: ws
-  ws-opts:
-    path: /ws#/?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
-    headers:
-      Host: a.cwvps.eu.org
-- name: 🏳️_未知_453
-  type: vless
-  server: 104.17.22.231
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- client-fingerprint: chrome
-  name: vless-1876912368
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: uUWYLl2Fdhr74k9o5WacesJjvsCwLiOHccgfR23TIk4
-    short-id: 29b29106d4769e3a
-  server: 162.35.8.62
-  servername: 9bc578g.us4.h1clayd.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-- name: vless-1828973943
-  network: ws
-  port: 443
-  server: 162.159.250.29
-  servername: lucasjow.us.ci
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-- name: vless-1863468525
-  network: ws
-  port: 443
-  server: 104.19.33.25
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: 🏳️_未知_464
-  type: vless
-  server: 104.17.187.57
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: 🏳️_未知_459
-  type: vless
-  server: 104.17.162.3
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: 🏳️_未知_179
-  type: trojan
-  server: 172.64.229.88
-  port: 2053
-  password: 9ae6fc67-9a29-4f90-abed-cee229178771
-  tls: true
-  servername: 17924137754253.206352.xyz
-  network: ws
-  ws-opts:
-    path: /agraeabtegrrh
-    headers:
-      Host: 17924137758553.206352.xyz
-- name: 🏳️_未知_121
-  type: vless
-  server: 104.17.148.22
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  encryption: none
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  alpn:
-  - http/1.1
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vless-1829720999
-  network: ws
-  port: 443
-  server: 104.16.10.56
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: 🏳️_未知_451
-  type: vless
-  server: 104.17.17.145
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_78231d9b
-  port: 443
-  server: 23.133.176.14
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: trojan-1827148746
-  password: ae7eb4dwyaz25pxwgq59
-  port: 59689
-  server: 66.23.203.21
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-  udp: true
-- name: 🏳️_未知_460
-  type: vless
-  server: 104.17.146.69
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: 🏳️_未知_457
-  type: vless
-  server: 104.17.125.98
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: 🏳️_未知_471
-  type: vless
-  server: 104.17.215.2
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: vless-1832764135
-  network: ws
-  port: 443
-  server: 104.16.111.102
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: 🏳️_未知_139
-  type: vless
-  server: 104.17.147.22
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  encryption: none
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: vless-1828032680
-  network: ws
-  port: 443
-  server: 104.16.10.234
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
 - name: 🏳️_未知_407
   type: vless
   server: 104.19.45.195
@@ -985,123 +1481,6 @@ proxies:
     path: /?TELEGRAM-TOOTFFARANGIfp=chrome
     headers:
       Host: snip.edgeoneai.cc.cd
-- name: 🏳️_未知_446
-  type: vless
-  server: 104.16.65.1
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: vless-1827962637
-  network: ws
-  port: 443
-  server: 104.16.111.195
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- alterId: 0
-  cipher: auto
-  name: vmess-1827160359
-  network: ws
-  port: 443
-  server: www.shopify.com
-  servername: guanwang.awsno.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: trojan-1827149430
-  password: humanity
-  port: 443
-  server: 104.17.121.43
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 🏳️_未知_430
-  type: vless
-  server: ahrefs.com
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_ad9b8b65
-  port: 443
-  server: 68.235.56.59
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: vless-1831066830
-  network: ws
-  port: 443
-  server: 104.16.10.72
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: A🟢🇨🇦res[🎬🤖📺🎭]_dokng.com_8e59d554
-  port: 443
-  server: 206.223.161.47
-  skip-cert-verify: true
-  tls: true
-  type: http
-- cipher: aes-128-gcm
-  name: shadowsocks-1827146815
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.168
-  type: ss
-  udp: true
-- name: B🟡🇺🇸biz[🎬🤖📺🎭]_dokng.com_895424c2
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🏳️_未知_452
-  type: vless
-  server: 104.16.105.166
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: 🏳️_未知_462
-  type: vless
-  server: 104.17.145.43
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
 - name: 🏳️_未知_443
   type: vless
   server: 104.26.5.134
@@ -1115,470 +1494,156 @@ proxies:
     path: /?auto=1&ed=2560
     headers:
       Host: i5be.fbk.hhll.vavava.kdns.fr
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: vless-1876223242
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: xPnpkXu5qfwIArlHKvJsqKJnGdGbJK1tT2GzWMyLohA
-    short-id: 9c56fddf237e8eaf
-  server: 195.211.98.43
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1b4b11d5-4c2d-4533-9a55-636757cdee94
-- name: 🇺🇸_美国_316
-  type: vless
-  server: 45.39.230.139
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  encryption: none
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: 🇺🇸_美国_49
-  type: vless
-  server: 162.159.135.234
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  encryption: none
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: snip.edgeoneai.cc.cd
-- name: hysteria2-1830343753
-  password: 4291c983-c520-46ac-82cc-48f14bef573f
-  port: 35013
-  server: 129.213.91.185
-  skip-cert-verify: true
-  sni: 129.213.91.185
-  type: hysteria2
-- name: vless-1867008479
+- name: vless-1853476976
   network: ws
   port: 443
-  server: 104.16.10.63
+  server: 104.16.10.185
   servername: jp3.yohototo.top
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_0b4f0e28
-  port: 443
-  server: 64.98.50.100
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: A🟢🇨🇦res[🎬🤖📺🎭]_dokng.com_1647a2a3
-  port: 443
-  server: 206.223.183.21
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_2b1ff10e
-  port: 9443
-  server: 198.44.135.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: vless-1853462717
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 169.40.42.104
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- cipher: rc4-md5
-  name: shadowsocks-1870576149
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 98.98.79.198
-  type: ss
-  udp: true
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_37a111a9
-  port: 443
-  server: 66.64.100.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_b1448db8
-  port: 443
-  server: 216.107.139.82
-  skip-cert-verify: true
-  sni: 991cc80f13caf81d3426ddebb2da7f49-92ff472ddc24e5b7.apache-iv.com
-  tls: true
-  type: http
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_c60226f1
-  port: 443
-  server: 121.127.34.82
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: vless-1875764228
+- name: vless-1828654071
   network: ws
-  port: 8080
-  server: 208.84.100.209
-  type: vless
-  udp: true
-  uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
-- cipher: rc4-md5
-  name: shadowsocks-1827147479
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 137.184.174.93
-  type: ss
-  udp: true
-- name: vless-1831132333
-  network: ws
-  port: 30016
-  server: 69.48.201.136
-  type: vless
-  udp: true
-  uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: vless-1869872045
-  network: tcp
   port: 443
-  reality-opts:
-    public-key: ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk
-    short-id: 0990d22f
-  server: 167.17.69.171
-  servername: www.cloudflare.com
+  server: 104.24.31.89
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 00144519-7e0d-476b-8d28-435576af9262
-- name: D🔴🇺🇸hos[🤖📺🎭🎪]_dokng.com_a144c988
-  port: 443
-  server: 149.88.21.140
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: vless-1827162758
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 169.40.42.202
-  servername: yahoo.com
-  tls: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: 🇺🇸_美国_418
   type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_f0025ab7
+  server: 166.88.33.135
   port: 443
-  server: 198.44.135.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: C🟠🇨🇦hos[🎬🤖📺🎭]_dokng.com_a1477f4c
-  port: 9443
-  server: 198.44.157.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🏳️_未知_423
-  type: vless
-  server: markmonitor.com
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: A🟢🇨🇦res[🎬🤖📺🎭]_dokng.com_42638fbc
-  port: 443
-  server: 206.223.183.13
-  skip-cert-verify: true
-  tls: true
-  type: http
-- cipher: aes-128-gcm
-  name: shadowsocks-1827146122
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.236
-  type: ss
-  udp: true
-- name: D🔴🇨🇦hos[🎬🤖📺🎭]_dokng.com_94fa860a
-  port: 443
-  server: 4.172.245.121
-  skip-cert-verify: true
-  tls: true
-  type: http
-- cipher: aes-128-gcm
-  name: shadowsocks-1827146248
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.160
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: shadowsocks-1827146051
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.243
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: shadowsocks-1875022992
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 185.215.132.9
-  type: ss
-  udp: true
-- name: trojan-1827955817
-  password: nwilryafgkyvuxauc8pz
-  port: 50875
-  server: 69.164.240.85
-  skip-cert-verify: true
-  sni: 69.164.240.85
-  type: trojan
-  udp: true
-- name: A🟢🇨🇦res[🎬🤖📺🎭]_dokng.com_c2a21b53
-  port: 443
-  server: 206.223.183.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: D🔴🇨🇦hos[🎬🤖📺🎭]_dokng.com_ff0913fd
-  port: 9443
-  server: 198.44.157.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: vless-1855695722
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To
-    short-id: a3a578ab
-  server: 185.95.231.156
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1f8cf47a-b66a-4916-979f-26edfcf44eea
-- name: 🇺🇸_美国_207
-  type: vless
-  server: 185.92.182.106
-  port: 2083
   uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   encryption: none
   tls: true
   servername: snip.edgeoneai.cc.cd
   fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- client-fingerprint: chrome
+  name: vless-1827152266
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: h6EW_Y5nW9PRypxaOrSOyiHZDR-kuNfdoy24inGOoB0
+    short-id: 33b15a3e
+  server: 154.29.145.196
+  servername: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 62fdae06-6692-4b79-8f34-470784e55fd6
+- alterId: 0
+  cipher: auto
+  name: vmess-1877274960
+  network: none
+  port: 26781
+  server: 23.27.47.67
+  type: vmess
+  udp: true
+  uuid: c8e76bdc-374f-48b0-dc49-1c6cd138ea06
+- name: vless-1832887936
+  network: ws
+  port: 443
+  server: 104.21.70.228
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: vless-1873265853
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
+    short-id: ''
+  server: 172.235.58.21
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7
+- client-fingerprint: chrome
+  name: vless-1878371102
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 8-tz1FBA5y6CcLp0NogIY4-x6pxkFBZ_HWSOXEioWho
+    short-id: dc286495
+  server: 172.96.192.167
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38a9c88a-14c7-49e4-841d-bdb78fbb9529
+- name: 🇺🇸_美国_311
+  type: vless
+  server: 154.21.197.32
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  encryption: none
+  tls: true
+  servername: snip.edgeoneai.cc.cd
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: snip.edgeoneai.cc.cd
+- alterId: 0
+  cipher: auto
+  name: C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_73526efc
+  network: none
+  port: 22998
+  server: 23.27.47.67
+  tls: false
+  type: vmess
+  uuid: 66345f5f-36c7-4aa8-b024-93c5a5989d6a
+- cipher: 2022-blake3-aes-128-gcm
+  name: shadowsocks-1827145755
+  password: NzJlOTQ5NWYtM2ZkYi00Cg==
+  port: 28679
+  server: 103.11.76.248
+  type: ss
+  udp: true
+- name: 🇺🇸_美国_315
+  type: vless
+  server: 192.6.161.16
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  encryption: none
+  tls: true
+  servername: snip.edgeoneai.cc.cd
   network: ws
   ws-opts:
     path: /fp=chrome
     headers:
       Host: snip.edgeoneai.cc.cd
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_407650e3
-  password: ''
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 🏳️_未知_439
-  type: vless
-  server: clickhouse.com
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_b5553483
-  port: 443
-  server: 38.247.141.135
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: A🟢🇺🇸res[🎬🤖📺🎭]_dokng.com_0d6b970a
-  port: 443
-  server: 24.225.10.211
-  skip-cert-verify: true
-  tls: true
-  type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: vless-1827533209
+  name: vless-1878371108
   network: tcp
   port: 443
   reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 169.40.42.235
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- cipher: aes-128-gcm
-  name: shadowsocks-1827146742
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.244
-  type: ss
-  udp: true
-- name: D🔴🇺🇸hos_dokng.com_3a4fb783
-  port: 7615
-  server: 47.90.206.169
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: A🟢🇺🇸res[🎬🤖📺🎭]_dokng.com_b3a8f765
-  port: 443
-  server: 162.217.114.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_5583e73d
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🏳️_未知_429
-  type: vless
-  server: staticdelivery.nexusmods.com
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: vless-1853462658
-  network: raw
-  port: 28190
-  reality-opts:
-    public-key: ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno
-    short-id: ''
-  server: 159.89.87.21
-  servername: aws.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14c80e0e-f7ce-4991-94fc-99a1db4a9b1e
-- cipher: rc4-md5
-  name: shadowsocks-1827964140
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 138.197.141.58
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: vless-1831098551
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 169.40.42.90
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_3bcb64c0
-  port: 443
-  server: 162.244.227.36
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  name: vless-1853341831
-  network: grpc
-  port: 10453
-  reality-opts:
-    public-key: rAHMmpeUJ6uOoGgk31dTF4-1RTtLZFnOEs_li2AYQWc
-    short-id: ''
-  server: 162.35.126.130
-  servername: www.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: vless-1854338848
-  network: tcp
-  port: 36925
-  reality-opts:
-    public-key: lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0
-    short-id: ''
-  server: 137.184.218.169
+    public-key: QhEh_RgwlY-eLMAF3HmH0F8_MtYqvV1CnRxuvjDuInw
+    short-id: 8f4a9d2c1e6b3f50
+  server: 104.36.69.180
   servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: c9fd0fb1-8251-4106-b09a-f4b426736f67
-- name: 🏳️_未知_434
-  type: vless
-  server: js.org
-  port: 443
-  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
-  encryption: none
-  tls: true
-  servername: i5be.fbk.hhll.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?auto=1&ed=2560
-    headers:
-      Host: i5be.fbk.hhll.vavava.kdns.fr
-- name: 🇺🇸_美国_306
-  type: vless
-  server: 134.209.166.201
-  port: 8443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  encryption: none
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=unsafe
-    headers:
-      Host: snip.edgeoneai.cc.cd
+  uuid: 1e5dc1cb-fda6-4152-b1bf-52ff7570c160
 proxy-groups:
 - name: AUTO
   type: url-test
@@ -1586,309 +1651,309 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - vless-1876062726
-  - vless-1855726619
-  - vless-1875770685
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_4dbb3d73
+  - vmess-1853356949
+  - 🇺🇸_美国_79
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_8e3e1d23
+  - shadowsocks-1875129452
+  - vless-1850140815
+  - 🇺🇸_美国_212
+  - 🇺🇸_美国_248
+  - shadowsocks-1828227588
+  - vless-1832464863
+  - vless-1876912384
+  - 🇺🇸_美国_312
+  - vless-1850176813
+  - vless-1878525489
+  - shadowsocks-1827963043
+  - 🏳️_未知_50
+  - 🇺🇸_美国_199
+  - 🇺🇸_美国_308
+  - 🏳️_未知_454
+  - 🏳️_未知_459
+  - 🏳️_未知_460
+  - 🏳️_未知_461
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_3c28dcc9
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_e1d0dc28
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_2fb17d17
+  - vless-1856200505
+  - vless-1852794069
+  - trojan-1854107475
+  - vless-1853491095
+  - vless-1854032397
+  - 🏳️_未知_179
   - 🏳️_未知_180
-  - 🇳🇱_荷兰_35
-  - 🇺🇸_美国_181
-  - vless-1833713778
+  - 🇺🇸_美国_394
+  - 🏳️_未知_455
+  - 🏳️_未知_457
   - 🏳️_未知_467
-  - 🇨🇦_加拿大_414
-  - 🇺🇸_美国_47
-  - vless-1875770695
-  - 🏳️_未知_32
-  - vless-1875770689
-  - 🏳️_未知_78
-  - 🏳️_未知_33
-  - 🏳️_未知_445
-  - 🏳️_未知_466
-  - 🇺🇸_美国_51
-  - vless-1874607823
-  - vless-1875770690
-  - 🇺🇸_美国_448
-  - 🇷🇺_俄罗斯_39
-  - vless-1869125295
-  - 🇳🇱_荷兰_46
-  - vless-1828142572
-  - 🇺🇸_美国_388
-  - 🏳️_未知_465
-  - vless-1828036217
-  - 🏳️_未知_463
   - 🏳️_未知_468
+  - 🏳️_未知_471
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_256dedbc
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_324c9086
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_02619dd0
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_9b5deaae
+  - vless-1873265854
+  - vless-1833713778
+  - vless-1843512959
   - 🇱🇹_立陶宛_34
+  - 🇳🇱_荷兰_35
+  - 🇺🇸_美国_41
+  - 🇳🇱_荷兰_43
+  - 🇺🇸_美国_314
+  - 🇨🇦_加拿大_414
+  - 🇺🇸_美国_448
+  - 🏳️_未知_463
+  - 🏳️_未知_466
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_0caa2130
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_0cd2d06a
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_c63863fd
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_209eaff6
+  - vless-1878304314
+  - vless-1863474247
+  - vless-1832764140
+  - vless-1827152240
+  - vless-1876912372
+  - 🇺🇸_美国_53
+  - 🏳️_未知_121
+  - 🇺🇸_美国_206
+  - 🏳️_未知_381
+  - 🏳️_未知_447
+  - 🏳️_未知_450
+  - 🏳️_未知_452
+  - 🏳️_未知_456
+  - 🏳️_未知_465
+  - 🏳️_未知_469
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_11ff4f56
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_db08df79
+  - vless-1831067347
+  - vless-1863440011
+  - vless-1875764253
+  - vless-1835128666
+  - vless-1853331503
+  - vless-1828032680
+  - 🏳️_未知_44
+  - 🇳🇱_荷兰_46
+  - 🏳️_未知_57
+  - 🏳️_未知_95
+  - 🇺🇸_美国_181
+  - 🇺🇸_美国_393
+  - 🏳️_未知_446
+  - 🏳️_未知_453
+  - 🏳️_未知_470
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_067d2b9f
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_e487e5ba
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_249361ae
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_ccc98c47
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_2695bab2
+  - 🏳️_未知_94
+  - 🏳️_未知_449
+  - 🏳️_未知_451
+  - 🏳️_未知_458
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_b4f7c82f
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_35750c6c
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_12476d7d
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_e49c5e31
+  - vless-1863476159
+  - vless-1831072390
+  - 🏳️_未知_31
+  - 🇺🇸_美国_47
+  - 🏳️_未知_139
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_bb08a0aa
+  - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_aba567e8
+  - vless-1828374596
+  - vless-1877410833
+  - 🏳️_未知_462
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_ce3956c2
+  - vless-1827152273
+  - 🇺🇸_美国_51
+  - 🇺🇸_美国_49
+  - 🇺🇸_美国_56
+  - 🇺🇸_美国_74
+  - 🏳️_未知_127
+  - 🏳️_未知_464
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_101583a6
+  - vless-1831074722
+  - vless-1853476047
+  - 🇺🇸_美国_144
+  - vless-1831066616
   - 🇺🇸_美国_38
   - vless-1863464818
-  - 🏳️_未知_447
-  - 🇺🇸_美国_56
-  - C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_6e48a485
-  - 🏳️_未知_469
-  - 🇺🇸_美国_144
-  - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_aba567e8
-  - trojan-1827149073
-  - 🇳🇱_荷兰_43
-  - vless-1831072390
-  - 🏳️_未知_470
-  - vless-1831074722
-  - vless-1853969345
-  - 🏳️_未知_461
-  - vless-1867009433
-  - vless-1875770682
-  - 🏳️_未知_127
-  - 🏳️_未知_450
-  - 🏳️_未知_456
-  - C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_f7924ec8
-  - 🇺🇸_美国_53
-  - vless-1842648155
-  - vless-1876912372
-  - 🏳️_未知_458
-  - 🏳️_未知_454
-  - vless-1863440009
-  - shadowsocks-1827146556
-  - 🏳️_未知_57
-  - vless-1827152240
-  - 🇺🇸_美国_41
-  - 🇺🇸_美国_89
-  - 🏳️_未知_455
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_cfdbfd42
-  - 🏳️_未知_449
-  - 🏳️_未知_94
-  - 🏳️_未知_453
-  - vless-1876912368
-  - vless-1828973943
-  - vless-1863468525
-  - 🏳️_未知_464
-  - 🏳️_未知_459
-  - 🏳️_未知_179
-  - 🏳️_未知_121
-  - vless-1829720999
-  - 🏳️_未知_451
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_78231d9b
-  - trojan-1827148746
-  - 🏳️_未知_460
-  - 🏳️_未知_457
-  - 🏳️_未知_471
-  - vless-1832764135
-  - 🏳️_未知_139
-  - vless-1828032680
-  - 🏳️_未知_407
-  - 🏳️_未知_446
-  - vless-1827962637
-  - vmess-1827160359
-  - trojan-1827149430
-  - 🏳️_未知_430
-  - C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_ad9b8b65
-  - vless-1831066830
-  - A🟢🇨🇦res[🎬🤖📺🎭]_dokng.com_8e59d554
-  - shadowsocks-1827146815
-  - B🟡🇺🇸biz[🎬🤖📺🎭]_dokng.com_895424c2
-  - 🏳️_未知_452
-  - 🏳️_未知_462
-  - 🏳️_未知_443
-  - vless-1876223242
-  - 🇺🇸_美国_316
-  - 🇺🇸_美国_49
-  - hysteria2-1830343753
+  - trojan-1853955455
+  - 🏳️_未知_33
+  - shadowsocks-1827146667
   - vless-1867008479
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_0b4f0e28
-  - A🟢🇨🇦res[🎬🤖📺🎭]_dokng.com_1647a2a3
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_2b1ff10e
-  - vless-1853462717
-  - shadowsocks-1870576149
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_37a111a9
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_b1448db8
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_c60226f1
-  - vless-1875764228
-  - shadowsocks-1827147479
-  - vless-1831132333
-  - vless-1869872045
-  - D🔴🇺🇸hos[🤖📺🎭🎪]_dokng.com_a144c988
-  - vless-1827162758
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_f0025ab7
-  - C🟠🇨🇦hos[🎬🤖📺🎭]_dokng.com_a1477f4c
-  - 🏳️_未知_423
-  - A🟢🇨🇦res[🎬🤖📺🎭]_dokng.com_42638fbc
-  - shadowsocks-1827146122
-  - D🔴🇨🇦hos[🎬🤖📺🎭]_dokng.com_94fa860a
-  - shadowsocks-1827146248
-  - shadowsocks-1827146051
-  - shadowsocks-1875022992
-  - trojan-1827955817
-  - A🟢🇨🇦res[🎬🤖📺🎭]_dokng.com_c2a21b53
-  - D🔴🇨🇦hos[🎬🤖📺🎭]_dokng.com_ff0913fd
-  - vless-1855695722
-  - 🇺🇸_美国_207
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_407650e3
-  - 🏳️_未知_439
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_b5553483
-  - A🟢🇺🇸res[🎬🤖📺🎭]_dokng.com_0d6b970a
-  - vless-1827533209
-  - shadowsocks-1827146742
-  - D🔴🇺🇸hos_dokng.com_3a4fb783
-  - A🟢🇺🇸res[🎬🤖📺🎭]_dokng.com_b3a8f765
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_5583e73d
-  - 🏳️_未知_429
-  - vless-1853462658
-  - shadowsocks-1827964140
-  - vless-1831098551
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_3bcb64c0
-  - vless-1853341831
-  - vless-1854338848
-  - 🏳️_未知_434
-  - 🇺🇸_美国_306
+  - vless-1842648155
+  - vless-1877410829
+  - shadowsocks-1827146375
+  - 🏳️_未知_407
+  - 🏳️_未知_443
+  - vless-1853476976
+  - vless-1828654071
+  - 🇺🇸_美国_418
+  - vless-1827152266
+  - vmess-1877274960
+  - vless-1832887936
+  - vless-1873265853
+  - vless-1878371102
+  - 🇺🇸_美国_311
+  - C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_73526efc
+  - shadowsocks-1827145755
+  - 🇺🇸_美国_315
+  - vless-1878371108
 - name: PROXY
   type: select
   proxies:
   - AUTO
-  - vless-1876062726
-  - vless-1855726619
-  - vless-1875770685
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_4dbb3d73
+  - vmess-1853356949
+  - 🇺🇸_美国_79
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_8e3e1d23
+  - shadowsocks-1875129452
+  - vless-1850140815
+  - 🇺🇸_美国_212
+  - 🇺🇸_美国_248
+  - shadowsocks-1828227588
+  - vless-1832464863
+  - vless-1876912384
+  - 🇺🇸_美国_312
+  - vless-1850176813
+  - vless-1878525489
+  - shadowsocks-1827963043
+  - 🏳️_未知_50
+  - 🇺🇸_美国_199
+  - 🇺🇸_美国_308
+  - 🏳️_未知_454
+  - 🏳️_未知_459
+  - 🏳️_未知_460
+  - 🏳️_未知_461
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_3c28dcc9
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_e1d0dc28
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_2fb17d17
+  - vless-1856200505
+  - vless-1852794069
+  - trojan-1854107475
+  - vless-1853491095
+  - vless-1854032397
+  - 🏳️_未知_179
   - 🏳️_未知_180
-  - 🇳🇱_荷兰_35
-  - 🇺🇸_美国_181
-  - vless-1833713778
+  - 🇺🇸_美国_394
+  - 🏳️_未知_455
+  - 🏳️_未知_457
   - 🏳️_未知_467
-  - 🇨🇦_加拿大_414
-  - 🇺🇸_美国_47
-  - vless-1875770695
-  - 🏳️_未知_32
-  - vless-1875770689
-  - 🏳️_未知_78
-  - 🏳️_未知_33
-  - 🏳️_未知_445
-  - 🏳️_未知_466
-  - 🇺🇸_美国_51
-  - vless-1874607823
-  - vless-1875770690
-  - 🇺🇸_美国_448
-  - 🇷🇺_俄罗斯_39
-  - vless-1869125295
-  - 🇳🇱_荷兰_46
-  - vless-1828142572
-  - 🇺🇸_美国_388
-  - 🏳️_未知_465
-  - vless-1828036217
-  - 🏳️_未知_463
   - 🏳️_未知_468
+  - 🏳️_未知_471
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_256dedbc
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_324c9086
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_02619dd0
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_9b5deaae
+  - vless-1873265854
+  - vless-1833713778
+  - vless-1843512959
   - 🇱🇹_立陶宛_34
+  - 🇳🇱_荷兰_35
+  - 🇺🇸_美国_41
+  - 🇳🇱_荷兰_43
+  - 🇺🇸_美国_314
+  - 🇨🇦_加拿大_414
+  - 🇺🇸_美国_448
+  - 🏳️_未知_463
+  - 🏳️_未知_466
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_0caa2130
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_0cd2d06a
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_c63863fd
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_209eaff6
+  - vless-1878304314
+  - vless-1863474247
+  - vless-1832764140
+  - vless-1827152240
+  - vless-1876912372
+  - 🇺🇸_美国_53
+  - 🏳️_未知_121
+  - 🇺🇸_美国_206
+  - 🏳️_未知_381
+  - 🏳️_未知_447
+  - 🏳️_未知_450
+  - 🏳️_未知_452
+  - 🏳️_未知_456
+  - 🏳️_未知_465
+  - 🏳️_未知_469
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_11ff4f56
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_db08df79
+  - vless-1831067347
+  - vless-1863440011
+  - vless-1875764253
+  - vless-1835128666
+  - vless-1853331503
+  - vless-1828032680
+  - 🏳️_未知_44
+  - 🇳🇱_荷兰_46
+  - 🏳️_未知_57
+  - 🏳️_未知_95
+  - 🇺🇸_美国_181
+  - 🇺🇸_美国_393
+  - 🏳️_未知_446
+  - 🏳️_未知_453
+  - 🏳️_未知_470
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_067d2b9f
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_e487e5ba
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_249361ae
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_ccc98c47
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_2695bab2
+  - 🏳️_未知_94
+  - 🏳️_未知_449
+  - 🏳️_未知_451
+  - 🏳️_未知_458
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_b4f7c82f
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_35750c6c
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_12476d7d
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_e49c5e31
+  - vless-1863476159
+  - vless-1831072390
+  - 🏳️_未知_31
+  - 🇺🇸_美国_47
+  - 🏳️_未知_139
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_bb08a0aa
+  - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_aba567e8
+  - vless-1828374596
+  - vless-1877410833
+  - 🏳️_未知_462
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_ce3956c2
+  - vless-1827152273
+  - 🇺🇸_美国_51
+  - 🇺🇸_美国_49
+  - 🇺🇸_美国_56
+  - 🇺🇸_美国_74
+  - 🏳️_未知_127
+  - 🏳️_未知_464
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_101583a6
+  - vless-1831074722
+  - vless-1853476047
+  - 🇺🇸_美国_144
+  - vless-1831066616
   - 🇺🇸_美国_38
   - vless-1863464818
-  - 🏳️_未知_447
-  - 🇺🇸_美国_56
-  - C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_6e48a485
-  - 🏳️_未知_469
-  - 🇺🇸_美国_144
-  - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_aba567e8
-  - trojan-1827149073
-  - 🇳🇱_荷兰_43
-  - vless-1831072390
-  - 🏳️_未知_470
-  - vless-1831074722
-  - vless-1853969345
-  - 🏳️_未知_461
-  - vless-1867009433
-  - vless-1875770682
-  - 🏳️_未知_127
-  - 🏳️_未知_450
-  - 🏳️_未知_456
-  - C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_f7924ec8
-  - 🇺🇸_美国_53
-  - vless-1842648155
-  - vless-1876912372
-  - 🏳️_未知_458
-  - 🏳️_未知_454
-  - vless-1863440009
-  - shadowsocks-1827146556
-  - 🏳️_未知_57
-  - vless-1827152240
-  - 🇺🇸_美国_41
-  - 🇺🇸_美国_89
-  - 🏳️_未知_455
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_cfdbfd42
-  - 🏳️_未知_449
-  - 🏳️_未知_94
-  - 🏳️_未知_453
-  - vless-1876912368
-  - vless-1828973943
-  - vless-1863468525
-  - 🏳️_未知_464
-  - 🏳️_未知_459
-  - 🏳️_未知_179
-  - 🏳️_未知_121
-  - vless-1829720999
-  - 🏳️_未知_451
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_78231d9b
-  - trojan-1827148746
-  - 🏳️_未知_460
-  - 🏳️_未知_457
-  - 🏳️_未知_471
-  - vless-1832764135
-  - 🏳️_未知_139
-  - vless-1828032680
-  - 🏳️_未知_407
-  - 🏳️_未知_446
-  - vless-1827962637
-  - vmess-1827160359
-  - trojan-1827149430
-  - 🏳️_未知_430
-  - C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_ad9b8b65
-  - vless-1831066830
-  - A🟢🇨🇦res[🎬🤖📺🎭]_dokng.com_8e59d554
-  - shadowsocks-1827146815
-  - B🟡🇺🇸biz[🎬🤖📺🎭]_dokng.com_895424c2
-  - 🏳️_未知_452
-  - 🏳️_未知_462
-  - 🏳️_未知_443
-  - vless-1876223242
-  - 🇺🇸_美国_316
-  - 🇺🇸_美国_49
-  - hysteria2-1830343753
+  - trojan-1853955455
+  - 🏳️_未知_33
+  - shadowsocks-1827146667
   - vless-1867008479
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_0b4f0e28
-  - A🟢🇨🇦res[🎬🤖📺🎭]_dokng.com_1647a2a3
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_2b1ff10e
-  - vless-1853462717
-  - shadowsocks-1870576149
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_37a111a9
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_b1448db8
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_c60226f1
-  - vless-1875764228
-  - shadowsocks-1827147479
-  - vless-1831132333
-  - vless-1869872045
-  - D🔴🇺🇸hos[🤖📺🎭🎪]_dokng.com_a144c988
-  - vless-1827162758
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_f0025ab7
-  - C🟠🇨🇦hos[🎬🤖📺🎭]_dokng.com_a1477f4c
-  - 🏳️_未知_423
-  - A🟢🇨🇦res[🎬🤖📺🎭]_dokng.com_42638fbc
-  - shadowsocks-1827146122
-  - D🔴🇨🇦hos[🎬🤖📺🎭]_dokng.com_94fa860a
-  - shadowsocks-1827146248
-  - shadowsocks-1827146051
-  - shadowsocks-1875022992
-  - trojan-1827955817
-  - A🟢🇨🇦res[🎬🤖📺🎭]_dokng.com_c2a21b53
-  - D🔴🇨🇦hos[🎬🤖📺🎭]_dokng.com_ff0913fd
-  - vless-1855695722
-  - 🇺🇸_美国_207
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_407650e3
-  - 🏳️_未知_439
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_b5553483
-  - A🟢🇺🇸res[🎬🤖📺🎭]_dokng.com_0d6b970a
-  - vless-1827533209
-  - shadowsocks-1827146742
-  - D🔴🇺🇸hos_dokng.com_3a4fb783
-  - A🟢🇺🇸res[🎬🤖📺🎭]_dokng.com_b3a8f765
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_5583e73d
-  - 🏳️_未知_429
-  - vless-1853462658
-  - shadowsocks-1827964140
-  - vless-1831098551
-  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_3bcb64c0
-  - vless-1853341831
-  - vless-1854338848
-  - 🏳️_未知_434
-  - 🇺🇸_美国_306
+  - vless-1842648155
+  - vless-1877410829
+  - shadowsocks-1827146375
+  - 🏳️_未知_407
+  - 🏳️_未知_443
+  - vless-1853476976
+  - vless-1828654071
+  - 🇺🇸_美国_418
+  - vless-1827152266
+  - vmess-1877274960
+  - vless-1832887936
+  - vless-1873265853
+  - vless-1878371102
+  - 🇺🇸_美国_311
+  - C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_73526efc
+  - shadowsocks-1827145755
+  - 🇺🇸_美国_315
+  - vless-1878371108
 rules:
 - MATCH,PROXY
