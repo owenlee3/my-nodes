@@ -1,207 +1,22 @@
-# node-sub generated 2026-10-31 16:38 UTC | 150 nodes (TCP-tested, sorted by latency)
+# node-sub generated 2026-10-31 20:51 UTC | 150 nodes (TCP-tested, sorted by latency)
 mixed-port: 7890
 allow-lan: false
 mode: rule
 log-level: info
 proxies:
-- alterId: 0
-  cipher: auto
-  name: vmess-1827159661
-  network: ws
-  port: 8443
-  server: 104.21.91.53
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-- name: vless-1884771865
+- name: vless-1832764134
   network: ws
   port: 443
-  server: 188.114.98.0
+  server: 104.16.10.135
   servername: jp3.yohototo.top
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1863440034
-  network: ws
-  port: 443
-  server: 104.16.10.234
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: 荷兰 (2)
-  type: vless
-  server: 188.164.248.110
-  port: 443
-  uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
-  encryption: none
-  tls: true
-  servername: imanvipreserved.pages.dev
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: imanvipreserved.pages.dev
-- name: 🇨🇦加拿大 39
+- name: 美国 (57)
   type: trojan
-  server: 104.16.65.1
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: vless-1910526407
-  network: ws
-  port: 443
-  server: 104.16.0.1
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: 美国 (9) (2)
-  type: trojan
-  server: 104.18.38.127
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 美国 (31)
-  type: trojan
-  server: 104.18.46.127
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 美国 (55)
-  type: trojan
-  server: 162.159.58.65
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 荷兰 (3)
-  type: trojan
-  server: 188.164.248.143
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇨🇦加拿大 23
-  type: trojan
-  server: 104.16.245.194
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇨🇦加拿大 28
-  type: trojan
-  server: 104.18.151.172
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇨🇦加拿大 31
-  type: trojan
-  server: 104.19.43.102
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: vless-1946894790
-  network: ws
-  port: 443
-  server: 172.64.152.52
-  servername: cf.zhahui.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2d4b819d-6fa6-4db2-8434-61e7db0fe93c
-- name: vless-1946224541
-  network: ws
-  port: 2053
-  server: 172.67.199.126
-  servername: fast.145779.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-- name: trojan-1937399876
-  password: humanity
-  port: 443
-  server: 45.128.76.242
-  skip-cert-verify: false
-  sni: www.trusteeforward.com
-  type: trojan
-  udp: true
-- name: 美国 (29)
-  type: trojan
-  server: 104.19.46.152
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 美国 (52)
-  type: trojan
-  server: 104.25.60.205
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 美国 (66)
-  type: trojan
-  server: 172.64.150.181
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇨🇦加拿大 42
-  type: trojan
-  server: 104.17.145.145
+  server: 198.41.216.1
   port: 443
   password: humanity
   tls: true
@@ -216,47 +31,36 @@ proxies:
   type: vless
   udp: true
   uuid: 990bf436-f1b9-4e7f-857d-14378acc4ae5
-- name: vless-1832764138
+- name: vless-1856200577
   network: ws
   port: 443
-  server: 104.17.210.74
+  server: 172.67.217.240
   servername: jp3.yohototo.top
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1944218170
+- alterId: 0
+  cipher: auto
+  name: vmess-1947375789
+  network: ws
+  port: 2083
+  server: 162.159.130.234
+  servername: cdn.sfacg.uk
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+- name: trojan-1827149560
   password: humanity
   port: 443
-  server: 104.25.0.1
+  server: 172.67.231.254
   skip-cert-verify: false
   sni: www.calmlunch.com
   type: trojan
   udp: true
-- name: 美国 (7) (2)
-  type: vless
-  server: 63.141.128.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  encryption: none
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime42.workers.dev
-- name: 美国 (10)
-  type: vless
-  server: 185.148.104.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  encryption: none
-  servername: 185.148.104.30
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime51.workers.dev
 - name: 美国 (54)
   type: trojan
   server: 104.17.28.254
@@ -267,9 +71,9 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
-- name: 🇨🇦加拿大 07
+- name: 🇨🇦加拿大 12
   type: trojan
-  server: 172.64.148.230
+  server: 172.67.94.180
   port: 443
   password: humanity
   tls: true
@@ -277,9 +81,9 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
-- name: 🇨🇦加拿大 14
+- name: 🇨🇦加拿大 13
   type: trojan
-  server: 172.67.89.103
+  server: 104.27.55.4
   port: 443
   password: humanity
   tls: true
@@ -287,9 +91,49 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
-- name: 🇨🇦加拿大 20
+- name: vless-1863476159
+  network: ws
+  port: 443
+  server: 104.21.6.186
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: trojan-1894622732
+  password: humanity
+  port: 443
+  server: 45.130.125.126
+  skip-cert-verify: true
+  sni: www.calmlunch.com
   type: trojan
-  server: 104.16.144.215
+  udp: true
+- name: trojan-1947413506
+  password: humanity
+  port: 443
+  server: 104.17.206.147
+  skip-cert-verify: false
+  sni: www.trusteeforward.com
+  type: trojan
+  udp: true
+- name: 荷兰 (4)
+  type: vless
+  server: 188.164.248.151
+  port: 2096
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  encryption: none
+  tls: true
+  servername: d39333476.pages.dev
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /item/m
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇨🇦加拿大 21
+  type: trojan
+  server: 104.17.110.1
   port: 443
   password: humanity
   tls: true
@@ -307,6 +151,353 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
+- name: 🇨🇦加拿大 45
+  type: trojan
+  server: 104.16.240.177
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: vless-1910526407
+  network: ws
+  port: 443
+  server: 104.16.0.1
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1863474247
+  network: ws
+  port: 443
+  server: 104.21.34.106
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1828374596
+  network: ws
+  port: 443
+  server: 104.21.33.59
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1863468525
+  network: ws
+  port: 443
+  server: 104.19.33.25
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: trojan-1934984141
+  password: humanity
+  port: 443
+  server: 104.19.95.153
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1908518028
+  password: humanity
+  port: 443
+  server: 104.17.121.9
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: vless-1854335913
+  network: ws
+  port: 443
+  server: 104.16.10.104
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: trojan-1939845073
+  password: humanity
+  port: 443
+  server: 172.67.223.48
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1937399876
+  password: humanity
+  port: 443
+  server: 45.128.76.242
+  skip-cert-verify: false
+  sni: www.trusteeforward.com
+  type: trojan
+  udp: true
+- name: 美国 (27)
+  type: trojan
+  server: 104.18.35.31
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 美国 (66)
+  type: trojan
+  server: 172.64.150.181
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 11
+  type: trojan
+  server: 104.17.148.111
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 16
+  type: trojan
+  server: 162.159.128.253
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 26
+  type: trojan
+  server: 104.18.89.52
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a982a1fd
+  password: None
+  port: 9443
+  server: 198.44.135.19
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: vless-1827151410
+  network: ws
+  port: 443
+  server: 104.19.164.155
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1927185301
+  network: ws
+  port: 443
+  server: 104.17.50.227
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1921748885
+  network: ws
+  port: 443
+  server: 104.24.0.1
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- alterId: 0
+  cipher: auto
+  name: vmess-1907162640
+  network: ws
+  port: 2083
+  server: 104.21.0.1
+  servername: or3.sfacg.uk
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+- name: trojan-1940455323
+  password: humanity
+  port: 443
+  server: 8.6.112.206
+  skip-cert-verify: false
+  sni: www.trusteeforward.com
+  type: trojan
+  udp: true
+- name: trojan-1939844054
+  password: humanity
+  port: 443
+  server: 104.25.240.193
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1939845059
+  password: humanity
+  port: 443
+  server: 172.64.231.133
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1944218172
+  password: humanity
+  port: 443
+  server: 104.27.0.1
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: vless-1831081766
+  network: ws
+  port: 443
+  server: 104.27.46.35
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: trojan-1946894181
+  password: MiTiVPN
+  port: 443
+  server: 167.82.64.120
+  skip-cert-verify: true
+  sni: firefox.com
+  type: trojan
+  udp: true
+- name: 美国 (4)
+  type: vless
+  server: 172.67.74.177
+  port: 443
+  uuid: e53eacb6-cd30-4964-a57c-febcb5151b98
+  encryption: none
+  tls: true
+  servername: wallweb-4r0.pages.dev
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: wallweb-4r0.pages.dev
+- name: 美国 (2) (2)
+  type: trojan
+  server: 162.159.149.157
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 美国 (29)
+  type: trojan
+  server: 104.19.46.152
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 美国 (55)
+  type: trojan
+  server: 162.159.58.65
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 美国 (59)
+  type: trojan
+  server: 104.18.47.138
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 美国 (60)
+  type: trojan
+  server: 104.16.251.219
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 美国 (67)
+  type: trojan
+  server: 104.27.203.207
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.pleadcourt.org
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 06
+  type: trojan
+  server: 172.64.153.224
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 10
+  type: trojan
+  server: 104.17.135.68
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 32
+  type: trojan
+  server: 104.17.117.104
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
 - name: 🇨🇦加拿大 34
   type: trojan
   server: 104.16.244.188
@@ -317,9 +508,9 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
-- name: 🇨🇦加拿大 35
+- name: 🇨🇦加拿大 44
   type: trojan
-  server: 104.17.191.193
+  server: 172.67.67.89
   port: 443
   password: humanity
   tls: true
@@ -337,6 +528,587 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
+- name: vless-1827152273
+  network: ws
+  port: 443
+  server: 162.159.254.3
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1853476976
+  network: ws
+  port: 443
+  server: 104.16.10.185
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1831066899
+  network: ws
+  port: 443
+  server: 104.16.10.56
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1863464818
+  network: ws
+  port: 443
+  server: 104.18.42.98
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1856199614
+  network: ws
+  port: 443
+  server: 104.16.111.102
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1946224541
+  network: ws
+  port: 2053
+  server: 172.67.199.126
+  servername: fast.145779.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
+- name: vless-1827962637
+  network: ws
+  port: 443
+  server: 104.16.111.195
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: trojan-1827148954
+  password: humanity
+  port: 443
+  server: 104.16.7.70
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1827148859
+  password: humanity
+  port: 443
+  server: 104.21.103.254
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1857007066
+  password: humanity
+  port: 443
+  server: 104.17.121.43
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1828472626
+  password: humanity
+  port: 443
+  server: 104.16.72.50
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: 美国 (7) (2)
+  type: vless
+  server: 63.141.128.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  encryption: none
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime42.workers.dev
+- name: 美国 (9) (2)
+  type: trojan
+  server: 104.18.38.127
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 美国 (34)
+  type: trojan
+  server: 104.18.33.97
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.calmlunch.com
+  fingerprint: unsafe
+  network: ws
+  ws-opts:
+    path: //assignment
+    headers:
+      Host: www.calmlunch.com
+- name: 荷兰 (3)
+  type: trojan
+  server: 188.164.248.143
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 美国 (62)
+  type: trojan
+  server: 162.159.45.1
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 05
+  type: trojan
+  server: 172.64.154.144
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 07
+  type: trojan
+  server: 172.64.148.230
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 09
+  type: vless
+  server: 172.64.91.69
+  port: 443
+  uuid: f27b6f65-6e59-4f89-b929-afa397ca587f
+  encryption: none
+  tls: true
+  servername: n.bitpulse.me
+  fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /019bcbad-3813-7cce-8786-3ac0e418f128?ed=2560
+    headers:
+      Host: n.bitpulse.me
+- name: 🇨🇦加拿大 17
+  type: trojan
+  server: 104.26.3.162
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 20
+  type: trojan
+  server: 104.16.144.215
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 23
+  type: trojan
+  server: 104.16.245.194
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 38
+  type: trojan
+  server: 104.18.189.153
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 48
+  type: trojan
+  server: 104.18.33.121
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: vless-1884771865
+  network: ws
+  port: 443
+  server: 188.114.98.0
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1863440028
+  network: ws
+  port: 443
+  server: 104.16.10.2
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1832764138
+  network: ws
+  port: 443
+  server: 104.17.210.74
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1828654076
+  network: ws
+  port: 443
+  server: 104.21.70.228
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1946894790
+  network: ws
+  port: 443
+  server: 172.64.152.52
+  servername: cf.zhahui.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2d4b819d-6fa6-4db2-8434-61e7db0fe93c
+- name: trojan-1923819684
+  password: humanity
+  port: 443
+  server: 172.67.203.46
+  skip-cert-verify: false
+  sni: www.cordweave.com
+  type: trojan
+  udp: true
+- name: vless-1832764140
+  network: ws
+  port: 443
+  server: 172.67.156.147
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: 美国
+  type: vless
+  server: 172.64.147.85
+  port: 443
+  uuid: e53eacb6-cd30-4964-a57c-febcb5151b98
+  encryption: none
+  tls: true
+  servername: wallweb-4r0.pages.dev
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: wallweb-4r0.pages.dev
+- name: 美国 (28)
+  type: trojan
+  server: 172.64.155.36
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 美国 (31)
+  type: trojan
+  server: 104.18.46.127
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 美国 (38)
+  type: trojan
+  server: 104.19.56.198
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 美国 (46)
+  type: trojan
+  server: 104.17.116.75
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 美国 (47)
+  type: trojan
+  server: 104.17.155.44
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 美国 (50)
+  type: trojan
+  server: 104.24.144.224
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 美国 (56)
+  type: trojan
+  server: 172.64.150.28
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.calmlunch.com
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 08
+  type: trojan
+  server: 162.159.61.183
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 14
+  type: trojan
+  server: 172.67.89.103
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 18
+  type: trojan
+  server: 104.17.119.105
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 37
+  type: trojan
+  server: 104.17.167.134
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 41
+  type: trojan
+  server: 172.66.0.118
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: trojan-1858673309
+  password: humanity
+  port: 443
+  server: 104.18.8.83
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: vmess-1938957366
+  network: ws
+  port: 8443
+  server: 188.114.96.3
+  servername: v2ray1.dozapp.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+- name: trojan-1853461582
+  password: humanity
+  port: 443
+  server: 104.16.71.213
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: 美国 (2)
+  type: trojan
+  server: 172.66.47.18
+  port: 443
+  password: e7TTceggMwUMg+aFN:F4
+  tls: true
+  servername: APkD964o1oghlTghHt0L0Of.pAgeS.Dev
+  network: ws
+  ws-opts:
+    path: /tr/SIeRkg2QvR2Zcpu0SeEMow?ed=2560
+- name: 美国 (52)
+  type: trojan
+  server: 104.25.60.205
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 04
+  type: trojan
+  server: 172.64.151.23
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 19
+  type: trojan
+  server: 104.17.159.71
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 24
+  type: trojan
+  server: 104.19.53.114
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 28
+  type: trojan
+  server: 104.18.151.172
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 29
+  type: trojan
+  server: 104.19.154.200
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 30
+  type: trojan
+  server: 104.18.42.190
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 35
+  type: trojan
+  server: 104.17.191.193
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 42
+  type: trojan
+  server: 104.17.145.145
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 46
+  type: trojan
+  server: 104.19.34.37
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
 - name: D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_a38c7e22
   password: null
   port: 443
@@ -345,11 +1117,72 @@ proxies:
   tls: true
   type: http
   username: null
+- name: hysteria2-1853331471
+  password: 4291c983-c520-46ac-82cc-48f14bef573f
+  port: 35013
+  server: 129.213.91.185
+  skip-cert-verify: true
+  sni: ''
+  type: hysteria2
+- name: vless-1863440034
+  network: ws
+  port: 443
+  server: 104.16.10.234
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: trojan-1853348743
+  password: humanity
+  port: 443
+  server: 45.130.125.75
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1827938592
+  password: humanity
+  port: 443
+  server: 162.159.91.211
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: vmess-1827159661
+  network: ws
+  port: 8443
+  server: 104.21.91.53
+  servername: v2ray1.dozapp.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
 - name: trojan-1853462719
   password: humanity
   port: 443
   server: 185.18.250.245
   skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1853491995
+  password: humanity
+  port: 443
+  server: 104.18.32.47
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1827149109
+  password: humanity
+  port: 443
+  server: 185.18.250.252
+  skip-cert-verify: true
   sni: www.calmlunch.com
   type: trojan
   udp: true
@@ -372,352 +1205,6 @@ proxies:
     path: /
     headers:
       Host: vms.lifetime02.workers.dev
-- name: 美国 (32)
-  type: trojan
-  server: 104.17.98.29
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇨🇦加拿大 12
-  type: trojan
-  server: 172.67.94.180
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇨🇦加拿大 37
-  type: trojan
-  server: 104.17.167.134
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: trojan-1923819684
-  password: humanity
-  port: 443
-  server: 172.67.203.46
-  skip-cert-verify: false
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-- name: trojan-1827149109
-  password: humanity
-  port: 443
-  server: 185.18.250.252
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 🇨🇦加拿大 02
-  type: trojan
-  server: 104.17.28.10
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: vless-1927185301
-  network: ws
-  port: 443
-  server: 104.17.50.227
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1867102735
-  network: ws
-  port: 443
-  server: 104.19.48.107
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1828472626
-  password: humanity
-  port: 443
-  server: 104.16.72.50
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 🇨🇦加拿大 10
-  type: trojan
-  server: 104.17.135.68
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇨🇦加拿大 38
-  type: trojan
-  server: 104.18.189.153
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: vless-1863474247
-  network: ws
-  port: 443
-  server: 104.21.34.106
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- alterId: 0
-  cipher: auto
-  name: vmess-1947375789
-  network: ws
-  port: 2083
-  server: 162.159.130.234
-  servername: cdn.sfacg.uk
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-- name: vless-1856199614
-  network: ws
-  port: 443
-  server: 104.16.111.102
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1831081766
-  network: ws
-  port: 443
-  server: 104.27.46.35
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1947413506
-  password: humanity
-  port: 443
-  server: 104.17.206.147
-  skip-cert-verify: false
-  sni: www.trusteeforward.com
-  type: trojan
-  udp: true
-- name: 🇨🇦加拿大 06
-  type: trojan
-  server: 172.64.153.224
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇨🇦加拿大 29
-  type: trojan
-  server: 104.19.154.200
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: trojan-1858673309
-  password: humanity
-  port: 443
-  server: 104.18.8.83
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 美国 (26)
-  type: trojan
-  server: 172.64.154.219
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 美国 (49)
-  type: trojan
-  server: 104.19.0.1
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: vless-1831072390
-  network: ws
-  port: 443
-  server: 104.17.50.53
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1863476159
-  network: ws
-  port: 443
-  server: 104.21.6.186
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1921748885
-  network: ws
-  port: 443
-  server: 104.24.0.1
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: 美国 (42)
-  type: trojan
-  server: 104.17.61.37
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇨🇦加拿大 13
-  type: trojan
-  server: 104.27.55.4
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇨🇦加拿大 26
-  type: trojan
-  server: 104.18.89.52
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇨🇦加拿大 48
-  type: trojan
-  server: 104.18.33.121
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: trojan-1853491995
-  password: humanity
-  port: 443
-  server: 104.18.32.47
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-1853461582
-  password: humanity
-  port: 443
-  server: 104.16.71.213
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 🇨🇦加拿大 16
-  type: trojan
-  server: 162.159.128.253
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇨🇦加拿大 36
-  type: trojan
-  server: 104.18.255.167
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 美国 (46)
-  type: trojan
-  server: 104.17.116.75
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: vless-1863464818
-  network: ws
-  port: 443
-  server: 104.18.42.98
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1832764134
-  network: ws
-  port: 443
-  server: 104.16.10.135
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1857007066
-  password: humanity
-  port: 443
-  server: 104.17.121.43
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
 - name: 美国 (30)
   type: trojan
   server: 104.17.221.194
@@ -728,319 +1215,9 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
-- name: 🇨🇦加拿大 08
+- name: 美国 (49)
   type: trojan
-  server: 162.159.61.183
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇨🇦加拿大 41
-  type: trojan
-  server: 172.66.0.118
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: vless-1832764144
-  network: ws
-  port: 443
-  server: 104.16.10.22
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1941532350
-  network: ws
-  port: 443
-  server: 104.19.12.94
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1853972214
-  network: ws
-  port: 443
-  server: 104.24.31.89
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1934984141
-  password: humanity
-  port: 443
-  server: 104.19.95.153
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 🇨🇦加拿大 24
-  type: trojan
-  server: 104.19.53.114
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: vless-1863440028
-  network: ws
-  port: 443
-  server: 104.16.10.2
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1940455323
-  password: humanity
-  port: 443
-  server: 8.6.112.206
-  skip-cert-verify: false
-  sni: www.trusteeforward.com
-  type: trojan
-  udp: true
-- name: 美国 (2) (2)
-  type: trojan
-  server: 162.159.149.157
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇨🇦加拿大 30
-  type: trojan
-  server: 104.18.42.190
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 美国 (34)
-  type: trojan
-  server: 104.18.33.97
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.calmlunch.com
-  fingerprint: unsafe
-  network: ws
-  ws-opts:
-    path: //assignment
-    headers:
-      Host: www.calmlunch.com
-- name: 🇨🇦加拿大 32
-  type: trojan
-  server: 104.17.117.104
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: trojan-1827938592
-  password: humanity
-  port: 443
-  server: 162.159.91.211
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-1944218172
-  password: humanity
-  port: 443
-  server: 104.27.0.1
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 美国 (45)
-  type: trojan
-  server: 172.64.52.127
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: vless-1935807325
-  network: ws
-  port: 8080
-  server: 170.114.45.6
-  type: vless
-  udp: true
-  uuid: 990bf436-f1b9-4e7f-857d-14378acc4ae5
-- name: 🇨🇦加拿大 15
-  type: trojan
-  server: 172.64.229.7
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇨🇦加拿大 19
-  type: trojan
-  server: 104.17.159.71
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: vless-1947014531
-  network: ws
-  port: 443
-  server: 104.18.40.171
-  servername: wallweb-boi.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8895be79-9817-4011-b81a-14a35a3d328e
-- name: trojan-1939844054
-  password: humanity
-  port: 443
-  server: 104.25.240.193
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 🇨🇦加拿大 11
-  type: trojan
-  server: 104.17.148.111
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 美国 (36)
-  type: trojan
-  server: 104.18.39.55
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇨🇦加拿大 21
-  type: trojan
-  server: 104.17.110.1
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇨🇦加拿大 45
-  type: trojan
-  server: 104.16.240.177
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: vless-1827962637
-  network: ws
-  port: 443
-  server: 104.16.111.195
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: 美国 (53)
-  type: trojan
-  server: 104.19.229.21
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: 美国 (59)
-  type: trojan
-  server: 104.18.47.138
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇨🇦加拿大 17
-  type: trojan
-  server: 104.26.3.162
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇨🇦加拿大 18
-  type: trojan
-  server: 104.17.119.105
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: trojan-1939845059
-  password: humanity
-  port: 443
-  server: 172.64.231.133
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 美国 (50)
-  type: trojan
-  server: 104.24.144.224
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇨🇦加拿大 46
-  type: trojan
-  server: 104.19.34.37
+  server: 104.19.0.1
   port: 443
   password: humanity
   tls: true
@@ -1059,389 +1236,9 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
-- name: vless-1831066899
-  network: ws
-  port: 443
-  server: 104.16.10.56
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: 美国 (57)
-  type: trojan
-  server: 198.41.216.1
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇨🇦加拿大 04
-  type: trojan
-  server: 172.64.151.23
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇨🇦加拿大 44
-  type: trojan
-  server: 172.67.67.89
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇨🇦加拿大 05
-  type: trojan
-  server: 172.64.154.144
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 美国 (14)
-  type: vless
-  server: 8.47.69.6
-  port: 2083
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  encryption: none
-  tls: true
-  servername: newwk1.f1w.de5.net
-  fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: newwk1.f1w.de5.net
-- name: 🇨🇦加拿大 25
-  type: trojan
-  server: 104.18.0.1
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 美国 (4) (2)
-  type: trojan
-  server: 165.215.250.14
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.calmlunch.com
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: vless-1863440009
-  network: ws
-  port: 443
-  server: 104.16.10.48
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_67e56d53
-  password: null
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 美国 (4)
-  type: vless
-  server: 172.67.74.177
-  port: 443
-  uuid: e53eacb6-cd30-4964-a57c-febcb5151b98
-  encryption: none
-  tls: true
-  servername: wallweb-4r0.pages.dev
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: wallweb-4r0.pages.dev
-- name: 美国 (64)
-  type: trojan
-  server: 104.19.212.207
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 美国 (2)
-  type: trojan
-  server: 172.66.47.18
-  port: 443
-  password: e7TTceggMwUMg+aFN:F4
-  tls: true
-  servername: APkD964o1oghlTghHt0L0Of.pAgeS.Dev
-  network: ws
-  ws-opts:
-    path: /tr/SIeRkg2QvR2Zcpu0SeEMow?ed=2560
-- name: 美国 (27)
-  type: trojan
-  server: 104.18.35.31
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 美国 (47)
-  type: trojan
-  server: 104.17.155.44
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: vless-1854335913
-  network: ws
-  port: 443
-  server: 104.16.10.104
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: 美国 (37)
-  type: vless
-  server: 8.35.211.73
-  port: 2087
-  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
-  encryption: none
-  tls: true
-  servername: d39333476.pages.dev
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /resource
-    headers:
-      Host: d39333476.pages.dev
-- name: 美国 (48)
-  type: trojan
-  server: 104.18.46.59
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: vless-1863468525
-  network: ws
-  port: 443
-  server: 104.19.33.25
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
 - name: 美国 (63)
   type: trojan
   server: 172.64.151.20
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇨🇦加拿大 33
-  type: trojan
-  server: 104.19.48.73
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: trojan-1827148859
-  password: humanity
-  port: 443
-  server: 104.21.103.254
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 荷兰 (4)
-  type: vless
-  server: 188.164.248.151
-  port: 2096
-  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
-  encryption: none
-  tls: true
-  servername: d39333476.pages.dev
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /item/m
-    headers:
-      Host: d39333476.pages.dev
-- name: 美国 (11)
-  type: vless
-  server: 104.18.40.100
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  encryption: none
-  tls: true
-  servername: ccc.010304.xyz
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-- name: 美国 (65)
-  type: trojan
-  server: 104.18.223.253
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: trojan-1894622732
-  password: humanity
-  port: 443
-  server: 45.130.125.126
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-1853348743
-  password: humanity
-  port: 443
-  server: 45.130.125.75
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 美国 (62)
-  type: trojan
-  server: 162.159.45.1
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 美国 (60)
-  type: trojan
-  server: 104.16.251.219
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 美国 (28)
-  type: trojan
-  server: 172.64.155.36
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: vless-1827152273
-  network: ws
-  port: 443
-  server: 162.159.254.3
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- alterId: 0
-  cipher: auto
-  name: vmess-1907162640
-  network: ws
-  port: 2083
-  server: 104.21.0.1
-  servername: or3.sfacg.uk
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-- name: 美国 (9)
-  type: vless
-  server: 172.66.0.172
-  port: 443
-  uuid: e53eacb6-cd30-4964-a57c-febcb5151b98
-  encryption: none
-  tls: true
-  servername: wallweb-4r0.pages.dev
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: wallweb-4r0.pages.dev
-- alterId: 0
-  cipher: auto
-  name: vmess-1827159639
-  network: ws
-  port: 8443
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-- name: 🇨🇦加拿大 27
-  type: trojan
-  server: 104.17.162.3
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 美国 (51)
-  type: trojan
-  server: 104.18.72.213
-  port: 443
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-- name: 🇨🇦加拿大 03
-  type: trojan
-  server: 104.18.41.167
   port: 443
   password: humanity
   tls: true
@@ -1459,19 +1256,9 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
-- name: vless-1946062464
-  network: raw
-  port: 18580
-  server: 108.61.119.63
-  servername: us007.zestapp778.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- name: 美国 (3) (2)
+- name: 🇨🇦加拿大 03
   type: trojan
-  server: 162.159.150.241
+  server: 104.18.41.167
   port: 443
   password: humanity
   tls: true
@@ -1479,6 +1266,69 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
+- name: 🇨🇦加拿大 33
+  type: trojan
+  server: 104.19.48.73
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_67e56d53
+  password: null
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_b986154d
+  password: null
+  port: 8443
+  server: 44.217.145.28
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: vless-1941532350
+  network: ws
+  port: 443
+  server: 104.19.12.94
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1935807325
+  network: ws
+  port: 8080
+  server: 170.114.45.6
+  type: vless
+  udp: true
+  uuid: 990bf436-f1b9-4e7f-857d-14378acc4ae5
+- name: vless-1828374447
+  network: ws
+  port: 443
+  server: 188.114.97.6
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1853972214
+  network: ws
+  port: 443
+  server: 104.24.31.89
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
 - name: vless-1843512959
   network: ws
   port: 443
@@ -1489,14 +1339,140 @@ proxies:
   type: vless
   udp: true
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1929965340
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+- name: trojan-1944218170
+  password: humanity
   port: 443
-  server: 216.152.155.23
+  server: 104.25.0.1
   skip-cert-verify: false
-  sni: courses.nextjobopportunityandclaimyouridealrole.com
+  sni: www.calmlunch.com
   type: trojan
   udp: true
+- name: 美国 (9)
+  type: vless
+  server: 172.66.0.172
+  port: 443
+  uuid: e53eacb6-cd30-4964-a57c-febcb5151b98
+  encryption: none
+  tls: true
+  servername: wallweb-4r0.pages.dev
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: wallweb-4r0.pages.dev
+- name: 美国 (36)
+  type: trojan
+  server: 104.18.39.55
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 美国 (37)
+  type: vless
+  server: 8.35.211.73
+  port: 2087
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  encryption: none
+  tls: true
+  servername: d39333476.pages.dev
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /resource
+    headers:
+      Host: d39333476.pages.dev
+- name: 美国 (51)
+  type: trojan
+  server: 104.18.72.213
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 15
+  type: trojan
+  server: 172.64.229.7
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦加拿大 25
+  type: trojan
+  server: 104.18.0.1
+  port: 443
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+- cipher: aes-256-gcm
+  name: shadowsocks-1827147591
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 15.204.247.206
+  type: ss
+  udp: true
+- name: vless-1853654571
+  network: ws
+  port: 443
+  server: 104.21.70.21
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1832764144
+  network: ws
+  port: 443
+  server: 104.16.10.22
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1831072390
+  network: ws
+  port: 443
+  server: 104.17.50.53
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1941532359
+  network: ws
+  port: 2053
+  server: saas.sin.fan
+  servername: vp11.1145678.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+- name: vless-1863440009
+  network: ws
+  port: 443
+  server: 104.16.10.48
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
 proxy-groups:
 - name: AUTO
   type: url-test
@@ -1504,309 +1480,309 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - vmess-1827159661
-  - vless-1884771865
-  - vless-1863440034
-  - 荷兰 (2)
-  - 🇨🇦加拿大 39
-  - vless-1910526407
-  - 美国 (9) (2)
-  - 美国 (31)
-  - 美国 (55)
-  - 荷兰 (3)
-  - 🇨🇦加拿大 23
-  - 🇨🇦加拿大 28
-  - 🇨🇦加拿大 31
-  - vless-1946894790
-  - vless-1946224541
-  - trojan-1937399876
-  - 美国 (29)
-  - 美国 (52)
-  - 美国 (66)
-  - 🇨🇦加拿大 42
+  - vless-1832764134
+  - 美国 (57)
   - vless-1930539293
-  - vless-1832764138
-  - trojan-1944218170
-  - 美国 (7) (2)
-  - 美国 (10)
+  - vless-1856200577
+  - vmess-1947375789
+  - trojan-1827149560
   - 美国 (54)
-  - 🇨🇦加拿大 07
-  - 🇨🇦加拿大 14
-  - 🇨🇦加拿大 20
+  - 🇨🇦加拿大 12
+  - 🇨🇦加拿大 13
+  - vless-1863476159
+  - trojan-1894622732
+  - trojan-1947413506
+  - 荷兰 (4)
+  - 🇨🇦加拿大 21
   - 🇨🇦加拿大 22
+  - 🇨🇦加拿大 45
+  - vless-1910526407
+  - vless-1863474247
+  - vless-1828374596
+  - vless-1863468525
+  - trojan-1934984141
+  - trojan-1908518028
+  - vless-1854335913
+  - trojan-1939845073
+  - trojan-1937399876
+  - 美国 (27)
+  - 美国 (66)
+  - 🇨🇦加拿大 11
+  - 🇨🇦加拿大 16
+  - 🇨🇦加拿大 26
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a982a1fd
+  - vless-1827151410
+  - vless-1927185301
+  - vless-1921748885
+  - vmess-1907162640
+  - trojan-1940455323
+  - trojan-1939844054
+  - trojan-1939845059
+  - trojan-1944218172
+  - vless-1831081766
+  - trojan-1946894181
+  - 美国 (4)
+  - 美国 (2) (2)
+  - 美国 (29)
+  - 美国 (55)
+  - 美国 (59)
+  - 美国 (60)
+  - 美国 (67)
+  - 🇨🇦加拿大 06
+  - 🇨🇦加拿大 10
+  - 🇨🇦加拿大 32
   - 🇨🇦加拿大 34
-  - 🇨🇦加拿大 35
+  - 🇨🇦加拿大 44
   - 🇨🇦加拿大 47
+  - vless-1827152273
+  - vless-1853476976
+  - vless-1831066899
+  - vless-1863464818
+  - vless-1856199614
+  - vless-1946224541
+  - vless-1827962637
+  - trojan-1827148954
+  - trojan-1827148859
+  - trojan-1857007066
+  - trojan-1828472626
+  - 美国 (7) (2)
+  - 美国 (9) (2)
+  - 美国 (34)
+  - 荷兰 (3)
+  - 美国 (62)
+  - 🇨🇦加拿大 05
+  - 🇨🇦加拿大 07
+  - 🇨🇦加拿大 09
+  - 🇨🇦加拿大 17
+  - 🇨🇦加拿大 20
+  - 🇨🇦加拿大 23
+  - 🇨🇦加拿大 38
+  - 🇨🇦加拿大 48
+  - vless-1884771865
+  - vless-1863440028
+  - vless-1832764138
+  - vless-1828654076
+  - vless-1946894790
+  - trojan-1923819684
+  - vless-1832764140
+  - 美国
+  - 美国 (28)
+  - 美国 (31)
+  - 美国 (38)
+  - 美国 (46)
+  - 美国 (47)
+  - 美国 (50)
+  - 美国 (56)
+  - 🇨🇦加拿大 08
+  - 🇨🇦加拿大 14
+  - 🇨🇦加拿大 18
+  - 🇨🇦加拿大 37
+  - 🇨🇦加拿大 41
+  - trojan-1858673309
+  - vmess-1938957366
+  - trojan-1853461582
+  - 美国 (2)
+  - 美国 (52)
+  - 🇨🇦加拿大 04
+  - 🇨🇦加拿大 19
+  - 🇨🇦加拿大 24
+  - 🇨🇦加拿大 28
+  - 🇨🇦加拿大 29
+  - 🇨🇦加拿大 30
+  - 🇨🇦加拿大 35
+  - 🇨🇦加拿大 42
+  - 🇨🇦加拿大 46
   - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_a38c7e22
+  - hysteria2-1853331471
+  - vless-1863440034
+  - trojan-1853348743
+  - trojan-1827938592
+  - vmess-1827159661
   - trojan-1853462719
+  - trojan-1853491995
+  - trojan-1827149109
   - trojan-1827188005
   - 英国
-  - 美国 (32)
-  - 🇨🇦加拿大 12
-  - 🇨🇦加拿大 37
-  - trojan-1923819684
-  - trojan-1827149109
-  - 🇨🇦加拿大 02
-  - vless-1927185301
-  - vless-1867102735
-  - trojan-1828472626
-  - 🇨🇦加拿大 10
-  - 🇨🇦加拿大 38
-  - vless-1863474247
-  - vmess-1947375789
-  - vless-1856199614
-  - vless-1831081766
-  - trojan-1947413506
-  - 🇨🇦加拿大 06
-  - 🇨🇦加拿大 29
-  - trojan-1858673309
-  - 美国 (26)
-  - 美国 (49)
-  - vless-1831072390
-  - vless-1863476159
-  - vless-1921748885
-  - 美国 (42)
-  - 🇨🇦加拿大 13
-  - 🇨🇦加拿大 26
-  - 🇨🇦加拿大 48
-  - trojan-1853491995
-  - trojan-1853461582
-  - 🇨🇦加拿大 16
-  - 🇨🇦加拿大 36
-  - 美国 (46)
-  - vless-1863464818
-  - vless-1832764134
-  - trojan-1857007066
   - 美国 (30)
-  - 🇨🇦加拿大 08
-  - 🇨🇦加拿大 41
-  - vless-1832764144
-  - vless-1941532350
-  - vless-1853972214
-  - trojan-1934984141
-  - 🇨🇦加拿大 24
-  - vless-1863440028
-  - trojan-1940455323
-  - 美国 (2) (2)
-  - 🇨🇦加拿大 30
-  - 美国 (34)
-  - 🇨🇦加拿大 32
-  - trojan-1827938592
-  - trojan-1944218172
-  - 美国 (45)
-  - vless-1935807325
-  - 🇨🇦加拿大 15
-  - 🇨🇦加拿大 19
-  - vless-1947014531
-  - trojan-1939844054
-  - 🇨🇦加拿大 11
-  - 美国 (36)
-  - 🇨🇦加拿大 21
-  - 🇨🇦加拿大 45
-  - vless-1827962637
-  - 美国 (53)
-  - 美国 (59)
-  - 🇨🇦加拿大 17
-  - 🇨🇦加拿大 18
-  - trojan-1939845059
-  - 美国 (50)
-  - 🇨🇦加拿大 46
+  - 美国 (49)
   - 美国 (58)
-  - vless-1831066899
-  - 美国 (57)
-  - 🇨🇦加拿大 04
-  - 🇨🇦加拿大 44
-  - 🇨🇦加拿大 05
-  - 美国 (14)
-  - 🇨🇦加拿大 25
-  - 美国 (4) (2)
-  - vless-1863440009
-  - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_67e56d53
-  - 美国 (4)
-  - 美国 (64)
-  - 美国 (2)
-  - 美国 (27)
-  - 美国 (47)
-  - vless-1854335913
-  - 美国 (37)
-  - 美国 (48)
-  - vless-1863468525
   - 美国 (63)
-  - 🇨🇦加拿大 33
-  - trojan-1827148859
-  - 荷兰 (4)
-  - 美国 (11)
-  - 美国 (65)
-  - trojan-1894622732
-  - trojan-1853348743
-  - 美国 (62)
-  - 美国 (60)
-  - 美国 (28)
-  - vless-1827152273
-  - vmess-1907162640
-  - 美国 (9)
-  - vmess-1827159639
-  - 🇨🇦加拿大 27
-  - 美国 (51)
-  - 🇨🇦加拿大 03
   - 🇨🇦加拿大 01
-  - vless-1946062464
-  - 美国 (3) (2)
+  - 🇨🇦加拿大 03
+  - 🇨🇦加拿大 33
+  - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_67e56d53
+  - C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_b986154d
+  - vless-1941532350
+  - vless-1935807325
+  - vless-1828374447
+  - vless-1853972214
   - vless-1843512959
-  - trojan-1929965340
+  - trojan-1944218170
+  - 美国 (9)
+  - 美国 (36)
+  - 美国 (37)
+  - 美国 (51)
+  - 🇨🇦加拿大 15
+  - 🇨🇦加拿大 25
+  - shadowsocks-1827147591
+  - vless-1853654571
+  - vless-1832764144
+  - vless-1831072390
+  - vless-1941532359
+  - vless-1863440009
 - name: PROXY
   type: select
   proxies:
   - AUTO
-  - vmess-1827159661
-  - vless-1884771865
-  - vless-1863440034
-  - 荷兰 (2)
-  - 🇨🇦加拿大 39
-  - vless-1910526407
-  - 美国 (9) (2)
-  - 美国 (31)
-  - 美国 (55)
-  - 荷兰 (3)
-  - 🇨🇦加拿大 23
-  - 🇨🇦加拿大 28
-  - 🇨🇦加拿大 31
-  - vless-1946894790
-  - vless-1946224541
-  - trojan-1937399876
-  - 美国 (29)
-  - 美国 (52)
-  - 美国 (66)
-  - 🇨🇦加拿大 42
+  - vless-1832764134
+  - 美国 (57)
   - vless-1930539293
-  - vless-1832764138
-  - trojan-1944218170
-  - 美国 (7) (2)
-  - 美国 (10)
+  - vless-1856200577
+  - vmess-1947375789
+  - trojan-1827149560
   - 美国 (54)
-  - 🇨🇦加拿大 07
-  - 🇨🇦加拿大 14
-  - 🇨🇦加拿大 20
+  - 🇨🇦加拿大 12
+  - 🇨🇦加拿大 13
+  - vless-1863476159
+  - trojan-1894622732
+  - trojan-1947413506
+  - 荷兰 (4)
+  - 🇨🇦加拿大 21
   - 🇨🇦加拿大 22
+  - 🇨🇦加拿大 45
+  - vless-1910526407
+  - vless-1863474247
+  - vless-1828374596
+  - vless-1863468525
+  - trojan-1934984141
+  - trojan-1908518028
+  - vless-1854335913
+  - trojan-1939845073
+  - trojan-1937399876
+  - 美国 (27)
+  - 美国 (66)
+  - 🇨🇦加拿大 11
+  - 🇨🇦加拿大 16
+  - 🇨🇦加拿大 26
+  - D🔴🇺🇸hos[🎬🤖📺🎭]_dokng.com_a982a1fd
+  - vless-1827151410
+  - vless-1927185301
+  - vless-1921748885
+  - vmess-1907162640
+  - trojan-1940455323
+  - trojan-1939844054
+  - trojan-1939845059
+  - trojan-1944218172
+  - vless-1831081766
+  - trojan-1946894181
+  - 美国 (4)
+  - 美国 (2) (2)
+  - 美国 (29)
+  - 美国 (55)
+  - 美国 (59)
+  - 美国 (60)
+  - 美国 (67)
+  - 🇨🇦加拿大 06
+  - 🇨🇦加拿大 10
+  - 🇨🇦加拿大 32
   - 🇨🇦加拿大 34
-  - 🇨🇦加拿大 35
+  - 🇨🇦加拿大 44
   - 🇨🇦加拿大 47
+  - vless-1827152273
+  - vless-1853476976
+  - vless-1831066899
+  - vless-1863464818
+  - vless-1856199614
+  - vless-1946224541
+  - vless-1827962637
+  - trojan-1827148954
+  - trojan-1827148859
+  - trojan-1857007066
+  - trojan-1828472626
+  - 美国 (7) (2)
+  - 美国 (9) (2)
+  - 美国 (34)
+  - 荷兰 (3)
+  - 美国 (62)
+  - 🇨🇦加拿大 05
+  - 🇨🇦加拿大 07
+  - 🇨🇦加拿大 09
+  - 🇨🇦加拿大 17
+  - 🇨🇦加拿大 20
+  - 🇨🇦加拿大 23
+  - 🇨🇦加拿大 38
+  - 🇨🇦加拿大 48
+  - vless-1884771865
+  - vless-1863440028
+  - vless-1832764138
+  - vless-1828654076
+  - vless-1946894790
+  - trojan-1923819684
+  - vless-1832764140
+  - 美国
+  - 美国 (28)
+  - 美国 (31)
+  - 美国 (38)
+  - 美国 (46)
+  - 美国 (47)
+  - 美国 (50)
+  - 美国 (56)
+  - 🇨🇦加拿大 08
+  - 🇨🇦加拿大 14
+  - 🇨🇦加拿大 18
+  - 🇨🇦加拿大 37
+  - 🇨🇦加拿大 41
+  - trojan-1858673309
+  - vmess-1938957366
+  - trojan-1853461582
+  - 美国 (2)
+  - 美国 (52)
+  - 🇨🇦加拿大 04
+  - 🇨🇦加拿大 19
+  - 🇨🇦加拿大 24
+  - 🇨🇦加拿大 28
+  - 🇨🇦加拿大 29
+  - 🇨🇦加拿大 30
+  - 🇨🇦加拿大 35
+  - 🇨🇦加拿大 42
+  - 🇨🇦加拿大 46
   - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_a38c7e22
+  - hysteria2-1853331471
+  - vless-1863440034
+  - trojan-1853348743
+  - trojan-1827938592
+  - vmess-1827159661
   - trojan-1853462719
+  - trojan-1853491995
+  - trojan-1827149109
   - trojan-1827188005
   - 英国
-  - 美国 (32)
-  - 🇨🇦加拿大 12
-  - 🇨🇦加拿大 37
-  - trojan-1923819684
-  - trojan-1827149109
-  - 🇨🇦加拿大 02
-  - vless-1927185301
-  - vless-1867102735
-  - trojan-1828472626
-  - 🇨🇦加拿大 10
-  - 🇨🇦加拿大 38
-  - vless-1863474247
-  - vmess-1947375789
-  - vless-1856199614
-  - vless-1831081766
-  - trojan-1947413506
-  - 🇨🇦加拿大 06
-  - 🇨🇦加拿大 29
-  - trojan-1858673309
-  - 美国 (26)
-  - 美国 (49)
-  - vless-1831072390
-  - vless-1863476159
-  - vless-1921748885
-  - 美国 (42)
-  - 🇨🇦加拿大 13
-  - 🇨🇦加拿大 26
-  - 🇨🇦加拿大 48
-  - trojan-1853491995
-  - trojan-1853461582
-  - 🇨🇦加拿大 16
-  - 🇨🇦加拿大 36
-  - 美国 (46)
-  - vless-1863464818
-  - vless-1832764134
-  - trojan-1857007066
   - 美国 (30)
-  - 🇨🇦加拿大 08
-  - 🇨🇦加拿大 41
-  - vless-1832764144
-  - vless-1941532350
-  - vless-1853972214
-  - trojan-1934984141
-  - 🇨🇦加拿大 24
-  - vless-1863440028
-  - trojan-1940455323
-  - 美国 (2) (2)
-  - 🇨🇦加拿大 30
-  - 美国 (34)
-  - 🇨🇦加拿大 32
-  - trojan-1827938592
-  - trojan-1944218172
-  - 美国 (45)
-  - vless-1935807325
-  - 🇨🇦加拿大 15
-  - 🇨🇦加拿大 19
-  - vless-1947014531
-  - trojan-1939844054
-  - 🇨🇦加拿大 11
-  - 美国 (36)
-  - 🇨🇦加拿大 21
-  - 🇨🇦加拿大 45
-  - vless-1827962637
-  - 美国 (53)
-  - 美国 (59)
-  - 🇨🇦加拿大 17
-  - 🇨🇦加拿大 18
-  - trojan-1939845059
-  - 美国 (50)
-  - 🇨🇦加拿大 46
+  - 美国 (49)
   - 美国 (58)
-  - vless-1831066899
-  - 美国 (57)
-  - 🇨🇦加拿大 04
-  - 🇨🇦加拿大 44
-  - 🇨🇦加拿大 05
-  - 美国 (14)
-  - 🇨🇦加拿大 25
-  - 美国 (4) (2)
-  - vless-1863440009
-  - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_67e56d53
-  - 美国 (4)
-  - 美国 (64)
-  - 美国 (2)
-  - 美国 (27)
-  - 美国 (47)
-  - vless-1854335913
-  - 美国 (37)
-  - 美国 (48)
-  - vless-1863468525
   - 美国 (63)
-  - 🇨🇦加拿大 33
-  - trojan-1827148859
-  - 荷兰 (4)
-  - 美国 (11)
-  - 美国 (65)
-  - trojan-1894622732
-  - trojan-1853348743
-  - 美国 (62)
-  - 美国 (60)
-  - 美国 (28)
-  - vless-1827152273
-  - vmess-1907162640
-  - 美国 (9)
-  - vmess-1827159639
-  - 🇨🇦加拿大 27
-  - 美国 (51)
-  - 🇨🇦加拿大 03
   - 🇨🇦加拿大 01
-  - vless-1946062464
-  - 美国 (3) (2)
+  - 🇨🇦加拿大 03
+  - 🇨🇦加拿大 33
+  - D🔴🇰🇷hos[🎬🤖📺🎭]_dokng.com_67e56d53
+  - C🟠🇺🇸hos[🎬🤖📺🎭]_dokng.com_b986154d
+  - vless-1941532350
+  - vless-1935807325
+  - vless-1828374447
+  - vless-1853972214
   - vless-1843512959
-  - trojan-1929965340
+  - trojan-1944218170
+  - 美国 (9)
+  - 美国 (36)
+  - 美国 (37)
+  - 美国 (51)
+  - 🇨🇦加拿大 15
+  - 🇨🇦加拿大 25
+  - shadowsocks-1827147591
+  - vless-1853654571
+  - vless-1832764144
+  - vless-1831072390
+  - vless-1941532359
+  - vless-1863440009
 rules:
 - MATCH,PROXY
