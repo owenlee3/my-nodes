@@ -1,10 +1,10 @@
-# node-sub generated 2026-11-15 22:22 UTC | 150 nodes (TCP-tested, sorted by latency)
+# node-sub generated 2026-11-16 04:11 UTC | 150 nodes (TCP-tested, sorted by latency)
 mixed-port: 7890
 allow-lan: false
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸_美国 (34)
+- name: 🇺🇸_美国 (51)
   type: trojan
   server: 199.232.78.160
   port: 443
@@ -19,6 +19,19 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
       Host: mitivpn-ss-mitivpn---mitivpn--mitivpn.global.ssl.fastly.net
+- name: 🇺🇸_美国 (57)
+  type: vless
+  server: 199.232.78.120
+  port: 443
+  uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
+  encryption: none
+  tls: true
+  servername: cdn.akamai.steamstatic.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ushetzijji.global.ssl.fastly.net.
 - name: trojan-1946894181
   password: MiTiVPN
   port: 443
@@ -27,40 +40,7 @@ proxies:
   sni: firefox.com
   type: trojan
   udp: true
-- name: vless-1832764138
-  network: ws
-  port: 443
-  server: 104.17.210.74
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1827152152
-  network: ws
-  port: 443
-  server: 104.21.0.87
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: 🇺🇸_美国 (23)
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
-  encryption: none
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-  network: ws
-  ws-opts:
-    path: /?Telegram---MTMVPN---MTMVPN---MTMVPN---MTMVPN
-    headers:
-      Host: ukoijji.global.ssl.fastly.net
-- name: 🇺🇸_美国 (35)
+- name: 🇺🇸_美国 (52)
   type: trojan
   server: 167.82.76.27
   port: 443
@@ -75,10 +55,344 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
       Host: mitivpn---ss--s---mitivpn-3.global.ssl.fastly.net
-- name: vless-1863476159
+- alterId: 0
+  cipher: auto
+  name: vmess-1853356949
+  network: ws
+  port: 39495
+  server: 129.146.77.248
+  type: vmess
+  udp: true
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+- name: 🇺🇸US_632|738KB/s|R002-260618 [a0b72b48d798]
+  port: 443
+  server: 129.153.93.183
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: trojan-1940485908
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.112.13
+  skip-cert-verify: true
+  sni: 66.163.112.13
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: shadowsocks-1875129452
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 95.215.201.18
+  type: ss
+  udp: true
+- name: trojan-1930077586
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.112.142
+  skip-cert-verify: true
+  sni: cdn.unlockyourfuturefindyourperfectcareer.com
+  type: trojan
+  udp: true
+- name: trojan-1938557333
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.112.171
+  skip-cert-verify: false
+  sni: learn.unlockyourfuturefindyourperfectcareer.com
+  type: trojan
+  udp: true
+- name: trojan-1935007690
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.112.147
+  skip-cert-verify: true
+  sni: courses.unlockyourfuturefindyourperfectcareer.com
+  type: trojan
+  udp: true
+- name: trojan-1935612269
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.112.242
+  skip-cert-verify: true
+  sni: api.nextjobopportunityandclaimyouridealrole.com
+  type: trojan
+  udp: true
+- name: trojan-1929965329
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.112.31
+  skip-cert-verify: false
+  sni: unlockyourfuturefindyourperfectcareer.com
+  type: trojan
+  udp: true
+- name: trojan-1946215896
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.112.121
+  skip-cert-verify: true
+  sni: 66.163.112.121
+  type: trojan
+  udp: true
+- name: trojan-1935007685
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.112.76
+  skip-cert-verify: true
+  sni: api.unlockyourfuturefindyourperfectcareer.com
+  type: trojan
+  udp: true
+- name: 🇺🇸US_343|737KB/s [4e07637ecf6a]
+  password: ''
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: 🇺🇸US_20|2.4MB/s [4cc7e4544b90]
+  password: ''
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- client-fingerprint: chrome
+  name: vless-1835128666
   network: ws
   port: 443
-  server: 104.21.6.186
+  reality-opts:
+    public-key: 6nTROV2ELz-3vNUl0A00hp378QngpYABrPgjCpUknD0
+    short-id: f436f707
+  server: 45.63.53.81
+  servername: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c512dcbd-1847-40a2-9c99-989c8bfe4717
+- name: 🇺🇸_美国 (79)
+  type: vless
+  server: 107.191.58.86
+  port: 443
+  uuid: 4444e77e-3d2a-4dc9-bf31-936f038f5570
+  encryption: none
+  tls: true
+  servername: itunes.apple.com
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+  reality-opts:
+    public-key: ZZwZGoX0Us8t6nLvckDWskC1c25F9rL0_nUXmd8BFxQ
+    short-id: 8dd324c1
+- name: 🇺🇸US_25|790KB/s|P002-260618 [807a4c2c399d]
+  password: None
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_368|724KB/s|P002-260618 [46bdd7730cd4]
+  password: None
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_179|812KB/s|P002-260618 [07ec0de97e75]
+  password: None
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: vless-1935807325
+  network: ws
+  port: 8080
+  server: 170.114.45.6
+  type: vless
+  udp: true
+  uuid: 990bf436-f1b9-4e7f-857d-14378acc4ae5
+- client-fingerprint: chrome
+  name: vless-1888152403
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: Ag8SQ5QdqfHO9pKWA93kqGmH5EQo7Xm5Z4RbPnwPBBE
+    short-id: ff3597db
+  server: 45.76.172.197
+  servername: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b256c867-a020-48e0-be80-1b079f2613a2
+- name: vless-1863440028
+  network: ws
+  port: 443
+  server: 104.16.10.2
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1867102735
+  network: ws
+  port: 443
+  server: 104.19.48.107
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1856199614
+  network: ws
+  port: 443
+  server: 104.16.111.102
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1827962637
+  network: ws
+  port: 443
+  server: 104.16.111.195
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1831081766
+  network: ws
+  port: 443
+  server: 104.27.46.35
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: trojan-1828472626
+  password: humanity
+  port: 443
+  server: 104.16.72.50
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: 🇺🇸_美国 (44)
+  type: vless
+  server: 38.34.190.210
+  port: 443
+  uuid: 67f6aca5-a4c7-49e6-94b3-184e3b528b2a
+  encryption: none
+  tls: true
+  servername: www.apple.com
+  flow: xtls-rprx-vision
+  fingerprint: chrome
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+- name: 🇺🇸_美国 (50)
+  type: vless
+  server: 38.34.190.209
+  port: 2053
+  uuid: 67f6aca5-a4c7-49e6-94b3-184e3b528b2a
+  encryption: none
+  tls: true
+  servername: www.apple.com
+  flow: xtls-rprx-vision
+  fingerprint: chrome
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+- name: 🇺🇸US_262|799KB/s|P002-260618 [e25ed24c7853]
+  password: 'null'
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+  x-toolall-mihomo: true
+- name: 🇺🇸US_295|769KB/s [ee98ba87e968]
+  password: ''
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: 🇺🇸US_48|830KB/s|P002-260618 [875722dfaec2]
+  password: None
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_185|405KB/s|R002-260618 [e6c09f5655f6]
+  password: None
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_139|733KB/s|P002-260618 [77172e20d986]
+  password: None
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: vless-1927185301
+  network: ws
+  port: 443
+  server: 104.17.50.227
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1832764144
+  network: ws
+  port: 443
+  server: 104.16.10.22
   servername: jp3.yohototo.top
   skip-cert-verify: false
   tls: true
@@ -95,14 +409,48 @@ proxies:
   type: vless
   udp: true
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1853348743
+- alterId: 0
+  cipher: auto
+  name: vmess-1947375789
+  network: ws
+  port: 2083
+  server: 162.159.130.234
+  servername: cdn.sfacg.uk
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+- name: vless-1828654076
+  network: ws
+  port: 443
+  server: 104.21.70.228
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: trojan-1827938592
   password: humanity
   port: 443
-  server: 45.130.125.75
+  server: 162.159.91.211
   skip-cert-verify: false
   sni: www.calmlunch.com
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: vmess-1827159661
+  network: ws
+  port: 8443
+  server: 104.21.91.53
+  servername: v2ray1.dozapp.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
 - name: trojan-1853462719
   password: humanity
   port: 443
@@ -111,61 +459,209 @@ proxies:
   sni: www.calmlunch.com
   type: trojan
   udp: true
-- name: trojan-1947413506
+- name: trojan-1937399876
   password: humanity
   port: 443
-  server: 104.17.206.147
+  server: 45.128.76.242
   skip-cert-verify: false
   sni: www.trusteeforward.com
   type: trojan
   udp: true
-- name: 🇺🇸_美国 (24)
-  type: trojan
-  server: 162.159.140.116
-  port: 2053
-  password: ee278311-0dce-4e29-9913-2c5e9fb7a245
+- name: 🇺🇸_美国 (90)
+  type: vless
+  server: 45.32.70.42
+  port: 443
+  uuid: 8c392beb-524d-4d0a-a3a6-4d542d54a1ff
+  encryption: none
   tls: true
-  servername: 17946579785511.168381.xyz
+  servername: itunes.apple.com
+  fingerprint: chrome
   network: ws
   ws-opts:
-    path: /tianboephth
+    path: /ws
     headers:
-      Host: 17946579781989.168381.xyz
-- name: 🇩🇪DE_1|3.0MB/s [2df495ac24d78d7d] [7e54912d3b27]
-  port: 443
-  server: 172.64.69.89
+      Host: itunes.apple.com
+  reality-opts:
+    public-key: cQZ-dTY4QSQteDYpngP2PavOsn9yY9lIP-OscwzwAio
+    short-id: 4dda4608
+- name: 🇺🇸_美国 (39)
+  type: vless
+  server: 38.145.220.58
+  port: 2053
+  uuid: 67f6aca5-a4c7-49e6-94b3-184e3b528b2a
+  encryption: none
+  tls: true
+  servername: www.apple.com
+  flow: xtls-rprx-vision
+  fingerprint: chrome
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+- name: 🇺🇸_美国 (40)
+  type: vless
+  server: 38.145.220.58
+  port: 2083
+  uuid: 67f6aca5-a4c7-49e6-94b3-184e3b528b2a
+  encryption: none
+  tls: true
+  servername: www.apple.com
+  flow: xtls-rprx-vision
+  fingerprint: chrome
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+- name: 🇺🇸_美国 (45)
+  type: vless
+  server: 38.34.190.210
+  port: 2053
+  uuid: 67f6aca5-a4c7-49e6-94b3-184e3b528b2a
+  encryption: none
+  tls: true
+  servername: www.apple.com
+  flow: xtls-rprx-vision
+  fingerprint: chrome
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+- name: 🇺🇸US_354|795KB/s|P002-260618 [185dbe9aa84d]
+  password: None
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_153|773KB/s [4b8c02c0b885]
+  password: 'null'
+  port: 9002
+  server: 138.199.35.213
   skip-cert-verify: true
   tls: true
   type: http
-- cipher: rc4-md5
-  name: shadowsocks-1827969041
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 23.251.121.242
-  type: ss
   udp: true
-- name: trojan-1943021612
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 167.88.61.175
-  skip-cert-verify: false
-  sni: blog.browseseniorrolesandenhanceyourcareertoday.com
-  type: trojan
-  udp: true
-- name: vless-1831072390
+  username: 'null'
+  x-toolall-mihomo: true
+- name: vless-1946894790
   network: ws
   port: 443
-  server: 104.17.50.53
+  server: 172.64.152.52
+  servername: cf.zhahui.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2d4b819d-6fa6-4db2-8434-61e7db0fe93c
+- name: vless-1863468525
+  network: ws
+  port: 443
+  server: 104.19.33.25
   servername: jp3.yohototo.top
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1910526407
+- name: vless-1832764134
   network: ws
   port: 443
-  server: 104.16.0.1
+  server: 104.16.10.135
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: 🇺🇸_美国 (49)
+  type: vless
+  server: 38.34.190.211
+  port: 2083
+  uuid: 67f6aca5-a4c7-49e6-94b3-184e3b528b2a
+  encryption: none
+  tls: true
+  servername: www.apple.com
+  flow: xtls-rprx-vision
+  fingerprint: chrome
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+- name: 🇫🇷FR_96|7.2MB/s [41c9dcd3674d]
+  password: 'null'
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+  x-toolall-mihomo: true
+- name: 🇺🇸US_175|793KB/s [4a2e8ac2a0a1]
+  password: ''
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: 🇺🇸US_19|1.8MB/s [df2b9dfe7cec]
+  password: ''
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+  x-toolall-mihomo: true
+- name: 🇺🇸US_177|749KB/s|P002-260618 [0a4feb99c04c]
+  password: None
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_9|783KB/s|P002-260618 [04be46aed8a3]
+  password: 'null'
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+  x-toolall-mihomo: true
+- name: 🇺🇸US_347|675KB/s|P002-260618 [6accb17f58a1]
+  password: 'null'
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+  x-toolall-mihomo: true
+- name: vless-1827151410
+  network: ws
+  port: 443
+  server: 104.19.164.155
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1828374447
+  network: ws
+  port: 443
+  server: 188.114.97.6
   servername: jp3.yohototo.top
   skip-cert-verify: false
   tls: true
@@ -182,106 +678,10 @@ proxies:
   type: vless
   udp: true
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1921748885
+- name: vless-1827152152
   network: ws
   port: 443
-  server: 104.24.0.1
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1827938592
-  password: humanity
-  port: 443
-  server: 162.159.91.211
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-1827149560
-  password: humanity
-  port: 443
-  server: 172.67.231.254
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-1944218172
-  password: humanity
-  port: 443
-  server: 104.27.0.1
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-1944218170
-  password: humanity
-  port: 443
-  server: 104.25.0.1
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 4Jadi-4794f67529 [17908eda609e]
-  network: ws
-  port: 443
-  server: 199.232.78.120
-  servername: cdn.akamai.steamstatic.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
-  ws-opts:
-    headers:
-      Host: finalnsdger.global.ssl.fastly.net.
-    path: /
-  x-toolall-mihomo: true
-- name: 🇩🇪DE_2|2.9MB/s|R002-260618 [54d6c0e23aa77071] [05011d068359]
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: vless-1828374447
-  network: ws
-  port: 443
-  server: 188.114.97.6
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1853476976
-  network: ws
-  port: 443
-  server: 104.16.10.185
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1863440028
-  network: ws
-  port: 443
-  server: 104.16.10.2
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1853972214
-  network: ws
-  port: 443
-  server: 104.24.31.89
+  server: 104.21.0.87
   servername: jp3.yohototo.top
   skip-cert-verify: false
   tls: true
@@ -308,106 +708,150 @@ proxies:
   type: vless
   udp: true
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1934984141
-  password: humanity
-  port: 443
-  server: 104.19.95.153
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-1858673309
-  password: humanity
-  port: 443
-  server: 104.18.8.83
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: vless-1832764140
+- alterId: 0
+  cipher: auto
+  name: vmess-1938957366
   network: ws
-  port: 443
-  server: 172.67.156.147
-  servername: jp3.yohototo.top
+  port: 8443
+  server: 188.114.96.3
+  servername: v2ray1.dozapp.xyz
   skip-cert-verify: false
   tls: true
+  type: vmess
+  udp: true
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+- name: trojan-1853491995
+  password: humanity
+  port: 443
+  server: 104.18.32.47
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1827149109
+  password: humanity
+  port: 443
+  server: 185.18.250.252
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1944218170
+  password: humanity
+  port: 443
+  server: 104.25.0.1
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: 🇺🇸_美国 (66)
   type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1908518028
-  password: humanity
+  server: 172.233.129.172
   port: 443
-  server: 104.17.121.9
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-1937399876
-  password: humanity
-  port: 443
-  server: 45.128.76.242
-  skip-cert-verify: false
-  sni: www.trusteeforward.com
-  type: trojan
-  udp: true
-- name: trojan-1828472626
-  password: humanity
-  port: 443
-  server: 104.16.72.50
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 🇺🇸_美国 (27)
-  type: trojan
-  server: 162.159.140.116
-  port: 2083
-  password: ee278311-0dce-4e29-9913-2c5e9fb7a245
+  uuid: 40a4b915-5e6f-4316-9bb1-e899f30608e3
+  encryption: none
   tls: true
-  servername: 17946579787983.206353.xyz
+  servername: itunes.apple.com
+  fingerprint: chrome
   network: ws
   ws-opts:
-    path: /agrbniuh
+    path: /ws
     headers:
-      Host: 17946579781146.206353.xyz
-- name: 🇺🇸美国 原生IP 0.59MB/s 212 linuxdo@onimaii [2d4f24d06255]
-  password: 84tmvo2o
-  port: 62000
-  server: 23.230.200.36
-  type: socks5
-  username: uoca86uz
-- name: 🇺🇸US_487|271KB/s|R002-260618 [2f4c48c98642]
+      Host: itunes.apple.com
+  reality-opts:
+    public-key: LWfC_chpo4uDtzJ9VVnuTcf6zTzWKx-LCJAE2Ltl7h4
+    short-id: 5818adc3
+- name: 🇺🇸_美国 (69)
+  type: vless
+  server: 172.235.49.52
   port: 443
-  server: 137.175.22.41
+  uuid: ff5fc681-8548-4621-87d1-6b123db48f64
+  encryption: none
+  tls: true
+  servername: itunes.apple.com
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+  reality-opts:
+    public-key: Md-qJgtcKVbuLuwCX8r-VZnfKq3z_3CtyPt3CRcqdQE
+    short-id: 270d474c
+- name: 🇺🇸_美国 (46)
+  type: vless
+  server: 38.34.190.210
+  port: 2083
+  uuid: 67f6aca5-a4c7-49e6-94b3-184e3b528b2a
+  encryption: none
+  tls: true
+  servername: www.apple.com
+  flow: xtls-rprx-vision
+  fingerprint: chrome
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+- name: 🇺🇸_美国 (47)
+  type: vless
+  server: 38.34.190.211
+  port: 443
+  uuid: 67f6aca5-a4c7-49e6-94b3-184e3b528b2a
+  encryption: none
+  tls: true
+  servername: www.apple.com
+  flow: xtls-rprx-vision
+  fingerprint: chrome
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+- name: 🇺🇸_美国 (48)
+  type: vless
+  server: 38.34.190.211
+  port: 2053
+  uuid: 67f6aca5-a4c7-49e6-94b3-184e3b528b2a
+  encryption: none
+  tls: true
+  servername: www.apple.com
+  flow: xtls-rprx-vision
+  fingerprint: chrome
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+- name: 🇩🇪DE_2|2.8MB/s [2df495ac24d78d7d] [7e54912d3b27]
+  port: 443
+  server: 172.64.69.89
   skip-cert-verify: true
-  sub_tag: R002-260618
+  tls: true
+  type: http
+- name: 🇺🇸US_181|814KB/s|P002-260618 [1f04858a3534]
+  password: 'null'
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  sub_tag: P002-260618
   tls: true
   type: http
   udp: true
+  username: 'null'
   x-toolall-mihomo: true
-- cipher: rc4-md5
-  name: shadowsocks-1827963705
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 107.155.57.11
-  type: ss
+- name: 🇺🇸 US-Los Angeles-81993520-craa [cf54b49d68c3]
+  password: 'null'
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_180|813KB/s [b86bd25a4d6a]
+  password: ''
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-- cipher: rc4-md5
-  name: shadowsocks-1827963676
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 107.155.57.51
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: vmess-1827158757
-  network: tcp
-  port: 18000
-  server: 169.197.142.22
-  type: vmess
-  udp: true
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  username: ''
+  x-toolall-mihomo: true
 - name: vless-1884771865
   network: ws
   port: 443
@@ -428,52 +872,232 @@ proxies:
   type: vless
   udp: true
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1941512533
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 167.88.61.198
-  skip-cert-verify: false
-  sni: cdn.browseseniorrolesandenhanceyourcareertoday.com
-  type: trojan
-  udp: true
-- name: trojan-1941512524
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 167.88.61.193
-  skip-cert-verify: false
-  sni: browseseniorrolesandenhanceyourcareertoday.com
-  type: trojan
-  udp: true
-- name: vless-1828654076
+- name: vless-1910526407
   network: ws
   port: 443
-  server: 104.21.70.228
+  server: 104.16.0.1
   servername: jp3.yohototo.top
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1946894790
+- name: vless-1853476976
   network: ws
   port: 443
-  server: 172.64.152.52
-  servername: cf.zhahui.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2d4b819d-6fa6-4db2-8434-61e7db0fe93c
-- name: vless-1827962637
-  network: ws
-  port: 443
-  server: 104.16.111.195
+  server: 104.16.10.185
   servername: jp3.yohototo.top
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1831066899
+  network: ws
+  port: 443
+  server: 104.16.10.56
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1832764138
+  network: ws
+  port: 443
+  server: 104.17.210.74
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1921748885
+  network: ws
+  port: 443
+  server: 104.24.0.1
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1946224541
+  network: ws
+  port: 2053
+  server: 172.67.199.126
+  servername: fast.145779.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
+- name: trojan-1827148859
+  password: humanity
+  port: 443
+  server: 104.21.103.254
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1827149560
+  password: humanity
+  port: 443
+  server: 172.67.231.254
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1939845059
+  password: humanity
+  port: 443
+  server: 172.64.231.133
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1944218172
+  password: humanity
+  port: 443
+  server: 104.27.0.1
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1947413506
+  password: humanity
+  port: 443
+  server: 104.17.206.147
+  skip-cert-verify: false
+  sni: www.trusteeforward.com
+  type: trojan
+  udp: true
+- name: 🇳🇱_荷兰 (96)
+  type: vless
+  server: 188.164.248.110
+  port: 443
+  uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
+  encryption: none
+  tls: true
+  servername: imanvipreserved.pages.dev
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: imanvipreserved.pages.dev
+- name: 🇺🇸_美国 (63)
+  type: vless
+  server: 172.235.36.156
+  port: 443
+  uuid: 5b01153c-1cde-4efb-ae09-d97dbc4da44b
+  encryption: none
+  tls: true
+  servername: itunes.apple.com
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+  reality-opts:
+    public-key: 0RcPjVCZ7X7qXylKu6eGttBaRCh1YmAqpXL6IRXu6Cc
+    short-id: 7e759265
+- name: 🇺🇸_美国 (83)
+  type: vless
+  server: 172.236.241.130
+  port: 443
+  uuid: 21117a67-21c2-4e2a-ba8f-bc49e23b0ae8
+  encryption: none
+  tls: true
+  servername: itunes.apple.com
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+  reality-opts:
+    public-key: ibi0jOH5SfYhh7ycxdBrqq5oN4ajN3-dNiHKWC2VYWs
+    short-id: 51ecfe9e
+- name: 🇺🇸_美国 (41)
+  type: vless
+  server: 38.145.220.38
+  port: 443
+  uuid: 67f6aca5-a4c7-49e6-94b3-184e3b528b2a
+  encryption: none
+  tls: true
+  servername: www.apple.com
+  flow: xtls-rprx-vision
+  fingerprint: chrome
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+- name: 🇺🇸US_284|796KB/s|P002-260618 [e8addd3b5776]
+  password: 'null'
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+  x-toolall-mihomo: true
+- name: 🇺🇸US_366|836KB/s|R002-260618 [022e12564278]
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_255|791KB/s|R002-260618 [9c80833ac4df]
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_6|757KB/s|P002-260618 [2dbed5f226ac]
+  password: 'null'
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+  x-toolall-mihomo: true
+- name: vless-1930539293
+  network: ws
+  port: 8080
+  server: 170.114.46.6
+  type: vless
+  udp: true
+  uuid: 990bf436-f1b9-4e7f-857d-14378acc4ae5
+- name: vless-1863476159
+  network: ws
+  port: 443
+  server: 104.21.6.186
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: trojan-1858673309
+  password: humanity
+  port: 443
+  server: 104.18.8.83
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: vmess-1907162640
@@ -494,100 +1118,253 @@ proxies:
   sni: www.calmlunch.com
   type: trojan
   udp: true
-- name: trojan-1940455323
-  password: humanity
-  port: 443
-  server: 8.6.112.206
-  skip-cert-verify: false
-  sni: www.trusteeforward.com
-  type: trojan
-  udp: true
-- name: trojan-1939845059
-  password: humanity
-  port: 443
-  server: 172.64.231.133
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-1827149109
-  password: humanity
-  port: 443
-  server: 185.18.250.252
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 🇺🇸_美国 (40)
+- name: 🇸🇨_塞舌尔 (13)
   type: vless
-  server: 103.116.7.67
-  port: 2083
+  server: 154.211.8.152
+  port: 2053
   uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
   encryption: none
   tls: true
   servername: proxy-1cu.pages.dev
-  fingerprint: random
+  fingerprint: qq
   network: ws
   ws-opts:
     path: /
     headers:
       Host: proxy-1cu.pages.dev
-- name: 🇺🇸US_482|101KB/s|R002-260618 [af1f3857761c]
-  port: 443
-  server: 137.175.22.84
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_503|119KB/s|R002-260618 [fa48c427c867]
-  port: 443
-  server: 137.175.22.40
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_134|264KB/s|R002-260618 [ca5e6e62e5da]
-  port: 443
-  server: 38.28.185.222
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: vless-1935807325
-  network: ws
-  port: 8080
-  server: 170.114.45.6
+- name: 🇺🇸_美国 (62)
   type: vless
+  server: 172.235.37.163
+  port: 443
+  uuid: ac5752cd-bcf5-46c7-84d8-cadabbc8ead4
+  encryption: none
+  tls: true
+  servername: itunes.apple.com
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+  reality-opts:
+    public-key: Gfo4sYcQIKnnr25rMF36kSrkqTupybXwgsfdMDbpv0w
+    short-id: d20ad1f3
+- name: 🇺🇸_美国 (81)
+  type: vless
+  server: 172.236.233.130
+  port: 443
+  uuid: a663dc28-28dc-4f97-9665-6ac215c8e567
+  encryption: none
+  tls: true
+  servername: itunes.apple.com
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+  reality-opts:
+    public-key: 4wXbhUoSy9s9bGy9PaK18XVTTw3wXkBDjEusiMHaMB4
+    short-id: '53908445'
+- name: 🇺🇸_美国 (84)
+  type: vless
+  server: 172.235.51.71
+  port: 443
+  uuid: 3c17ead6-201a-4fba-8246-6327b911a1be
+  encryption: none
+  tls: true
+  servername: itunes.apple.com
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+  reality-opts:
+    public-key: rzeXNEmuocvPVMnmettRsJbHQGjQGaZoH7jNw_3GUD8
+    short-id: 4bf84b30
+- name: 🇺🇸_美国 (86)
+  type: vless
+  server: 172.233.156.229
+  port: 443
+  uuid: b9bc6f6c-09b7-43ce-b9c7-312d37f1a312
+  encryption: none
+  tls: true
+  servername: itunes.apple.com
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+  reality-opts:
+    public-key: jTnoGvXzAIa2lsfioHHRJ1lAj1xqjowhcCwGcfme8QY
+    short-id: 826efd30
+- name: 🇺🇸_美国 (38)
+  type: vless
+  server: 38.145.220.58
+  port: 443
+  uuid: 67f6aca5-a4c7-49e6-94b3-184e3b528b2a
+  encryption: none
+  tls: true
+  servername: www.apple.com
+  flow: xtls-rprx-vision
+  fingerprint: chrome
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+- name: 🇺🇸_美国 (42)
+  type: vless
+  server: 38.145.220.38
+  port: 2053
+  uuid: 67f6aca5-a4c7-49e6-94b3-184e3b528b2a
+  encryption: none
+  tls: true
+  servername: www.apple.com
+  flow: xtls-rprx-vision
+  fingerprint: chrome
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+- name: 🇺🇸US_137|834KB/s|P002-260618 [8f4811822071]
+  password: None
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
   udp: true
-  uuid: 990bf436-f1b9-4e7f-857d-14378acc4ae5
-- name: vless-1867102735
+  x-toolall-mihomo: true
+- name: vless-1853972214
   network: ws
   port: 443
-  server: 104.19.48.107
+  server: 104.24.31.89
   servername: jp3.yohototo.top
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1943481639
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+- name: trojan-1853348743
+  password: humanity
   port: 443
-  server: 167.88.61.85
+  server: 45.130.125.75
   skip-cert-verify: false
-  sni: resources.browseseniorrolesandenhanceyourcareertoday.com
+  sni: www.calmlunch.com
   type: trojan
   udp: true
-- name: vless-1832764134
+- name: trojan-1857007066
+  password: humanity
+  port: 443
+  server: 104.17.121.43
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1939844054
+  password: humanity
+  port: 443
+  server: 104.25.240.193
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: vless-1854335913
   network: ws
   port: 443
-  server: 104.16.10.135
+  server: 104.16.10.104
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1843512959
+  network: ws
+  port: 443
+  server: 104.16.10.72
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: trojan-1939845073
+  password: humanity
+  port: 443
+  server: 172.67.223.48
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1853461582
+  password: humanity
+  port: 443
+  server: 104.16.71.213
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1827188005
+  password: humanity
+  port: 443
+  server: 172.66.40.99
+  skip-cert-verify: true
+  sni: www.trusteeforward.com
+  type: trojan
+  udp: true
+- name: 🇺🇸_美国 (60)
+  type: vless
+  server: 172.233.129.187
+  port: 443
+  uuid: ac28b793-b9cb-4795-8a49-311595469328
+  encryption: none
+  tls: true
+  servername: itunes.apple.com
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+  reality-opts:
+    public-key: iNGO54Z98Rf8PR858MMTGjqGaEEOpcqEFSrZJbeGtlY
+    short-id: 4a979563
+- name: 🇺🇸_美国 (88)
+  type: vless
+  server: 172.236.227.60
+  port: 443
+  uuid: 3c8a110d-f04d-4f0e-9579-fd00631b8830
+  encryption: none
+  tls: true
+  servername: itunes.apple.com
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+  reality-opts:
+    public-key: BHBzo_I0M-sChoOqTyOczYBP8l1L_dkmB6u3ijAOaGo
+    short-id: 664c1530
+- name: 🇺🇸_美国 (43)
+  type: vless
+  server: 38.145.220.38
+  port: 2083
+  uuid: 67f6aca5-a4c7-49e6-94b3-184e3b528b2a
+  encryption: none
+  tls: true
+  servername: www.apple.com
+  flow: xtls-rprx-vision
+  fingerprint: chrome
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+- name: vless-1863440009
+  network: ws
+  port: 443
+  server: 104.16.10.48
   servername: jp3.yohototo.top
   skip-cert-verify: false
   tls: true
@@ -602,238 +1379,62 @@ proxies:
   sni: www.cordweave.com
   type: trojan
   udp: true
-- name: trojan-1939844054
+- name: trojan-1908518028
   password: humanity
   port: 443
-  server: 104.25.240.193
-  skip-cert-verify: false
+  server: 104.17.121.9
+  skip-cert-verify: true
   sni: www.calmlunch.com
   type: trojan
   udp: true
-- name: vless-1843512959
-  network: ws
-  port: 443
-  server: 104.16.10.72
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
+- name: 🇺🇸_美国 (56)
   type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1853461582
-  password: humanity
-  port: 443
-  server: 104.16.71.213
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 🇺🇸US_502|113KB/s|R002-260618 [e8a5e2432c2e]
-  port: 443
-  server: 137.175.22.56
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_367|358KB/s|R002-260618 [5af111a45f55]
-  port: 443
-  server: 38.28.185.224
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_258|213KB/s|R002-260618 [6272ab777c0f]
-  port: 443
-  server: 137.175.22.72
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- cipher: 2022-blake3-aes-128-gcm
-  name: 美国 洛杉矶 - US03 [d01ac4c7ddb9]
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:NjRjZGI3OTgtZWUyMS00OA==
-  plugin: gost-plugin
-  plugin-opts:
-    host: ccus3.7777792.xyz
-    mode: websocket
-    mux: true
-    path: /api/v1/stream
-    tls: false
-  port: 80
-  server: 104.18.6.131
-  type: ss
-  udp: true
-  udp-over-tcp: true
-  udp-over-tcp-version: 2
-  x-toolall-mihomo: true
-- name: vless-1947014531
-  network: ws
-  port: 443
-  server: 104.18.40.171
-  servername: wallweb-boi.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8895be79-9817-4011-b81a-14a35a3d328e
-- name: trojan-1939845099
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 167.88.61.20
-  skip-cert-verify: false
-  sni: api.browseseniorrolesandenhanceyourcareertoday.com
-  type: trojan
-  udp: true
-- name: vless-1831066899
-  network: ws
-  port: 443
-  server: 104.16.10.56
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- alterId: 0
-  cipher: auto
-  name: vmess-1947375789
-  network: ws
+  server: 103.116.7.67
   port: 2083
-  server: 162.159.130.234
-  servername: cdn.sfacg.uk
-  skip-cert-verify: false
+  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
+  encryption: none
   tls: true
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-- name: vless-1863468525
+  servername: proxy-1cu.pages.dev
+  fingerprint: random
   network: ws
-  port: 443
-  server: 104.19.33.25
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: proxy-1cu.pages.dev
+- name: 🇺🇸_美国 (64)
   type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- alterId: 0
-  cipher: auto
-  name: vmess-1938957366
+  server: 172.235.50.209
+  port: 443
+  uuid: 1d53bb9d-5c26-4706-b067-a09df0d22578
+  encryption: none
+  tls: true
+  servername: itunes.apple.com
+  fingerprint: chrome
   network: ws
-  port: 8443
-  server: 188.114.96.3
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-- name: 🇺🇸US_500|331KB/s|R002-260618 [4d2a6a08e9aa]
-  port: 443
-  server: 137.175.22.89
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_505|142KB/s|R002-260618 [b7625f20acff]
-  port: 443
-  server: 137.175.22.16
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_489|170KB/s|R002-260618 [475ea325156b]
-  port: 443
-  server: 137.175.22.29
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_332|113KB/s|R002-260618 [378a982ee2c6]
-  port: 443
-  server: 137.175.22.116
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: vless-1856200577
-  network: ws
-  port: 443
-  server: 172.67.217.240
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+  reality-opts:
+    public-key: eHN-Pl9ZQX_SHlIYSUWV-YF4BHDo2d2zKRC4FPF-HTU
+    short-id: 0c2ca327
+- name: 🇺🇸_美国 (94)
   type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- alterId: 0
-  cipher: auto
-  name: vmess-1827159661
-  network: ws
-  port: 8443
-  server: 104.21.91.53
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: false
+  server: 172.233.129.179
+  port: 443
+  uuid: 8d602a84-d258-4953-8ef7-d64afff2e879
+  encryption: none
   tls: true
-  type: vmess
-  udp: true
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-- name: trojan-1939845073
-  password: humanity
-  port: 443
-  server: 172.67.223.48
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-1827188005
-  password: humanity
-  port: 443
-  server: 172.66.40.99
-  skip-cert-verify: true
-  sni: www.trusteeforward.com
-  type: trojan
-  udp: true
-- name: vless-1856199614
+  servername: itunes.apple.com
+  fingerprint: chrome
   network: ws
-  port: 443
-  server: 104.16.111.102
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1827148954
-  password: humanity
-  port: 443
-  server: 104.16.7.70
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-1857007066
-  password: humanity
-  port: 443
-  server: 104.17.121.43
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+  reality-opts:
+    public-key: 5UVOUoMBYxyWuF-FCbXoEt8LHFkj7iZqZOABlvyvXV8
+    short-id: 955c702b
 - name: vless-1941532350
   network: ws
   port: 443
@@ -844,10 +1445,99 @@ proxies:
   type: vless
   udp: true
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1927185301
+- cipher: rc4-md5
+  name: shadowsocks-1827963043
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 107.151.182.253
+  type: ss
+  udp: true
+- name: vless-1832764140
   network: ws
   port: 443
-  server: 104.17.50.227
+  server: 172.67.156.147
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: 🇺🇸_美国 (61)
+  type: vless
+  server: 172.235.32.253
+  port: 443
+  uuid: 62fe4c8e-2620-478c-9c39-3d4e12848ff4
+  encryption: none
+  tls: true
+  servername: itunes.apple.com
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+  reality-opts:
+    public-key: r__vI0YVD9j6Fttsb4aZ0TwvUggV493v6GILKXWIZwA
+    short-id: ac184496
+- name: 🇺🇸_美国 (74)
+  type: vless
+  server: 172.235.36.11
+  port: 443
+  uuid: a15c47e7-0d24-4e82-a759-891d0e951a01
+  encryption: none
+  tls: true
+  servername: itunes.apple.com
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+  reality-opts:
+    public-key: lhkyTN5zj2bK7HhMVfer5RoDz0K67YK8VyiiK8TvkEE
+    short-id: afc7874d
+- name: 🇺🇸_美国 (13)
+  type: vless
+  server: 162.35.101.168
+  port: 44333
+  uuid: 256eab05-abfc-4747-8671-01e92fb95192
+  encryption: none
+  tls: true
+  servername: www.apple.com
+  flow: xtls-rprx-vision
+  fingerprint: chrome
+  reality-opts:
+    public-key: vhtQBb9x0bXClfNSSGals7dBBUEDZ7PuW0sllAsyzDM
+    short-id: a1b2c3d4
+- name: trojan-1934984141
+  password: humanity
+  port: 443
+  server: 104.19.95.153
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: 🇺🇸_美国 (80)
+  type: vless
+  server: 172.233.140.139
+  port: 443
+  uuid: 82b258c9-f4ae-46f6-8c1a-322b316a2e0d
+  encryption: none
+  tls: true
+  servername: itunes.apple.com
+  fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+  reality-opts:
+    public-key: l1Tts2VQAnD1We9lPKqw9GqnMAHiIlYhsaw5ASVrTGM
+    short-id: 5c298270
+- name: vless-1856200577
+  network: ws
+  port: 443
+  server: 172.67.217.240
   servername: jp3.yohototo.top
   skip-cert-verify: false
   tls: true
@@ -864,297 +1554,47 @@ proxies:
   type: vless
   udp: true
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1863440009
-  network: ws
-  port: 443
-  server: 104.16.10.48
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: vless-1939221436
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
-    short-id: ''
-  server: 47.251.25.74
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 18805ff3-b420-45de-af18-93be14024ae8
-- name: vless-1854335913
-  network: ws
-  port: 443
-  server: 104.16.10.104
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1853491995
+- name: trojan-1827148954
   password: humanity
   port: 443
-  server: 104.18.32.47
+  server: 104.16.7.70
   skip-cert-verify: true
   sni: www.calmlunch.com
   type: trojan
   udp: true
-- name: 🇺🇸_美国 (33)
-  type: trojan
-  server: 162.159.140.116
-  port: 2087
-  password: ee278311-0dce-4e29-9913-2c5e9fb7a245
-  tls: true
-  servername: 17946579787574.206352.xyz
-  network: ws
-  ws-opts:
-    path: /agraeabtegrrh
-    headers:
-      Host: 17946579785559.206352.xyz
-- name: 🇸🇨_塞舌尔 (10)
+- name: 🇺🇸_美国 (85)
   type: vless
-  server: 154.211.8.152
-  port: 2053
-  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
+  server: 172.233.139.212
+  port: 443
+  uuid: b21a60ef-9042-42c8-bb13-160528ea19c6
   encryption: none
   tls: true
-  servername: proxy-1cu.pages.dev
-  fingerprint: qq
+  servername: itunes.apple.com
+  fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
-    headers:
-      Host: proxy-1cu.pages.dev
-- name: vless-1831081766
-  network: ws
-  port: 443
-  server: 104.27.46.35
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: vless-1947416912
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SmgYcFIvvFXW3xh4gvGhIJuQsaZvWkAylcjB6TEddEs
-    short-id: 896f52ba2cfca903
-  server: 47.251.108.158
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 975fc322-6e38-434b-a53c-d39fed49b9a9
-- name: vless-1946224541
-  network: ws
-  port: 2053
-  server: 172.67.199.126
-  servername: fast.145779.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-- name: vless-1832764144
-  network: ws
-  port: 443
-  server: 104.16.10.22
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- encryption: none
-  name: 🇩🇪DE_187|1.1MB/s|M003-260806 [84780a47894d]
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: support.zoom.us
-  sub_tag: M003-260806
-  type: vless
-  udp: true
-  uuid: f028d829-249a-4692-b45f-1b4cde8ef0c7
-  ws-opts:
-    headers:
-      Host: free.sahanwickramasinghe.com
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/46.0.2490.71 Safari/537.36
-    path: /
-  x-toolall-mihomo: true
-  xudp: true
-- name: vless-1930539293
-  network: ws
-  port: 8080
-  server: 170.114.46.6
-  type: vless
-  udp: true
-  uuid: 990bf436-f1b9-4e7f-857d-14378acc4ae5
-- name: trojan-1827148859
-  password: humanity
-  port: 443
-  server: 104.21.103.254
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: vless-1941532359
-  network: ws
-  port: 2053
-  server: saas.sin.fan
-  servername: vp11.1145678.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-- alterId: 0
-  cipher: auto
-  name: vmess-1827159639
-  network: ws
-  port: 8443
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-- name: vless-1827151410
-  network: ws
-  port: 443
-  server: 104.19.164.155
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- alterId: 0
-  cipher: auto
-  name: vmess-1827160359
-  network: ws
-  port: 443
-  server: www.shopify.com
-  servername: guanwang.awsno.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: 🇺🇸US_20|2.4MB/s [4cc7e4544b90]
-  password: ''
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: 🇺🇸US_312|721KB/s [ee98ba87e968]
-  password: ''
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: 🇺🇸US_19|768KB/s|R002-260618 [5985547591df]
-  password: None
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_79|767KB/s|P002-260618 [6accb17f58a1]
-  password: 'null'
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- name: 🇺🇸US_91|788KB/s|P002-260618 [04be46aed8a3]
-  password: 'null'
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- name: 🇺🇸US_509|109KB/s|R002-260618 [e03e0d5a8ce7]
-  password: 'null'
-  port: 443
-  server: fan.365747.xyz
-  skip-cert-verify: true
-  sni: fan.365747.xyz
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- name: 🇺🇸US_257|797KB/s|P002-260618 [3fd501ee1c4a]
-  password: 'null'
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- name: 🇺🇸US_314|786KB/s|P002-260618 [07ec0de97e75]
-  password: None
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- cipher: 2022-blake3-aes-128-gcm
-  name: 美国 洛杉矶 - US04 [d469c4fa4009]
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:NjRjZGI3OTgtZWUyMS00OA==
-  plugin: gost-plugin
-  plugin-opts:
-    host: one.local
-    mode: websocket
-    mux: true
     path: /ws
-    tls: false
-  port: 20090
-  server: 172.96.161.152
-  type: ss
+    headers:
+      Host: itunes.apple.com
+  reality-opts:
+    public-key: bRB-Z_UOQ_sk8UFczAjrpkgKIg6cVdTNGnsyC7vAoyg
+    short-id: 7a87386b
+- name: vless-1831072390
+  network: ws
+  port: 443
+  server: 104.17.50.53
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-  udp-over-tcp: true
-  udp-over-tcp-version: 2
-  x-toolall-mihomo: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: 🇺🇸美国 原生IP 13.40MB/s 044 linuxdo@onimaii [a6052a43e26e]
+  password: l1tlrdx52v
+  port: 62000
+  server: 66.253.2.69
+  type: socks5
+  username: u_rb1dba2
 - cipher: rc4-md5
   name: shadowsocks-1828227588
   password: 14fFPrbezE3HDZzsMOr6
@@ -1162,345 +1602,24 @@ proxies:
   server: 79.110.53.169
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: vless-1888152403
-  network: ws
+- name: trojan-1940455323
+  password: humanity
   port: 443
-  reality-opts:
-    public-key: Ag8SQ5QdqfHO9pKWA93kqGmH5EQo7Xm5Z4RbPnwPBBE
-    short-id: ff3597db
-  server: 45.76.172.197
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b256c867-a020-48e0-be80-1b079f2613a2
-- client-fingerprint: chrome
-  name: vless-1835128666
-  network: ws
-  port: 443
-  reality-opts:
-    public-key: 6nTROV2ELz-3vNUl0A00hp378QngpYABrPgjCpUknD0
-    short-id: f436f707
-  server: 45.63.53.81
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c512dcbd-1847-40a2-9c99-989c8bfe4717
-- cipher: rc4-md5
-  name: shadowsocks-1827963043
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 107.151.182.253
-  type: ss
-  udp: true
-- name: 🇺🇸US_268|810KB/s|R002-260618 [c097310eb21d]
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸 US-Los Angeles-81993519-dcem [4e5e3974d830]
-  password: 'null'
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  sni: 138.199.35.198
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_315|815KB/s|P002-260618 [2dbed5f226ac]
-  password: 'null'
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- name: 🇺🇸US_282|815KB/s|P002-260618 [06c483c77ae6]
-  password: None
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: vless-1941514489
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Njwb7fCl8PXKOs3owDB-gjzbmEyEewlL6JlMKwMTUQc
-    short-id: b46b142b
-  server: 154.26.188.52
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
-- name: 🇺🇸US_320|785KB/s [4a2e8ac2a0a1]
-  password: ''
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: 🇺🇸_美国 (2)
-  type: vless
-  server: 204.152.198.135
-  port: 57938
-  uuid: d62f1228-251a-4fa9-a739-093244083cab
-  encryption: mlkem768x25519plus.native.0rtt.Rej94IYrH64T6AyDB9hNM4Js72UHDSn_DPVlPwVoi2c
-  tls: true
-  servername: api.docs.nvidia.com
-  flow: xtls-rprx-vision
-  fingerprint: chrome
-  reality-opts:
-    public-key: W_VahGtN28jS59zNCnex-Bfpz2eNVY5VveQwkHoUZgQ
-    short-id: acb05d85369b
-- name: 🇺🇸US_82|728KB/s|R002-260618 [ffef5035787e]
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_292|855KB/s|R002-260618 [ebfd5d9ae74e]
-  password: 'null'
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- name: 🇺🇸US_141|773KB/s|P002-260618 [77172e20d986]
-  password: None
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_165|814KB/s|K001-260618 [44491f5f6d02]
-  password: None
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: 🇺🇸US_338|753KB/s|P002-260618 [ac31ab95c6ca]
-  password: None
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- cipher: 2022-blake3-aes-128-gcm
-  name: 美国 洛杉矶 - US02 [d9e3a5d9ebc7]
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:NjRjZGI3OTgtZWUyMS00OA==
-  plugin: gost-plugin
-  plugin-opts:
-    host: one.local
-    mode: websocket
-    mux: true
-    path: /ws
-    tls: false
-  port: 80
-  server: 104.128.72.119
-  type: ss
-  udp: true
-  udp-over-tcp: true
-  udp-over-tcp-version: 2
-  x-toolall-mihomo: true
-- name: 🇺🇸US_306|846KB/s [28d4087faa05]
-  password: ''
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: 🇺🇸US_47|710KB/s|R002-260618 [7c4a794089e3]
-  password: ''
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
-- name: 🇺🇸US_26|189KB/s|R002-260618 [022e12564278]
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸_美国 (3)
-  type: vless
-  server: 96.44.178.67
-  port: 52281
-  uuid: ef3d730e-185e-4f2c-b716-26d113046bf2
-  encryption: mlkem768x25519plus.native.0rtt.OlJfCBHcXFHdwQZ8mmwZOB82LB_P9yCuVvL3dQ2Pgns
-  tls: true
-  servername: shop-eu-fr.amd.com
-  flow: xtls-rprx-vision
-  fingerprint: chrome
-  reality-opts:
-    public-key: Dqi139W6LrS-hHFHhcIxQPY4lb6t54kZFrB2XEPr9A8
-    short-id: dccdbd1d7b98b1
-- name: 🇺🇸US_245|760KB/s|R002-260618 [cbec09d8b4ca]
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇺🇸US_33|749KB/s|R002-260618 [fe85937b3b49]
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: vless-1927724275
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: StPbcmBuzpuYUfa4oZ5SI3Bq1OSF_-oU1vp2AcyvQVE
-    short-id: 19296c9f1bf9c7b1
-  server: 195.123.240.65
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce18d0eb-5c71-41f9-96e5-1632e22456e4
-- client-fingerprint: chrome
-  name: 4Jadi-f9c6c2557c [4effd5ed74c8]
-  network: tcp
-  packet-encoding: xudp
-  port: 8443
-  reality-opts:
-    public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
-    short-id: 4ad2e4e660550e43
-  server: 156.229.167.109
-  servername: github.githubassets.com
-  tls: true
-  type: vless
-  uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
-  x-toolall-mihomo: true
-- name: 🇺🇸US_273|753KB/s|P002-260618 [9ca0f8bb710c]
-  password: 'null'
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- alterId: 0
-  cipher: auto
-  name: vmess-1938975572
-  network: ws
-  port: 443
-  server: nickgus.cc.cd
-  servername: nickgus.cc.cd
+  server: 8.6.112.206
   skip-cert-verify: false
-  tls: true
-  type: vmess
+  sni: www.trusteeforward.com
+  type: trojan
   udp: true
-  uuid: 56eee791-99e8-4e11-9d27-539b46c14368
-- client-fingerprint: edge
-  grpc-opts:
-    grpc-service-name: 99f2107b03f8
-  name: 4Kian-82bb52d02f [52af43bbfc9b]
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: bd8f712209a9c283
-  server: 162.35.101.177
-  servername: 0592efg.us8.h1clayd.click
+- name: 🇺🇸US_205|773KB/s [86f2528c38d1]
+  password: 'null'
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  type: http
+  udp: true
+  username: 'null'
   x-toolall-mihomo: true
-- cipher: rc4-md5
-  name: shadowsocks-1827962976
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 107.151.182.197
-  type: ss
-  udp: true
-- name: 🇺🇸_美国 (19)
-  type: trojan
-  server: sclass-b1.catcat321.com
-  port: 20028
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  tls: true
-  servername: hk.catxstar.com
-- cipher: rc4-md5
-  name: shadowsocks-1870576345
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 79.110.54.250
-  type: ss
-  udp: true
-- name: vless-1943482613
-  network: ws
-  port: 8080
-  server: support.zoom.us
-  type: vless
-  udp: true
-  uuid: 990bf436-f1b9-4e7f-857d-14378acc4ae5
-- name: 🇺🇸_美国 (18)
-  type: trojan
-  server: sclass-b1.catcat321.com
-  port: 20027
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  tls: true
-  servername: hk.catxstar.com
 proxy-groups:
 - name: AUTO
   type: url-test
@@ -1508,309 +1627,309 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 🇺🇸_美国 (34)
+  - 🇺🇸_美国 (51)
+  - 🇺🇸_美国 (57)
   - trojan-1946894181
-  - vless-1832764138
-  - vless-1827152152
-  - 🇺🇸_美国 (23)
-  - 🇺🇸_美国 (35)
-  - vless-1863476159
-  - vless-1827152273
-  - trojan-1853348743
-  - trojan-1853462719
-  - trojan-1947413506
-  - 🇺🇸_美国 (24)
-  - 🇩🇪DE_1|3.0MB/s [2df495ac24d78d7d] [7e54912d3b27]
-  - shadowsocks-1827969041
-  - trojan-1943021612
-  - vless-1831072390
-  - vless-1910526407
-  - vless-1863474247
-  - vless-1921748885
-  - trojan-1827938592
-  - trojan-1827149560
-  - trojan-1944218172
-  - trojan-1944218170
-  - 4Jadi-4794f67529 [17908eda609e]
-  - 🇩🇪DE_2|2.9MB/s|R002-260618 [54d6c0e23aa77071] [05011d068359]
-  - vless-1828374447
-  - vless-1853476976
+  - 🇺🇸_美国 (52)
+  - vmess-1853356949
+  - 🇺🇸US_632|738KB/s|R002-260618 [a0b72b48d798]
+  - trojan-1940485908
+  - shadowsocks-1875129452
+  - trojan-1930077586
+  - trojan-1938557333
+  - trojan-1935007690
+  - trojan-1935612269
+  - trojan-1929965329
+  - trojan-1946215896
+  - trojan-1935007685
+  - 🇺🇸US_343|737KB/s [4e07637ecf6a]
+  - 🇺🇸US_20|2.4MB/s [4cc7e4544b90]
+  - vless-1835128666
+  - 🇺🇸_美国 (79)
+  - 🇺🇸US_25|790KB/s|P002-260618 [807a4c2c399d]
+  - 🇺🇸US_368|724KB/s|P002-260618 [46bdd7730cd4]
+  - 🇺🇸US_179|812KB/s|P002-260618 [07ec0de97e75]
+  - vless-1935807325
+  - vless-1888152403
   - vless-1863440028
-  - vless-1853972214
+  - vless-1867102735
+  - vless-1856199614
+  - vless-1827962637
+  - vless-1831081766
+  - trojan-1828472626
+  - 🇺🇸_美国 (44)
+  - 🇺🇸_美国 (50)
+  - 🇺🇸US_262|799KB/s|P002-260618 [e25ed24c7853]
+  - 🇺🇸US_295|769KB/s [ee98ba87e968]
+  - 🇺🇸US_48|830KB/s|P002-260618 [875722dfaec2]
+  - 🇺🇸US_185|405KB/s|R002-260618 [e6c09f5655f6]
+  - 🇺🇸US_139|733KB/s|P002-260618 [77172e20d986]
+  - vless-1927185301
+  - vless-1832764144
+  - vless-1827152273
+  - vmess-1947375789
+  - vless-1828654076
+  - trojan-1827938592
+  - vmess-1827159661
+  - trojan-1853462719
+  - trojan-1937399876
+  - 🇺🇸_美国 (90)
+  - 🇺🇸_美国 (39)
+  - 🇺🇸_美国 (40)
+  - 🇺🇸_美国 (45)
+  - 🇺🇸US_354|795KB/s|P002-260618 [185dbe9aa84d]
+  - 🇺🇸US_153|773KB/s [4b8c02c0b885]
+  - vless-1946894790
+  - vless-1863468525
+  - vless-1832764134
+  - 🇺🇸_美国 (49)
+  - 🇫🇷FR_96|7.2MB/s [41c9dcd3674d]
+  - 🇺🇸US_175|793KB/s [4a2e8ac2a0a1]
+  - 🇺🇸US_19|1.8MB/s [df2b9dfe7cec]
+  - 🇺🇸US_177|749KB/s|P002-260618 [0a4feb99c04c]
+  - 🇺🇸US_9|783KB/s|P002-260618 [04be46aed8a3]
+  - 🇺🇸US_347|675KB/s|P002-260618 [6accb17f58a1]
+  - vless-1827151410
+  - vless-1828374447
+  - vless-1863474247
+  - vless-1827152152
   - vless-1863464818
   - vless-1863440034
-  - trojan-1934984141
-  - trojan-1858673309
-  - vless-1832764140
-  - trojan-1908518028
-  - trojan-1937399876
-  - trojan-1828472626
-  - 🇺🇸_美国 (27)
-  - 🇺🇸美国 原生IP 0.59MB/s 212 linuxdo@onimaii [2d4f24d06255]
-  - 🇺🇸US_487|271KB/s|R002-260618 [2f4c48c98642]
-  - shadowsocks-1827963705
-  - shadowsocks-1827963676
-  - vmess-1827158757
+  - vmess-1938957366
+  - trojan-1853491995
+  - trojan-1827149109
+  - trojan-1944218170
+  - 🇺🇸_美国 (66)
+  - 🇺🇸_美国 (69)
+  - 🇺🇸_美国 (46)
+  - 🇺🇸_美国 (47)
+  - 🇺🇸_美国 (48)
+  - 🇩🇪DE_2|2.8MB/s [2df495ac24d78d7d] [7e54912d3b27]
+  - 🇺🇸US_181|814KB/s|P002-260618 [1f04858a3534]
+  - 🇺🇸 US-Los Angeles-81993520-craa [cf54b49d68c3]
+  - 🇺🇸US_180|813KB/s [b86bd25a4d6a]
   - vless-1884771865
   - vless-1853654571
-  - trojan-1941512533
-  - trojan-1941512524
-  - vless-1828654076
-  - vless-1946894790
-  - vless-1827962637
+  - vless-1910526407
+  - vless-1853476976
+  - vless-1831066899
+  - vless-1832764138
+  - vless-1921748885
+  - vless-1946224541
+  - trojan-1827148859
+  - trojan-1827149560
+  - trojan-1939845059
+  - trojan-1944218172
+  - trojan-1947413506
+  - 🇳🇱_荷兰 (96)
+  - 🇺🇸_美国 (63)
+  - 🇺🇸_美国 (83)
+  - 🇺🇸_美国 (41)
+  - 🇺🇸US_284|796KB/s|P002-260618 [e8addd3b5776]
+  - 🇺🇸US_366|836KB/s|R002-260618 [022e12564278]
+  - 🇺🇸US_255|791KB/s|R002-260618 [9c80833ac4df]
+  - 🇺🇸US_6|757KB/s|P002-260618 [2dbed5f226ac]
+  - vless-1930539293
+  - vless-1863476159
+  - trojan-1858673309
   - vmess-1907162640
   - trojan-1894622732
-  - trojan-1940455323
-  - trojan-1939845059
-  - trojan-1827149109
-  - 🇺🇸_美国 (40)
-  - 🇺🇸US_482|101KB/s|R002-260618 [af1f3857761c]
-  - 🇺🇸US_503|119KB/s|R002-260618 [fa48c427c867]
-  - 🇺🇸US_134|264KB/s|R002-260618 [ca5e6e62e5da]
-  - vless-1935807325
-  - vless-1867102735
-  - trojan-1943481639
-  - vless-1832764134
-  - trojan-1923819684
-  - trojan-1939844054
-  - vless-1843512959
-  - trojan-1853461582
-  - 🇺🇸US_502|113KB/s|R002-260618 [e8a5e2432c2e]
-  - 🇺🇸US_367|358KB/s|R002-260618 [5af111a45f55]
-  - 🇺🇸US_258|213KB/s|R002-260618 [6272ab777c0f]
-  - 美国 洛杉矶 - US03 [d01ac4c7ddb9]
-  - vless-1947014531
-  - trojan-1939845099
-  - vless-1831066899
-  - vmess-1947375789
-  - vless-1863468525
-  - vmess-1938957366
-  - 🇺🇸US_500|331KB/s|R002-260618 [4d2a6a08e9aa]
-  - 🇺🇸US_505|142KB/s|R002-260618 [b7625f20acff]
-  - 🇺🇸US_489|170KB/s|R002-260618 [475ea325156b]
-  - 🇺🇸US_332|113KB/s|R002-260618 [378a982ee2c6]
-  - vless-1856200577
-  - vmess-1827159661
-  - trojan-1939845073
-  - trojan-1827188005
-  - vless-1856199614
-  - trojan-1827148954
+  - 🇸🇨_塞舌尔 (13)
+  - 🇺🇸_美国 (62)
+  - 🇺🇸_美国 (81)
+  - 🇺🇸_美国 (84)
+  - 🇺🇸_美国 (86)
+  - 🇺🇸_美国 (38)
+  - 🇺🇸_美国 (42)
+  - 🇺🇸US_137|834KB/s|P002-260618 [8f4811822071]
+  - vless-1853972214
+  - trojan-1853348743
   - trojan-1857007066
-  - vless-1941532350
-  - vless-1927185301
-  - vless-1828374596
-  - vless-1863440009
-  - vless-1939221436
+  - trojan-1939844054
   - vless-1854335913
-  - trojan-1853491995
-  - 🇺🇸_美国 (33)
-  - 🇸🇨_塞舌尔 (10)
-  - vless-1831081766
-  - vless-1947416912
-  - vless-1946224541
-  - vless-1832764144
-  - 🇩🇪DE_187|1.1MB/s|M003-260806 [84780a47894d]
-  - vless-1930539293
-  - trojan-1827148859
-  - vless-1941532359
-  - vmess-1827159639
-  - vless-1827151410
-  - vmess-1827160359
-  - 🇺🇸US_20|2.4MB/s [4cc7e4544b90]
-  - 🇺🇸US_312|721KB/s [ee98ba87e968]
-  - 🇺🇸US_19|768KB/s|R002-260618 [5985547591df]
-  - 🇺🇸US_79|767KB/s|P002-260618 [6accb17f58a1]
-  - 🇺🇸US_91|788KB/s|P002-260618 [04be46aed8a3]
-  - 🇺🇸US_509|109KB/s|R002-260618 [e03e0d5a8ce7]
-  - 🇺🇸US_257|797KB/s|P002-260618 [3fd501ee1c4a]
-  - 🇺🇸US_314|786KB/s|P002-260618 [07ec0de97e75]
-  - 美国 洛杉矶 - US04 [d469c4fa4009]
-  - shadowsocks-1828227588
-  - vless-1888152403
-  - vless-1835128666
+  - vless-1843512959
+  - trojan-1939845073
+  - trojan-1853461582
+  - trojan-1827188005
+  - 🇺🇸_美国 (60)
+  - 🇺🇸_美国 (88)
+  - 🇺🇸_美国 (43)
+  - vless-1863440009
+  - trojan-1923819684
+  - trojan-1908518028
+  - 🇺🇸_美国 (56)
+  - 🇺🇸_美国 (64)
+  - 🇺🇸_美国 (94)
+  - vless-1941532350
   - shadowsocks-1827963043
-  - 🇺🇸US_268|810KB/s|R002-260618 [c097310eb21d]
-  - 🇺🇸 US-Los Angeles-81993519-dcem [4e5e3974d830]
-  - 🇺🇸US_315|815KB/s|P002-260618 [2dbed5f226ac]
-  - 🇺🇸US_282|815KB/s|P002-260618 [06c483c77ae6]
-  - vless-1941514489
-  - 🇺🇸US_320|785KB/s [4a2e8ac2a0a1]
-  - 🇺🇸_美国 (2)
-  - 🇺🇸US_82|728KB/s|R002-260618 [ffef5035787e]
-  - 🇺🇸US_292|855KB/s|R002-260618 [ebfd5d9ae74e]
-  - 🇺🇸US_141|773KB/s|P002-260618 [77172e20d986]
-  - 🇺🇸US_165|814KB/s|K001-260618 [44491f5f6d02]
-  - 🇺🇸US_338|753KB/s|P002-260618 [ac31ab95c6ca]
-  - 美国 洛杉矶 - US02 [d9e3a5d9ebc7]
-  - 🇺🇸US_306|846KB/s [28d4087faa05]
-  - 🇺🇸US_47|710KB/s|R002-260618 [7c4a794089e3]
-  - 🇺🇸US_26|189KB/s|R002-260618 [022e12564278]
-  - 🇺🇸_美国 (3)
-  - 🇺🇸US_245|760KB/s|R002-260618 [cbec09d8b4ca]
-  - 🇺🇸US_33|749KB/s|R002-260618 [fe85937b3b49]
-  - vless-1927724275
-  - 4Jadi-f9c6c2557c [4effd5ed74c8]
-  - 🇺🇸US_273|753KB/s|P002-260618 [9ca0f8bb710c]
-  - vmess-1938975572
-  - 4Kian-82bb52d02f [52af43bbfc9b]
-  - shadowsocks-1827962976
-  - 🇺🇸_美国 (19)
-  - shadowsocks-1870576345
-  - vless-1943482613
-  - 🇺🇸_美国 (18)
+  - vless-1832764140
+  - 🇺🇸_美国 (61)
+  - 🇺🇸_美国 (74)
+  - 🇺🇸_美国 (13)
+  - trojan-1934984141
+  - 🇺🇸_美国 (80)
+  - vless-1856200577
+  - vless-1828374596
+  - trojan-1827148954
+  - 🇺🇸_美国 (85)
+  - vless-1831072390
+  - 🇺🇸美国 原生IP 13.40MB/s 044 linuxdo@onimaii [a6052a43e26e]
+  - shadowsocks-1828227588
+  - trojan-1940455323
+  - 🇺🇸US_205|773KB/s [86f2528c38d1]
 - name: PROXY
   type: select
   proxies:
   - AUTO
-  - 🇺🇸_美国 (34)
+  - 🇺🇸_美国 (51)
+  - 🇺🇸_美国 (57)
   - trojan-1946894181
-  - vless-1832764138
-  - vless-1827152152
-  - 🇺🇸_美国 (23)
-  - 🇺🇸_美国 (35)
-  - vless-1863476159
-  - vless-1827152273
-  - trojan-1853348743
-  - trojan-1853462719
-  - trojan-1947413506
-  - 🇺🇸_美国 (24)
-  - 🇩🇪DE_1|3.0MB/s [2df495ac24d78d7d] [7e54912d3b27]
-  - shadowsocks-1827969041
-  - trojan-1943021612
-  - vless-1831072390
-  - vless-1910526407
-  - vless-1863474247
-  - vless-1921748885
-  - trojan-1827938592
-  - trojan-1827149560
-  - trojan-1944218172
-  - trojan-1944218170
-  - 4Jadi-4794f67529 [17908eda609e]
-  - 🇩🇪DE_2|2.9MB/s|R002-260618 [54d6c0e23aa77071] [05011d068359]
-  - vless-1828374447
-  - vless-1853476976
+  - 🇺🇸_美国 (52)
+  - vmess-1853356949
+  - 🇺🇸US_632|738KB/s|R002-260618 [a0b72b48d798]
+  - trojan-1940485908
+  - shadowsocks-1875129452
+  - trojan-1930077586
+  - trojan-1938557333
+  - trojan-1935007690
+  - trojan-1935612269
+  - trojan-1929965329
+  - trojan-1946215896
+  - trojan-1935007685
+  - 🇺🇸US_343|737KB/s [4e07637ecf6a]
+  - 🇺🇸US_20|2.4MB/s [4cc7e4544b90]
+  - vless-1835128666
+  - 🇺🇸_美国 (79)
+  - 🇺🇸US_25|790KB/s|P002-260618 [807a4c2c399d]
+  - 🇺🇸US_368|724KB/s|P002-260618 [46bdd7730cd4]
+  - 🇺🇸US_179|812KB/s|P002-260618 [07ec0de97e75]
+  - vless-1935807325
+  - vless-1888152403
   - vless-1863440028
-  - vless-1853972214
+  - vless-1867102735
+  - vless-1856199614
+  - vless-1827962637
+  - vless-1831081766
+  - trojan-1828472626
+  - 🇺🇸_美国 (44)
+  - 🇺🇸_美国 (50)
+  - 🇺🇸US_262|799KB/s|P002-260618 [e25ed24c7853]
+  - 🇺🇸US_295|769KB/s [ee98ba87e968]
+  - 🇺🇸US_48|830KB/s|P002-260618 [875722dfaec2]
+  - 🇺🇸US_185|405KB/s|R002-260618 [e6c09f5655f6]
+  - 🇺🇸US_139|733KB/s|P002-260618 [77172e20d986]
+  - vless-1927185301
+  - vless-1832764144
+  - vless-1827152273
+  - vmess-1947375789
+  - vless-1828654076
+  - trojan-1827938592
+  - vmess-1827159661
+  - trojan-1853462719
+  - trojan-1937399876
+  - 🇺🇸_美国 (90)
+  - 🇺🇸_美国 (39)
+  - 🇺🇸_美国 (40)
+  - 🇺🇸_美国 (45)
+  - 🇺🇸US_354|795KB/s|P002-260618 [185dbe9aa84d]
+  - 🇺🇸US_153|773KB/s [4b8c02c0b885]
+  - vless-1946894790
+  - vless-1863468525
+  - vless-1832764134
+  - 🇺🇸_美国 (49)
+  - 🇫🇷FR_96|7.2MB/s [41c9dcd3674d]
+  - 🇺🇸US_175|793KB/s [4a2e8ac2a0a1]
+  - 🇺🇸US_19|1.8MB/s [df2b9dfe7cec]
+  - 🇺🇸US_177|749KB/s|P002-260618 [0a4feb99c04c]
+  - 🇺🇸US_9|783KB/s|P002-260618 [04be46aed8a3]
+  - 🇺🇸US_347|675KB/s|P002-260618 [6accb17f58a1]
+  - vless-1827151410
+  - vless-1828374447
+  - vless-1863474247
+  - vless-1827152152
   - vless-1863464818
   - vless-1863440034
-  - trojan-1934984141
-  - trojan-1858673309
-  - vless-1832764140
-  - trojan-1908518028
-  - trojan-1937399876
-  - trojan-1828472626
-  - 🇺🇸_美国 (27)
-  - 🇺🇸美国 原生IP 0.59MB/s 212 linuxdo@onimaii [2d4f24d06255]
-  - 🇺🇸US_487|271KB/s|R002-260618 [2f4c48c98642]
-  - shadowsocks-1827963705
-  - shadowsocks-1827963676
-  - vmess-1827158757
+  - vmess-1938957366
+  - trojan-1853491995
+  - trojan-1827149109
+  - trojan-1944218170
+  - 🇺🇸_美国 (66)
+  - 🇺🇸_美国 (69)
+  - 🇺🇸_美国 (46)
+  - 🇺🇸_美国 (47)
+  - 🇺🇸_美国 (48)
+  - 🇩🇪DE_2|2.8MB/s [2df495ac24d78d7d] [7e54912d3b27]
+  - 🇺🇸US_181|814KB/s|P002-260618 [1f04858a3534]
+  - 🇺🇸 US-Los Angeles-81993520-craa [cf54b49d68c3]
+  - 🇺🇸US_180|813KB/s [b86bd25a4d6a]
   - vless-1884771865
   - vless-1853654571
-  - trojan-1941512533
-  - trojan-1941512524
-  - vless-1828654076
-  - vless-1946894790
-  - vless-1827962637
+  - vless-1910526407
+  - vless-1853476976
+  - vless-1831066899
+  - vless-1832764138
+  - vless-1921748885
+  - vless-1946224541
+  - trojan-1827148859
+  - trojan-1827149560
+  - trojan-1939845059
+  - trojan-1944218172
+  - trojan-1947413506
+  - 🇳🇱_荷兰 (96)
+  - 🇺🇸_美国 (63)
+  - 🇺🇸_美国 (83)
+  - 🇺🇸_美国 (41)
+  - 🇺🇸US_284|796KB/s|P002-260618 [e8addd3b5776]
+  - 🇺🇸US_366|836KB/s|R002-260618 [022e12564278]
+  - 🇺🇸US_255|791KB/s|R002-260618 [9c80833ac4df]
+  - 🇺🇸US_6|757KB/s|P002-260618 [2dbed5f226ac]
+  - vless-1930539293
+  - vless-1863476159
+  - trojan-1858673309
   - vmess-1907162640
   - trojan-1894622732
-  - trojan-1940455323
-  - trojan-1939845059
-  - trojan-1827149109
-  - 🇺🇸_美国 (40)
-  - 🇺🇸US_482|101KB/s|R002-260618 [af1f3857761c]
-  - 🇺🇸US_503|119KB/s|R002-260618 [fa48c427c867]
-  - 🇺🇸US_134|264KB/s|R002-260618 [ca5e6e62e5da]
-  - vless-1935807325
-  - vless-1867102735
-  - trojan-1943481639
-  - vless-1832764134
-  - trojan-1923819684
-  - trojan-1939844054
-  - vless-1843512959
-  - trojan-1853461582
-  - 🇺🇸US_502|113KB/s|R002-260618 [e8a5e2432c2e]
-  - 🇺🇸US_367|358KB/s|R002-260618 [5af111a45f55]
-  - 🇺🇸US_258|213KB/s|R002-260618 [6272ab777c0f]
-  - 美国 洛杉矶 - US03 [d01ac4c7ddb9]
-  - vless-1947014531
-  - trojan-1939845099
-  - vless-1831066899
-  - vmess-1947375789
-  - vless-1863468525
-  - vmess-1938957366
-  - 🇺🇸US_500|331KB/s|R002-260618 [4d2a6a08e9aa]
-  - 🇺🇸US_505|142KB/s|R002-260618 [b7625f20acff]
-  - 🇺🇸US_489|170KB/s|R002-260618 [475ea325156b]
-  - 🇺🇸US_332|113KB/s|R002-260618 [378a982ee2c6]
-  - vless-1856200577
-  - vmess-1827159661
-  - trojan-1939845073
-  - trojan-1827188005
-  - vless-1856199614
-  - trojan-1827148954
+  - 🇸🇨_塞舌尔 (13)
+  - 🇺🇸_美国 (62)
+  - 🇺🇸_美国 (81)
+  - 🇺🇸_美国 (84)
+  - 🇺🇸_美国 (86)
+  - 🇺🇸_美国 (38)
+  - 🇺🇸_美国 (42)
+  - 🇺🇸US_137|834KB/s|P002-260618 [8f4811822071]
+  - vless-1853972214
+  - trojan-1853348743
   - trojan-1857007066
-  - vless-1941532350
-  - vless-1927185301
-  - vless-1828374596
-  - vless-1863440009
-  - vless-1939221436
+  - trojan-1939844054
   - vless-1854335913
-  - trojan-1853491995
-  - 🇺🇸_美国 (33)
-  - 🇸🇨_塞舌尔 (10)
-  - vless-1831081766
-  - vless-1947416912
-  - vless-1946224541
-  - vless-1832764144
-  - 🇩🇪DE_187|1.1MB/s|M003-260806 [84780a47894d]
-  - vless-1930539293
-  - trojan-1827148859
-  - vless-1941532359
-  - vmess-1827159639
-  - vless-1827151410
-  - vmess-1827160359
-  - 🇺🇸US_20|2.4MB/s [4cc7e4544b90]
-  - 🇺🇸US_312|721KB/s [ee98ba87e968]
-  - 🇺🇸US_19|768KB/s|R002-260618 [5985547591df]
-  - 🇺🇸US_79|767KB/s|P002-260618 [6accb17f58a1]
-  - 🇺🇸US_91|788KB/s|P002-260618 [04be46aed8a3]
-  - 🇺🇸US_509|109KB/s|R002-260618 [e03e0d5a8ce7]
-  - 🇺🇸US_257|797KB/s|P002-260618 [3fd501ee1c4a]
-  - 🇺🇸US_314|786KB/s|P002-260618 [07ec0de97e75]
-  - 美国 洛杉矶 - US04 [d469c4fa4009]
-  - shadowsocks-1828227588
-  - vless-1888152403
-  - vless-1835128666
+  - vless-1843512959
+  - trojan-1939845073
+  - trojan-1853461582
+  - trojan-1827188005
+  - 🇺🇸_美国 (60)
+  - 🇺🇸_美国 (88)
+  - 🇺🇸_美国 (43)
+  - vless-1863440009
+  - trojan-1923819684
+  - trojan-1908518028
+  - 🇺🇸_美国 (56)
+  - 🇺🇸_美国 (64)
+  - 🇺🇸_美国 (94)
+  - vless-1941532350
   - shadowsocks-1827963043
-  - 🇺🇸US_268|810KB/s|R002-260618 [c097310eb21d]
-  - 🇺🇸 US-Los Angeles-81993519-dcem [4e5e3974d830]
-  - 🇺🇸US_315|815KB/s|P002-260618 [2dbed5f226ac]
-  - 🇺🇸US_282|815KB/s|P002-260618 [06c483c77ae6]
-  - vless-1941514489
-  - 🇺🇸US_320|785KB/s [4a2e8ac2a0a1]
-  - 🇺🇸_美国 (2)
-  - 🇺🇸US_82|728KB/s|R002-260618 [ffef5035787e]
-  - 🇺🇸US_292|855KB/s|R002-260618 [ebfd5d9ae74e]
-  - 🇺🇸US_141|773KB/s|P002-260618 [77172e20d986]
-  - 🇺🇸US_165|814KB/s|K001-260618 [44491f5f6d02]
-  - 🇺🇸US_338|753KB/s|P002-260618 [ac31ab95c6ca]
-  - 美国 洛杉矶 - US02 [d9e3a5d9ebc7]
-  - 🇺🇸US_306|846KB/s [28d4087faa05]
-  - 🇺🇸US_47|710KB/s|R002-260618 [7c4a794089e3]
-  - 🇺🇸US_26|189KB/s|R002-260618 [022e12564278]
-  - 🇺🇸_美国 (3)
-  - 🇺🇸US_245|760KB/s|R002-260618 [cbec09d8b4ca]
-  - 🇺🇸US_33|749KB/s|R002-260618 [fe85937b3b49]
-  - vless-1927724275
-  - 4Jadi-f9c6c2557c [4effd5ed74c8]
-  - 🇺🇸US_273|753KB/s|P002-260618 [9ca0f8bb710c]
-  - vmess-1938975572
-  - 4Kian-82bb52d02f [52af43bbfc9b]
-  - shadowsocks-1827962976
-  - 🇺🇸_美国 (19)
-  - shadowsocks-1870576345
-  - vless-1943482613
-  - 🇺🇸_美国 (18)
+  - vless-1832764140
+  - 🇺🇸_美国 (61)
+  - 🇺🇸_美国 (74)
+  - 🇺🇸_美国 (13)
+  - trojan-1934984141
+  - 🇺🇸_美国 (80)
+  - vless-1856200577
+  - vless-1828374596
+  - trojan-1827148954
+  - 🇺🇸_美国 (85)
+  - vless-1831072390
+  - 🇺🇸美国 原生IP 13.40MB/s 044 linuxdo@onimaii [a6052a43e26e]
+  - shadowsocks-1828227588
+  - trojan-1940455323
+  - 🇺🇸US_205|773KB/s [86f2528c38d1]
 rules:
 - MATCH,PROXY
